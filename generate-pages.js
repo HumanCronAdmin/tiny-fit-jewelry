@@ -143,7 +143,7 @@ ${nav()}
     </ul>` : ''}
 
     <div style="text-align:center;padding:24px 0;">
-      <a href="../database.html" class="btn btn-outline">Browse All 31 Brands</a>
+      <a href="../database.html" class="btn btn-outline">Browse All ${brands.length} Brands</a>
     </div>
   </div>
 </article>
@@ -194,7 +194,7 @@ ${nav()}
     ${brandList}
     </div>
     <div style="text-align:center;padding:24px 0;">
-      <a href="../database.html" class="btn btn-outline">Browse All 31 Brands</a>
+      <a href="../database.html" class="btn btn-outline">Browse All ${brands.length} Brands</a>
     </div>
   </div>
 </section>

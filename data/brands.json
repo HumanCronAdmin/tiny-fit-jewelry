@@ -115,7 +115,7 @@
     "materials": ["14K gold", "silver"],
     "adjustable": false,
     "style": "delicate, minimalist",
-    "size_chart_url": "https://www.catbirdnyc.com/size-guide",
+    "size_chart_url": "https://www.catbirdnyc.com/sizing",
     "shop_url": "https://www.catbirdnyc.com/",
     "note": "Brooklyn-based. Known for threadbare rings. Some styles available in size 3."
   },
@@ -130,7 +130,7 @@
     "materials": ["14K gold", "18K gold vermeil", "silver"],
     "adjustable": false,
     "style": "minimalist, modern",
-    "size_chart_url": "https://mejuri.com/pages/size-guide",
+    "size_chart_url": "https://mejuri.com/how-to/sizing/ring-sizing-101",
     "shop_url": "https://mejuri.com/",
     "note": "Popular DTC brand. Most rings start at size 4-5. Limited options for size 2-3."
   },
@@ -145,7 +145,7 @@
     "materials": ["14K gold", "gold vermeil", "silver"],
     "adjustable": true,
     "style": "minimalist, sustainable",
-    "size_chart_url": "https://www.analuisa.com/pages/size-guide",
+    "size_chart_url": "https://faq.analuisa.com/how-do-i-find-my-ring-size-SypyD3_M5",
     "shop_url": "https://www.analuisa.com/",
     "note": "Sustainable jewelry. Some adjustable pieces work for smaller sizes. Affiliate program pays 10-15%."
   },
@@ -160,7 +160,7 @@
     "materials": ["18K gold vermeil", "silver"],
     "adjustable": true,
     "style": "modern, layering",
-    "size_chart_url": "https://www.missoma.com/pages/size-guide",
+    "size_chart_url": "https://www.missoma.com/pages/ring-size-guide",
     "shop_url": "https://www.missoma.com/",
     "note": "UK brand popular for layering. Some adjustable bracelets and chain styles fit smaller wrists."
   },
@@ -190,7 +190,7 @@
     "materials": ["14K gold", "18K gold", "platinum", "lab diamond"],
     "adjustable": false,
     "style": "fine jewelry, lab diamond",
-    "size_chart_url": "https://www.vrai.com/ring-size-guide",
+    "size_chart_url": "https://www.vrai.com/find-your-ring-size",
     "shop_url": "https://www.vrai.com/",
     "note": "Lab-grown diamond fine jewelry. Engagement rings available from size 3."
   },
@@ -205,7 +205,7 @@
     "materials": ["14K gold", "gold fill", "silver"],
     "adjustable": true,
     "style": "curated, indie designers",
-    "size_chart_url": "https://localeclectic.com/pages/sizing-guide",
+    "size_chart_url": "https://www.localeclectic.com/blogs/news/how-to-find-your-ring-size",
     "shop_url": "https://localeclectic.com/",
     "note": "Curates indie designers. Some designers offer size 3. Filter by size on site."
   },
@@ -340,7 +340,7 @@
     "materials": ["brass", "gold plated"],
     "adjustable": true,
     "style": "artisanal, ethical",
-    "size_chart_url": "https://shopsoko.com/pages/sizing",
+    "size_chart_url": "https://shopsoko.com/",
     "shop_url": "https://shopsoko.com/",
     "note": "Kenyan artisan-made. Adjustable cuffs can be bent to fit smaller wrists."
   },
@@ -355,7 +355,7 @@
     "materials": ["14K gold", "opal", "sapphire"],
     "adjustable": false,
     "style": "celestial, one-of-a-kind",
-    "size_chart_url": "https://wwake.com/pages/sizing",
+    "size_chart_url": "https://wwake.com/pages/faqs",
     "shop_url": "https://wwake.com/",
     "note": "NYC-based fine jewelry. Opal and gemstone rings available from size 3."
   },
@@ -370,7 +370,7 @@
     "materials": ["14K gold", "diamond"],
     "adjustable": true,
     "style": "fine jewelry, affordable luxury",
-    "size_chart_url": "https://www.stoneandstrand.com/pages/size-guide",
+    "size_chart_url": "https://www.stoneandstrand.com/pages/faq",
     "shop_url": "https://www.stoneandstrand.com/",
     "note": "Affordable fine jewelry. Dainty rings from size 3. Adjustable chain bracelets."
   },
@@ -385,8 +385,8 @@
     "materials": ["14K gold", "18K gold", "recycled metals"],
     "adjustable": false,
     "style": "ethical, custom",
-    "size_chart_url": "https://www.bfrealneo.com/pages/size-guide",
-    "shop_url": "https://bfrealneo.com/",
+    "size_chart_url": "https://bario-neal.com/pages/size-guide",
+    "shop_url": "https://bario-neal.com/",
     "note": "Ethical fine jeweler. Custom engagement rings from size 3. Recycled and Fairmined metals."
   },
   {
@@ -400,7 +400,7 @@
     "materials": ["14K gold", "18K gold", "diamond"],
     "adjustable": true,
     "style": "modern fine, everyday",
-    "size_chart_url": "https://auratenewyork.com/pages/size-guide",
+    "size_chart_url": "https://auratenewyork.com/products/ring-sizer",
     "shop_url": "https://auratenewyork.com/",
     "note": "NYC-based fine jewelry. Rings available from size 3. Adjustable bracelets."
   },
@@ -415,7 +415,7 @@
     "materials": ["14K gold", "18K gold", "diamond"],
     "adjustable": false,
     "style": "engagement, fine jewelry",
-    "size_chart_url": "https://ringconcierge.com/pages/ring-size-guide",
+    "size_chart_url": "https://ringconcierge.com/pages/jewelry-size-guides",
     "shop_url": "https://ringconcierge.com/",
     "note": "Engagement ring specialist. Carries from size 3. Popular on Instagram."
   },
@@ -430,7 +430,7 @@
     "materials": ["14K gold plated", "silver", "gemstones"],
     "adjustable": true,
     "style": "colorful, statement",
-    "size_chart_url": "https://www.kendrascott.com/size-guide.html",
+    "size_chart_url": "https://www.kendrascott.com/ring-size-chart-v2.html",
     "shop_url": "https://www.kendrascott.com/",
     "note": "Texas-based. Adjustable slider bracelets can work for small wrists. Rings mostly size 4+."
   },
@@ -450,18 +450,48 @@
     "note": "UK luxury brand. Fiji friendship bracelets are adjustable to very small wrists. Popular for engraving."
   },
   {
-    "brand": "i+i (I Plus I)",
-    "country": "Japan",
-    "category": ["ring", "bracelet"],
-    "min_ring_size_us": 1.5,
-    "min_bracelet_cm": 13.5,
-    "price_min": 40,
-    "price_max": 200,
-    "materials": ["10K gold", "silver"],
+    "brand": "enewton",
+    "country": "USA",
+    "category": ["bracelet"],
+    "min_ring_size_us": null,
+    "min_bracelet_cm": 14,
+    "price_min": 30,
+    "price_max": 150,
+    "materials": ["gold-filled beads", "gemstone beads"],
     "adjustable": false,
-    "style": "dainty, everyday",
-    "size_chart_url": "https://www.iplus-i.com/",
-    "shop_url": "https://www.iplus-i.com/",
-    "note": "Japanese brand specializing in petite-friendly sizes. Rings from JP size 1."
+    "style": "beaded, colorful",
+    "size_chart_url": "https://enewtondesign.com/collections/egirl-bracelets",
+    "shop_url": "https://enewtondesign.com/",
+    "note": "eGirl line designed for 5.5 inch (14cm) wrists. Stretch beaded bracelets in gold-filled and gemstone beads. Great for petite women and teens."
+  },
+  {
+    "brand": "SilverArtisan925",
+    "country": "Turkey",
+    "category": ["ring"],
+    "min_ring_size_us": 4,
+    "min_bracelet_cm": null,
+    "price_min": 20,
+    "price_max": 100,
+    "materials": ["925 sterling silver", "semi-precious stones"],
+    "adjustable": false,
+    "style": "artisan, gemstone",
+    "size_chart_url": "https://www.etsy.com/shop/SilverArtisan925",
+    "shop_url": "https://www.etsy.com/shop/SilverArtisan925",
+    "note": "Etsy artisan shop with sterling silver and gemstone rings. Carries smaller sizes from US 4. Affordable handcrafted options."
+  },
+  {
+    "brand": "Kuololit",
+    "country": "China",
+    "category": ["ring"],
+    "min_ring_size_us": 4,
+    "min_bracelet_cm": null,
+    "price_min": 20,
+    "price_max": 300,
+    "materials": ["925 sterling silver", "10K gold", "moissanite", "lab gemstones"],
+    "adjustable": false,
+    "style": "affordable luxury, lab gemstones",
+    "size_chart_url": "https://www.kuololit.net/",
+    "shop_url": "https://kuololit.aliexpress.com/",
+    "note": "AliExpress store with moissanite and lab gemstone rings. Affordable alternative to fine jewelry. Community-verified quality and legitimacy."
   }
 ]
