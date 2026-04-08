@@ -12,7 +12,8 @@
     "style": "delicate, classic",
     "size_chart_url": "https://agete.com/",
     "shop_url": "https://agete.com/",
-    "note": "Japanese brand. Carries rings from JP size 1 (US 1.5). Known for delicate, vintage-inspired designs."
+    "note": "Japanese brand. Carries rings from JP size 1 (US 1.5). Known for delicate, vintage-inspired designs. Japan domestic shipping only — visit in-store if traveling to Japan.",
+    "intl_shipping": false
   },
   {
     "brand": "4℃ (Yon-doshi)",
@@ -27,7 +28,8 @@
     "style": "elegant, feminine",
     "size_chart_url": "https://www.fdcp.co.jp/4c-jewelry/",
     "shop_url": "https://www.fdcp.co.jp/4c-jewelry/",
-    "note": "Major Japanese jewelry brand. Rings from JP size 1. Bracelets available in petite lengths."
+    "note": "Major Japanese jewelry brand. Rings from JP size 1. Bracelets available in petite lengths. Japan domestic shipping only — visit in-store if traveling to Japan.",
+    "intl_shipping": false
   },
   {
     "brand": "Nojess",
@@ -42,7 +44,8 @@
     "style": "antique, romantic",
     "size_chart_url": "https://www.nojess.net/",
     "shop_url": "https://www.nojess.net/",
-    "note": "Japanese brand, sister brand of Agete. Vintage antique style. Rings from JP size 1."
+    "note": "Japanese brand, sister brand of Agete. Vintage antique style. Rings from JP size 1. Japan domestic shipping only — visit in-store if traveling to Japan.",
+    "intl_shipping": false
   },
   {
     "brand": "Star Jewelry",
@@ -56,8 +59,9 @@
     "adjustable": false,
     "style": "modern, sophisticated",
     "size_chart_url": "https://www.star-jewelry.com/",
-    "shop_url": "https://www.star-jewelry.com/",
-    "note": "Yokohama-based since 1946. Carries small sizes. Known for quality craftsmanship."
+    "shop_url": "https://www.star-jewelry.com/common-internationalshipping.html",
+    "note": "Yokohama-based since 1946. Carries small sizes. Known for quality craftsmanship. International orders accepted via email (FedEx shipping).",
+    "intl_shipping": true
   },
   {
     "brand": "Vendome Aoyama",
@@ -72,7 +76,8 @@
     "style": "refined, professional",
     "size_chart_url": "https://vendome.jp/aoyama/",
     "shop_url": "https://vendome.jp/aoyama/",
-    "note": "Popular Japanese brand for working women. Elegant, office-appropriate designs in small sizes."
+    "note": "Popular Japanese brand for working women. Elegant, office-appropriate designs in small sizes. Japan domestic shipping only — visit in-store if traveling to Japan.",
+    "intl_shipping": false
   },
   {
     "brand": "Bloom",
@@ -87,7 +92,8 @@
     "style": "casual, everyday",
     "size_chart_url": "https://bloomonline.jp/",
     "shop_url": "https://bloomonline.jp/",
-    "note": "Affordable Japanese brand. Great entry point for petite jewelry. Small sizes available."
+    "note": "Affordable Japanese brand. Great entry point for petite jewelry. Small sizes available. Japan domestic shipping only.",
+    "intl_shipping": false
   },
   {
     "brand": "Take-Up",
@@ -102,7 +108,8 @@
     "style": "trendy, youthful",
     "size_chart_url": "https://www.take-up.co.jp/",
     "shop_url": "https://www.take-up.co.jp/",
-    "note": "Budget-friendly Japanese brand with wide size range including very small sizes."
+    "note": "Budget-friendly Japanese brand with wide size range including very small sizes. Japan domestic shipping only.",
+    "intl_shipping": false
   },
   {
     "brand": "Catbird",
