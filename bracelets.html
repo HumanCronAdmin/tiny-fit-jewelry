@@ -132,12 +132,14 @@ const sizes=[["XS","15 cm",'5.9"'],["S","16 cm",'6.3"'],["M","17 cm",'6.7"'],["L
 let t='<table class="size-table"><thead><tr><th>Size Label</th><th>Circumference (cm)</th><th>Circumference (inches)</th></tr></thead><tbody>';
 sizes.forEach((r,i)=>{const hl=i===sizes.length-1?' style="background:var(--accent-light);font-weight:600"':'';t+=`<tr${hl}><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`;});
 t+='</tbody></table>';document.getElementById("size-table-container").innerHTML=t;
-const brands=[{title:"Adjustable to 14cm or Below",desc:"These brands have bracelets for wrists measuring 13 to 14cm without modification.",items:[
+const brands=[{title:"Adjustable to 14cm or Below (Ships Internationally)",desc:"These brands have bracelets for wrists measuring 13 to 14cm and ship worldwide.",items:[
 ["Monica Vinader","Their Fiji bracelets use a cord and slider system that adjusts to virtually any wrist size. Based in the UK, ships internationally."],
-["4\u00b0C (Yon-do-shi)","A Japanese fine jewelry brand designing for the Japanese market where smaller wrist sizes are common. Sizing starts smaller than most Western brands."],
-["Agete","Japanese brand with elegant, delicate designs. Chain bracelets include multiple clasp positions reaching 14cm or below."],
-["Bloom","Japanese brand under Sanei International with affordable fine jewelry in smaller sizes. Strong in 10K and 18K gold."],
-["i+i","London-based ethically sourced fine jewelry. Bracelets run small, with adjustable options well under 14cm."]]},
+["Midori Jewelry","Etsy shop with custom sizing for thin wrists. Ships worldwide. From $20."],
+["enewton","eGirl line designed for 5.5 inch (14cm) wrists. Stretch beaded bracelets."]]},
+{title:"14cm or Below (Japan Only \u2014 Visit In-Store)",desc:"These Japanese brands carry very small bracelet sizes but only ship within Japan. Great if you are traveling there.",items:[
+["4\u00b0C (Yon-do-shi)","Sizing starts smaller than most Western brands. Japan domestic shipping only."],
+["Agete","Chain bracelets with multiple clasp positions reaching 14cm or below. Japan only."],
+["Bloom","Affordable fine jewelry in smaller sizes. Japan only."]]},
 {title:"Adjustable to 15cm (Works with a Snug Fit)",desc:"On a 13.5 to 14cm wrist, these fit with a bit of extra movement.",items:[
 ["Missoma","Layerable gold vermeil jewelry. Chain bracelets include extender chains bringing minimum size to around 15cm."],
 ["Gorjana","California-based affordable gold jewelry. Adjustable bracelets with multiple clasp positions, smallest at 15cm."],
