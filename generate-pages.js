@@ -18,8 +18,9 @@ function slug(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
-function headBlock(title, desc, canonicalPath) {
+function headBlock(title, desc, canonicalPath, schemaJson) {
   const url = `https://humancronadmin.github.io/tiny-fit-jewelry/${canonicalPath}`;
+  const schemaTag = schemaJson ? `\n  <script type="application/ld+json">${JSON.stringify(schemaJson)}</script>` : '';
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +28,7 @@ function headBlock(title, desc, canonicalPath) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${title} | TinyFit Jewelry</title>
   <meta name="description" content="${desc}">
-  <link rel="canonical" href="${url}">
+  <link rel="canonical" href="${url}">${schemaTag}
   <meta property="og:title" content="${title} | TinyFit Jewelry">
   <meta property="og:description" content="${desc}">
   <meta property="og:url" content="${url}">
@@ -98,6 +99,14 @@ for (const b of brands) {
   const title = `${b.brand} Petite Jewelry Size Guide`;
   const desc = `${b.brand} size guide for petite women. ${sizeInfo}Price $${b.price_min}-$${b.price_max}. ${b.adjustable ? 'Adjustable options available.' : ''} From ${b.country}.`;
 
+  const brandSchema = {
+    "@context": "https://schema.org",
+    "@type": "Brand",
+    "name": b.brand,
+    "url": b.shop_url,
+    "description": b.note
+  };
+
   let sizeTags = '';
   if (hasRing) sizeTags += `<span class="tag tag-green">Ring from US ${b.min_ring_size_us}</span> `;
   if (hasBracelet) sizeTags += `<span class="tag tag-green">Bracelet from ${b.min_bracelet_cm}cm</span> `;
@@ -116,7 +125,7 @@ for (const b of brands) {
     `<li><a href="${slug(x.brand)}.html">${x.brand}</a> (${x.country}${x.min_ring_size_us !== null ? ', ring from US ' + x.min_ring_size_us : ''})</li>`
   ).join('\n        ');
 
-  const html = `${headBlock(title, desc, `brands/${s}.html`)}
+  const html = `${headBlock(title, desc, `brands/${s}.html`, brandSchema)}
 <body>
 ${nav()}
 <article class="article">
@@ -195,7 +204,21 @@ for (const group of sizeGroups) {
     </div>`;
   }).join('\n    ');
 
-  const html = `${headBlock(group.title, group.desc, `size/${group.file}`)}
+  const sizeSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": group.title,
+    "description": group.desc,
+    "numberOfItems": matching.length,
+    "itemListElement": matching.map((b, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": b.brand,
+      "url": `https://humancronadmin.github.io/tiny-fit-jewelry/brands/${slug(b.brand)}.html`
+    }))
+  };
+
+  const html = `${headBlock(group.title, group.desc, `size/${group.file}`, sizeSchema)}
 <body>
 ${nav()}
 <section style="padding-top:36px;">
