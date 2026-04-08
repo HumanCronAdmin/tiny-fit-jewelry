@@ -145,8 +145,9 @@ ${nav()}
     <p><strong>Price range:</strong> $${b.price_min} &ndash; $${b.price_max}</p>
 
     <div style="margin:24px 0;">
-      <a href="${b.shop_url}" target="_blank" rel="noopener noreferrer" class="btn">Visit ${b.brand}</a>
+      <a href="${b.affiliate_url || b.shop_url}" target="_blank" rel="noopener noreferrer" class="btn">Visit ${b.brand}</a>
       ${b.size_chart_url && b.size_chart_url !== b.shop_url ? `<a href="${b.size_chart_url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-left:8px;">Size Chart</a>` : ''}
+      ${b.amazon_url ? `<a href="${b.amazon_url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-left:8px;">Find on Amazon</a>` : ''}
     </div>
 
     ${similarBrands.length > 0 ? `<h2>Similar Brands in This Size Range</h2>
@@ -190,7 +191,8 @@ for (const group of sizeGroups) {
       <div class="brand-meta">${info.map(i => `<span class="tag tag-green">${i}</span>`).join(' ')} ${b.adjustable ? '<span class="tag tag-green">Adjustable</span>' : ''}</div>
       <div class="price">$${b.price_min} &ndash; $${b.price_max}</div>
       <p class="note">${b.note}</p>
-      <a href="${b.shop_url}" target="_blank" rel="noopener noreferrer" class="shop-btn">Visit Brand</a>
+      <a href="${b.affiliate_url || b.shop_url}" target="_blank" rel="noopener noreferrer" class="shop-btn">Visit Brand</a>
+      ${b.amazon_url ? `<a href="${b.amazon_url}" target="_blank" rel="noopener noreferrer" class="shop-btn shop-btn-amazon" style="margin-left:6px;background:#FF9900;color:#111;">Amazon</a>` : ''}
     </div>`;
   }).join('\n    ');
 

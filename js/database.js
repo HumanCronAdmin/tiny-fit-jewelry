@@ -50,7 +50,7 @@
   }
 
   function countryFlag(c) {
-    const flags = { 'Japan': 'JP', 'USA': 'US', 'Canada': 'CA', 'UK': 'UK', 'France': 'FR', 'Kenya/USA': 'KE', 'Japan/USA': 'JP/US' };
+    const flags = { 'Japan': 'JP', 'USA': 'US', 'Canada': 'CA', 'UK': 'UK', 'France': 'FR', 'Kenya/USA': 'KE', 'Japan/USA': 'JP/US', 'China': 'CN', 'International': 'INT' };
     return flags[c] || c;
   }
 
@@ -69,7 +69,8 @@
       '<div class="brand-meta">' + mats + '</div>' +
       '<div class="price">$' + b.price_min + ' &ndash; $' + b.price_max + '</div>' +
       '<p class="note">' + b.note + '</p>' +
-      '<a href="' + b.shop_url + '" target="_blank" rel="noopener noreferrer" class="shop-btn">Visit Brand</a>' +
+      '<a href="' + (b.affiliate_url || b.shop_url) + '" target="_blank" rel="noopener noreferrer" class="shop-btn">Visit Brand</a>' +
+      (b.amazon_url ? '<a href="' + b.amazon_url + '" target="_blank" rel="noopener noreferrer" class="shop-btn" style="margin-left:6px;background:#FF9900;color:#111;">Amazon</a>' : '') +
       '</div>';
   }
 
