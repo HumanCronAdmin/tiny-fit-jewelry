@@ -63,39 +63,7 @@
     }
   };
 
-  // ── Cross-site footer: "More Free Tools" ──
-  var crossSiteHTML = ''
-    + '<div id="cross-site-footer" style="text-align:center;padding:28px 16px;margin:24px auto;max-width:700px;border-top:1px solid #E7E5E4;">'
-    + '  <p style="font-weight:700;font-size:0.95rem;color:#1C1917;margin:0 0 6px;">More Free Tools</p>'
-    + '  <p style="font-size:0.82rem;color:#78716C;margin:0 0 16px;">Built by the same creator. All free, no signup required.</p>'
-    + '  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;max-width:600px;margin:0 auto;">'
-    + '    <a href="https://humancronadmin.github.io/japan-size-converter/" target="_blank" rel="noopener" '
-    + '       style="display:block;padding:12px 10px;background:#F5F5F4;border-radius:8px;text-decoration:none;color:#1C1917;font-size:0.82rem;font-weight:500;transition:background .2s;"'
-    + '       onmouseover="this.style.background=\'#E7E5E4\'" onmouseout="this.style.background=\'#F5F5F4\'">'
-    + '       Japan Size Converter</a>'
-    + '    <a href="https://humancronadmin.github.io/japan-pro-finder/" target="_blank" rel="noopener" '
-    + '       style="display:block;padding:12px 10px;background:#F5F5F4;border-radius:8px;text-decoration:none;color:#1C1917;font-size:0.82rem;font-weight:500;transition:background .2s;"'
-    + '       onmouseover="this.style.background=\'#E7E5E4\'" onmouseout="this.style.background=\'#F5F5F4\'">'
-    + '       Japan Pro Finder</a>'
-    + '    <a href="https://humancronadmin.github.io/japan-tax-calculator/" target="_blank" rel="noopener" '
-    + '       style="display:block;padding:12px 10px;background:#F5F5F4;border-radius:8px;text-decoration:none;color:#1C1917;font-size:0.82rem;font-weight:500;transition:background .2s;"'
-    + '       onmouseover="this.style.background=\'#E7E5E4\'" onmouseout="this.style.background=\'#F5F5F4\'">'
-    + '       Japan Tax Calculator</a>'
-    + '    <a href="https://humancronadmin.github.io/money-transfer-japan/" target="_blank" rel="noopener" '
-    + '       style="display:block;padding:12px 10px;background:#F5F5F4;border-radius:8px;text-decoration:none;color:#1C1917;font-size:0.82rem;font-weight:500;transition:background .2s;"'
-    + '       onmouseover="this.style.background=\'#E7E5E4\'" onmouseout="this.style.background=\'#F5F5F4\'">'
-    + '       Money Transfer Japan</a>'
-    + '    <a href="https://humancronadmin.github.io/image2pdf/" target="_blank" rel="noopener" '
-    + '       style="display:block;padding:12px 10px;background:#F5F5F4;border-radius:8px;text-decoration:none;color:#1C1917;font-size:0.82rem;font-weight:500;transition:background .2s;"'
-    + '       onmouseover="this.style.background=\'#E7E5E4\'" onmouseout="this.style.background=\'#F5F5F4\'">'
-    + '       Image to PDF</a>'
-    + '    <a href="https://humancronadmin.github.io/foreign-grocery-finder/" target="_blank" rel="noopener" '
-    + '       style="display:block;padding:12px 10px;background:#F5F5F4;border-radius:8px;text-decoration:none;color:#1C1917;font-size:0.82rem;font-weight:500;transition:background .2s;"'
-    + '       onmouseover="this.style.background=\'#E7E5E4\'" onmouseout="this.style.background=\'#F5F5F4\'">'
-    + '       Foreign Grocery Finder</a>'
-    + '  </div>'
-    + '  <p style="font-size:0.75rem;color:#aaa;margin:12px 0 0;"><a href="https://github.com/humancronadmin" target="_blank" rel="noopener" style="color:#B76E79;text-decoration:none;">See all projects on GitHub &rarr;</a></p>'
-    + '</div>';
+  // No cross-site links — keep TinyFit's jewelry world self-contained
 
   // ── Inject into page ──
   var footer = document.querySelector('footer.footer');
@@ -112,7 +80,7 @@
   // Insert: brand accuracy (if brand page) → UGC → cross-site
   var insertPoint = footer;
   var wrapper = document.createElement('div');
-  wrapper.innerHTML = brandAccuracyHTML + ugcHTML + crossSiteHTML;
+  wrapper.innerHTML = brandAccuracyHTML + ugcHTML;
 
   // Insert after footer's closing div, before </footer>
   footer.appendChild(wrapper);
