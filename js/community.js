@@ -12,18 +12,18 @@
 
   // ── UGC: "Share Your Fit Experience" ──
   var ugcHTML = ''
-    + '<div id="ugc-section" style="text-align:center;padding:28px 16px;margin:24px auto;max-width:620px;background:#FAF5F6;border:1px solid #E7E5E4;border-radius:12px;">'
-    + '  <p style="font-weight:700;font-size:1rem;color:#1C1917;margin:0 0 6px;">Help Us Stay Accurate</p>'
-    + '  <p style="font-size:0.85rem;color:#78716C;margin:0 0 16px;line-height:1.5;">Real experiences from real people make this database better than any AI can. Share what you know.</p>'
-    + '  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">'
+    + '<div id="ugc-section" style="text-align:center;padding:32px 20px;margin:28px auto;max-width:560px;background:transparent;border-top:1px solid #E7E5E4;border-bottom:1px solid #E7E5E4;border-left:none;border-right:none;border-radius:0;">'
+    + '  <p style="font-family:Playfair Display,Georgia,serif;font-weight:700;font-size:1.05rem;color:#1C1917;margin:0 0 8px;letter-spacing:-0.01em;">Help Us Stay Accurate</p>'
+    + '  <p style="font-size:0.84rem;color:#78716C;margin:0 0 20px;line-height:1.6;">Real experiences from real people make this database better than any AI can.</p>'
+    + '  <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">'
     + '    <a href="https://github.com/HumanCronAdmin/tiny-fit-jewelry/issues/new?template=fit_experience.yml&title=Fit+Experience" target="_blank" rel="noopener" '
-    + '       style="display:inline-block;padding:10px 20px;background:#B76E79;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.88rem;min-height:44px;line-height:24px;">'
+    + '       style="display:inline-block;padding:11px 24px;background:linear-gradient(135deg,#C4868F,#B76E79,#A25D67);color:#fff;border-radius:50px;text-decoration:none;font-weight:600;font-size:0.8rem;min-height:44px;line-height:22px;letter-spacing:0.04em;text-transform:uppercase;box-shadow:0 2px 10px rgba(183,110,121,0.2);">'
     + '       Share My Fit Experience</a>'
     + '    <a href="https://github.com/HumanCronAdmin/tiny-fit-jewelry/issues/new?template=brand_suggestion.yml&title=Brand+Suggestion" target="_blank" rel="noopener" '
-    + '       style="display:inline-block;padding:10px 20px;background:#1C1917;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.88rem;min-height:44px;line-height:24px;">'
+    + '       style="display:inline-block;padding:11px 24px;background:transparent;color:#1C1917;border:1.5px solid #1C1917;border-radius:50px;text-decoration:none;font-weight:600;font-size:0.8rem;min-height:44px;line-height:22px;letter-spacing:0.04em;text-transform:uppercase;">'
     + '       Suggest a Brand</a>'
     + '  </div>'
-    + '  <p style="font-size:0.75rem;color:#aaa;margin:10px 0 0;">Your experience helps others find jewelry that actually fits.</p>'
+    + '  <p style="font-size:0.72rem;color:#aaa;margin:14px 0 0;letter-spacing:0.02em;">Your experience helps others find jewelry that actually fits.</p>'
     + '</div>';
 
   // ── Brand page: "Is this info accurate?" ──
@@ -32,13 +32,13 @@
   if (isBrandPage) {
     var brandName = document.querySelector('h1') ? document.querySelector('h1').textContent.trim() : 'this brand';
     brandAccuracyHTML = ''
-      + '<div id="accuracy-check" style="text-align:center;padding:20px 16px;margin:0 auto 16px;max-width:620px;background:#F5F5F4;border:1px solid #E7E5E4;border-radius:12px;">'
-      + '  <p style="font-weight:600;font-size:0.92rem;color:#1C1917;margin:0 0 10px;">Is our size info for ' + brandName + ' still accurate?</p>'
+      + '<div id="accuracy-check" style="text-align:center;padding:24px 20px;margin:0 auto 16px;max-width:560px;background:transparent;border-top:1px solid #E7E5E4;border-bottom:1px solid #E7E5E4;border-radius:0;">'
+      + '  <p style="font-family:Playfair Display,Georgia,serif;font-weight:600;font-size:0.95rem;color:#1C1917;margin:0 0 12px;">Is our size info for ' + brandName + ' still accurate?</p>'
       + '  <div style="display:flex;gap:12px;justify-content:center;">'
-      + '    <button onclick="reportAccuracy(true)" style="padding:10px 28px;background:#22C55E;color:#fff;border:none;border-radius:8px;font-weight:600;font-size:0.88rem;cursor:pointer;min-height:44px;">Yes, accurate</button>'
-      + '    <button onclick="reportAccuracy(false)" style="padding:10px 28px;background:#EF4444;color:#fff;border:none;border-radius:8px;font-weight:600;font-size:0.88rem;cursor:pointer;min-height:44px;">No, outdated</button>'
+      + '    <button onclick="reportAccuracy(true)" style="padding:10px 28px;background:#22C55E;color:#fff;border:none;border-radius:50px;font-weight:600;font-size:0.82rem;cursor:pointer;min-height:44px;letter-spacing:0.03em;text-transform:uppercase;">Yes, accurate</button>'
+      + '    <button onclick="reportAccuracy(false)" style="padding:10px 28px;background:#EF4444;color:#fff;border:none;border-radius:50px;font-weight:600;font-size:0.82rem;cursor:pointer;min-height:44px;letter-spacing:0.03em;text-transform:uppercase;">No, outdated</button>'
       + '  </div>'
-      + '  <p id="accuracy-thanks" style="font-size:0.82rem;color:#22C55E;margin:8px 0 0;display:none;">Thank you! Your feedback helps keep our data reliable.</p>'
+      + '  <p id="accuracy-thanks" style="font-size:0.82rem;color:#22C55E;margin:10px 0 0;display:none;">Thank you! Your feedback helps keep our data reliable.</p>'
       + '</div>';
   }
 
