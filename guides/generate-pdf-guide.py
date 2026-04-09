@@ -1,6 +1,6 @@
 """Generate the TinyFit Jewelry PDF lead magnet from brands.json.
 
-Creates a multi-page HTML guide, then converts to PDF via Playwright.
+Dense 4-page layout. No wasted space.
 Output: guides/tinyfit-complete-size-guide.pdf
 """
 import json
@@ -19,10 +19,11 @@ def slug(name):
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
-# Categorize brands
+# Categorize
 jp_brands = [b for b in brands if "Japan" in b["country"]]
 us_brands = [b for b in brands if b["country"] in ("USA", "Kenya/USA", "Japan/USA")]
 uk_brands = [b for b in brands if b["country"] == "UK"]
+other_brands = [b for b in brands if b not in jp_brands + us_brands + uk_brands]
 size2 = [b for b in brands if b.get("min_ring_size_us") and b["min_ring_size_us"] <= 2]
 under100 = [b for b in brands if b.get("price_min", 0) < 100]
 adjustable = [b for b in brands if b.get("adjustable")]
@@ -31,18 +32,17 @@ adjustable = [b for b in brands if b.get("adjustable")]
 def brand_row(b):
     name = b["brand"]
     ring = b.get("min_ring_size_us") or "-"
-    bracelet = b.get("min_bracelet_cm") or "-"
-    price = f"${b.get('price_min','?')}-${b.get('price_max','?')}"
-    country = b["country"]
-    return f"<tr><td>{name}</td><td>{country}</td><td>{ring}</td><td>{bracelet}cm</td><td>{price}</td></tr>"
+    bracelet = f'{b["min_bracelet_cm"]}cm' if b.get("min_bracelet_cm") else "-"
+    price = f'${b.get("price_min","?")}-${b.get("price_max","?")}'
+    adj = "Yes" if b.get("adjustable") else ""
+    intl = "Yes" if b.get("intl_shipping") else ""
+    return f"<tr><td><strong>{name}</strong></td><td>{b['country']}</td><td>{ring}</td><td>{bracelet}</td><td>{price}</td><td>{adj}</td><td>{intl}</td></tr>"
 
 
-def brand_table(brand_list, caption=""):
+def brand_table(brand_list):
     rows = "\n".join([brand_row(b) for b in brand_list])
-    return f"""
-    {f'<p class="caption">{caption}</p>' if caption else ''}
-    <table>
-      <thead><tr><th>Brand</th><th>Country</th><th>Min Ring</th><th>Min Bracelet</th><th>Price</th></tr></thead>
+    return f"""<table>
+      <thead><tr><th>Brand</th><th>Country</th><th>Ring</th><th>Bracelet</th><th>Price</th><th>Adj.</th><th>Intl</th></tr></thead>
       <tbody>{rows}</tbody>
     </table>"""
 
@@ -53,132 +53,155 @@ html = f"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
-@page {{ size: A4; margin: 2cm; }}
+@page {{ size: A4; margin: 1.2cm 1.5cm; }}
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-body {{ font-family: 'Inter', sans-serif; color: #1C1917; line-height: 1.6; font-size: 11pt; }}
+body {{ font-family: 'Inter', sans-serif; color: #1C1917; line-height: 1.45; font-size: 8.5pt; }}
 
-.cover {{ page-break-after: always; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(135deg, #B76E79 0%, #8B5E6B 100%); color: #fff; padding: 60px; }}
-.cover h1 {{ font-size: 42pt; font-weight: 900; margin-bottom: 16px; }}
-.cover .sub {{ font-size: 16pt; opacity: 0.9; max-width: 500px; }}
-.cover .badge {{ margin-top: 30px; background: rgba(255,255,255,0.2); padding: 10px 30px; border-radius: 30px; font-size: 12pt; }}
-.cover .url {{ margin-top: auto; font-size: 10pt; opacity: 0.6; }}
+/* Cover */
+.cover {{ page-break-after: always; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(135deg, #B76E79 0%, #8B5E6B 100%); color: #fff; padding: 40px; }}
+.cover h1 {{ font-size: 36pt; font-weight: 900; margin-bottom: 12px; }}
+.cover .sub {{ font-size: 13pt; opacity: 0.9; max-width: 420px; line-height: 1.5; }}
+.cover .stats {{ display: flex; gap: 24px; margin-top: 32px; }}
+.cover .stat {{ background: rgba(255,255,255,0.15); padding: 12px 20px; border-radius: 10px; }}
+.cover .stat-num {{ font-size: 22pt; font-weight: 900; }}
+.cover .stat-label {{ font-size: 8pt; opacity: 0.8; }}
+.cover .url {{ margin-top: auto; font-size: 9pt; opacity: 0.5; }}
 
-.page {{ page-break-before: always; padding: 20px 0; }}
-h2 {{ font-size: 18pt; font-weight: 800; color: #B76E79; margin: 30px 0 12px; border-bottom: 3px solid #B76E79; padding-bottom: 6px; }}
-h3 {{ font-size: 13pt; font-weight: 700; margin: 20px 0 8px; }}
-p {{ margin: 8px 0; }}
-.caption {{ font-size: 10pt; color: #78716C; margin-bottom: 8px; }}
+/* Content pages */
+h2 {{ font-size: 12pt; font-weight: 800; color: #B76E79; margin: 14px 0 6px; border-bottom: 2px solid #B76E79; padding-bottom: 3px; }}
+h3 {{ font-size: 9.5pt; font-weight: 700; margin: 10px 0 4px; color: #44403C; }}
+p {{ margin: 3px 0; }}
 
-table {{ width: 100%; border-collapse: collapse; margin: 12px 0 24px; font-size: 10pt; }}
-th {{ background: #1C1917; color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; }}
-td {{ padding: 7px 10px; border-bottom: 1px solid #E7E5E4; }}
-tr:nth-child(even) td {{ background: #FAF9F8; }}
+table {{ width: 100%; border-collapse: collapse; margin: 6px 0 12px; font-size: 7.5pt; }}
+th {{ background: #1C1917; color: #fff; padding: 4px 6px; text-align: left; font-weight: 600; font-size: 7pt; }}
+td {{ padding: 3px 6px; border-bottom: 1px solid #EEECEB; }}
+tr:nth-child(even) td {{ background: #FAFAF9; }}
 
-.tip {{ background: #FAF5F6; border-left: 4px solid #B76E79; padding: 12px 16px; margin: 16px 0; border-radius: 0 8px 8px 0; font-size: 10pt; }}
-.formula {{ background: #1C1917; color: #fff; padding: 16px 20px; border-radius: 8px; text-align: center; font-size: 14pt; font-weight: 700; margin: 16px 0; }}
-.footer {{ text-align: center; font-size: 9pt; color: #A8A29E; margin-top: 40px; }}
+.tip {{ background: #FAF5F6; border-left: 3px solid #B76E79; padding: 6px 10px; margin: 6px 0; border-radius: 0 6px 6px 0; font-size: 8pt; }}
+.formula {{ background: #1C1917; color: #fff; padding: 10px 16px; border-radius: 6px; text-align: center; font-size: 11pt; font-weight: 700; margin: 8px 0; }}
+.two-col {{ display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }}
+.rule {{ background: #FAF5F6; border-radius: 8px; padding: 8px 10px; }}
+.rule strong {{ color: #B76E79; }}
+.footer {{ text-align: center; font-size: 7pt; color: #A8A29E; margin-top: 16px; padding-top: 8px; border-top: 1px solid #E7E5E4; }}
+.page {{ page-break-before: always; }}
 </style>
 </head>
 <body>
 
-<!-- COVER PAGE -->
+<!-- COVER -->
 <div class="cover">
   <h1>The Complete<br>Petite Jewelry<br>Size Guide</h1>
   <div class="sub">Everything you need to find rings (size 2-4) and bracelets (wrists under 14cm) that actually fit.</div>
-  <div class="badge">{len(brands)} Verified Brands | 2026 Edition</div>
+  <div class="stats">
+    <div class="stat"><div class="stat-num">{len(brands)}</div><div class="stat-label">Verified Brands</div></div>
+    <div class="stat"><div class="stat-num">9</div><div class="stat-label">Countries</div></div>
+    <div class="stat"><div class="stat-num">2026</div><div class="stat-label">Edition</div></div>
+  </div>
   <div class="url">humancronadmin.github.io/tiny-fit-jewelry</div>
 </div>
 
-<!-- PAGE 1: SIZE CONVERSION -->
+<!-- PAGE 2: SIZE CHARTS + MEASURING -->
 <div class="page">
-  <h2>Ring Size Conversion Chart</h2>
-  <p>Ring sizes vary by country. This chart covers the petite range (US 1-5) with exact measurements.</p>
+  <h2>Ring Size Conversion Chart (US 1-5)</h2>
   <table>
-    <thead><tr><th>US Size</th><th>Japan (JP)</th><th>UK</th><th>EU</th><th>Circumference (mm)</th><th>Diameter (mm)</th></tr></thead>
+    <thead><tr><th>US</th><th>Japan</th><th>UK</th><th>EU</th><th>Circumference</th><th>Diameter</th></tr></thead>
     <tbody>
-      <tr><td>1</td><td>1</td><td>B</td><td>38</td><td>39.1</td><td>12.4</td></tr>
-      <tr><td>1.5</td><td>2</td><td>C</td><td>39</td><td>40.4</td><td>12.9</td></tr>
-      <tr><td>2</td><td>3</td><td>D</td><td>41</td><td>41.7</td><td>13.3</td></tr>
-      <tr><td>2.5</td><td>4</td><td>E</td><td>42</td><td>42.9</td><td>13.7</td></tr>
-      <tr><td>3</td><td>5</td><td>F</td><td>44</td><td>44.2</td><td>14.1</td></tr>
-      <tr><td>3.5</td><td>6</td><td>G</td><td>45</td><td>45.5</td><td>14.5</td></tr>
-      <tr><td>4</td><td>7</td><td>H</td><td>46</td><td>46.8</td><td>14.9</td></tr>
-      <tr><td>4.5</td><td>8</td><td>I</td><td>48</td><td>48.0</td><td>15.3</td></tr>
-      <tr><td>5</td><td>9</td><td>J</td><td>49</td><td>49.3</td><td>15.7</td></tr>
+      <tr><td>1</td><td>1</td><td>B</td><td>38</td><td>39.1mm</td><td>12.4mm</td></tr>
+      <tr><td>1.5</td><td>2</td><td>C</td><td>39</td><td>40.4mm</td><td>12.9mm</td></tr>
+      <tr><td>2</td><td>3</td><td>D</td><td>41</td><td>41.7mm</td><td>13.3mm</td></tr>
+      <tr><td>2.5</td><td>4</td><td>E</td><td>42</td><td>42.9mm</td><td>13.7mm</td></tr>
+      <tr><td>3</td><td>5</td><td>F</td><td>44</td><td>44.2mm</td><td>14.1mm</td></tr>
+      <tr><td>3.5</td><td>6</td><td>G</td><td>45</td><td>45.5mm</td><td>14.5mm</td></tr>
+      <tr><td>4</td><td>7</td><td>H</td><td>46</td><td>46.8mm</td><td>14.9mm</td></tr>
+      <tr><td>4.5</td><td>8</td><td>I</td><td>48</td><td>48.0mm</td><td>15.3mm</td></tr>
+      <tr><td>5</td><td>9</td><td>J</td><td>49</td><td>49.3mm</td><td>15.7mm</td></tr>
     </tbody>
   </table>
 
-  <h2>How to Measure Your Ring Size</h2>
-  <p>You need: string or paper strip + ruler.</p>
-  <div class="tip">
-    <strong>Step 1:</strong> Wrap string around your finger at the base, below the knuckle.<br>
-    <strong>Step 2:</strong> Mark where the string overlaps.<br>
-    <strong>Step 3:</strong> Measure the length in mm. That is your circumference.<br>
-    <strong>Step 4:</strong> Match it to the chart above.
-  </div>
-  <div class="tip">
-    <strong>Pro tips:</strong> Measure in the evening (fingers are largest). Measure at room temperature. Take 2 readings on different days and average. At sizes 2-4, half a size = less than 1.3mm.
+  <div class="two-col">
+    <div>
+      <h2>How to Measure Ring Size</h2>
+      <div class="tip">
+        <strong>1.</strong> Wrap string around finger base, below knuckle.<br>
+        <strong>2.</strong> Mark overlap. Measure in mm.<br>
+        <strong>3.</strong> Match to chart above.<br>
+        <strong>4.</strong> Measure in evening, room temp. Average 2 readings.
+      </div>
+      <p>At sizes 2-4, half a size = less than 1.3mm. Precision matters.</p>
+    </div>
+    <div>
+      <h2>Bracelet Formula</h2>
+      <div class="formula">Wrist + 1.5cm = Perfect fit</div>
+      <p>If wrist = 13cm, ideal bracelet = 14.5cm.<br>
+      Standard "small" = 15-16cm (2-4cm too big).<br>
+      The anklet hack: adjustable anklets cinch to 14-15cm.</p>
+    </div>
   </div>
 
-  <h2>Bracelet Sizing Formula</h2>
-  <div class="formula">Your wrist (cm) + 1.5cm = Perfect bracelet length</div>
-  <p>If your wrist is 13cm, your ideal bracelet is 14.5cm. Not 16cm. Standard "small" bracelets are still 2-4cm too big for you.</p>
+  <h2>5 Styling Rules for Petite Fingers</h2>
+  <div class="two-col">
+    <div class="rule"><strong>1. Band width under 2mm.</strong> On size 2-3, 1mm bands look elegant. 4mm overwhelms.</div>
+    <div class="rule"><strong>2. Stones under 0.5ct.</strong> Small solitaires and bezel settings flatter petite hands.</div>
+    <div class="rule"><strong>3. Stack thin rings.</strong> Layer 2-3 delicate bands instead of one thick ring.</div>
+    <div class="rule"><strong>4. Try the anklet hack.</strong> Adjustable anklets = perfect thin-wrist bracelets.</div>
+    <div class="rule"><strong>5. Start with Japanese brands.</strong> They carry sizes from US 1.5 as standard.</div>
+    <div class="rule"><strong>6. Custom costs $50-150 extra.</strong> Buy standard-stock sizes when possible.</div>
+  </div>
 </div>
 
-<!-- PAGE 2: BRANDS BY SIZE -->
+<!-- PAGE 3: ALL BRANDS - JAPANESE + SIZE 2 -->
 <div class="page">
+  <h2>Japanese Brands ({len(jp_brands)} brands) - Best for Sizes 1-3</h2>
+  <p>Japanese brands have always designed for smaller hands. Many carry rings from US 1.5 (JP 1).</p>
+  {brand_table(jp_brands)}
+
   <h2>Brands with Ring Size 2 or Smaller ({len(size2)} brands)</h2>
-  <p>The hardest size to find. These brands carry it as standard.</p>
+  <p>The hardest size to find. Every brand below carries it as standard stock.</p>
   {brand_table(size2)}
 
-  <h2>Japanese Brands ({len(jp_brands)} brands)</h2>
-  <p>Japanese brands start where Western brands stop. Many carry rings from US size 1.</p>
-  {brand_table(jp_brands)}
+  <h2>US and International Brands ({len(us_brands) + len(uk_brands) + len(other_brands)} brands)</h2>
+  {brand_table(us_brands + uk_brands + other_brands)}
 </div>
 
-<!-- PAGE 3: US/UK + BUDGET -->
+<!-- PAGE 4: BUDGET + ADJUSTABLE + QUICK REFERENCE -->
 <div class="page">
-  <h2>US and International Brands ({len(us_brands) + len(uk_brands)} brands)</h2>
-  {brand_table(us_brands + uk_brands)}
+  <h2>Budget Picks: Under $100 ({len(under100)} brands)</h2>
+  {brand_table(under100)}
 
-  <h2>Budget-Friendly: Under $100 ({len(under100)} brands)</h2>
-  <p>Small sizes do not have to mean big prices.</p>
-  {brand_table(under100, "Sorted by country. Prices are for entry-level pieces.")}
-</div>
-
-<!-- PAGE 4: ADJUSTABLE + TIPS -->
-<div class="page">
-  <h2>Adjustable Jewelry ({len(adjustable)} brands)</h2>
-  <p>Slider chains and open cuffs that fit wrists under 14cm.</p>
+  <h2>Adjustable Jewelry ({len(adjustable)} brands) - No Sizing Guesswork</h2>
+  <p>Slider chains and open cuffs that fit wrists under 14cm without custom orders.</p>
   {brand_table(adjustable)}
 
-  <h2>5 Rules for Petite Jewelry</h2>
-
-  <h3>1. Band width under 2mm</h3>
-  <p>On a size 2-3 finger, a 1mm band looks elegant. A 4mm band overwhelms.</p>
-
-  <h3>2. Stones under 0.5ct</h3>
-  <p>Large stones overpower small fingers. Bezel settings sit lower and snag less.</p>
-
-  <h3>3. Stack thin rings</h3>
-  <p>Layer 2-3 delicate bands (1-1.5mm each) instead of one thick ring.</p>
-
-  <h3>4. Try the anklet hack</h3>
-  <p>Adjustable anklets cinch down to 14-15cm. Same chain weight, perfect for thin wrists.</p>
-
-  <h3>5. Japanese brands first</h3>
-  <p>If you need size 1-3, start with Japanese brands. They have the widest selection.</p>
+  <h2>Quick Reference Card</h2>
+  <div class="two-col">
+    <div class="tip">
+      <strong>Ring Shopping Checklist</strong><br>
+      1. Measure in evening, room temp<br>
+      2. Check brand min size on TinyFit<br>
+      3. Read return policy (custom = no returns)<br>
+      4. Order half-size down if between sizes<br>
+      5. Band width: stick to 1-2mm for size 2-4
+    </div>
+    <div class="tip">
+      <strong>Bracelet Shopping Checklist</strong><br>
+      1. Wrist measurement + 1.5cm = your size<br>
+      2. Look for "adjustable" or "slider chain"<br>
+      3. Anklets often fit better than bracelets<br>
+      4. Avoid bangles (they slide off thin wrists)<br>
+      5. Check if brand carries under 15cm
+    </div>
+  </div>
 
   <div class="footer">
-    <p>TinyFit Jewelry | humancronadmin.github.io/tiny-fit-jewelry</p>
-    <p>All data verified as of 2026. Free to share.</p>
+    <p><strong>TinyFit Jewelry</strong> | humancronadmin.github.io/tiny-fit-jewelry</p>
+    <p>All data verified as of 2026. This guide is free to share and print.</p>
+    <p>Questions? Email petitedevlog@gmail.com | Follow @petitedevlog on X</p>
   </div>
 </div>
 
 </body>
 </html>"""
 
-# Write HTML and convert to PDF
 temp_html = Path(__file__).parent / "_temp_guide.html"
 temp_html.write_text(html, encoding="utf-8")
 
