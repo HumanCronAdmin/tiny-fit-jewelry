@@ -53,37 +53,39 @@ html = f"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
-@page {{ size: A4; margin: 1.2cm 1.5cm; }}
+@page {{ size: A4; margin: 1cm 1.3cm; }}
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-body {{ font-family: 'Inter', sans-serif; color: #1C1917; line-height: 1.45; font-size: 8.5pt; }}
+body {{ font-family: 'Inter', sans-serif; color: #1C1917; line-height: 1.35; font-size: 7.5pt; }}
 
-/* Cover */
-.cover {{ page-break-after: always; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(135deg, #B76E79 0%, #8B5E6B 100%); color: #fff; padding: 40px; }}
-.cover h1 {{ font-size: 36pt; font-weight: 900; margin-bottom: 12px; }}
-.cover .sub {{ font-size: 13pt; opacity: 0.9; max-width: 420px; line-height: 1.5; }}
-.cover .stats {{ display: flex; gap: 24px; margin-top: 32px; }}
-.cover .stat {{ background: rgba(255,255,255,0.15); padding: 12px 20px; border-radius: 10px; }}
-.cover .stat-num {{ font-size: 22pt; font-weight: 900; }}
-.cover .stat-label {{ font-size: 8pt; opacity: 0.8; }}
-.cover .url {{ margin-top: auto; font-size: 9pt; opacity: 0.5; }}
+/* Cover - compact */
+.cover {{ page-break-after: always; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(135deg, #B76E79 0%, #8B5E6B 100%); color: #fff; padding: 30px; }}
+.cover h1 {{ font-size: 32pt; font-weight: 900; margin-bottom: 8px; }}
+.cover .sub {{ font-size: 11pt; opacity: 0.9; max-width: 400px; line-height: 1.4; }}
+.cover .stats {{ display: flex; gap: 20px; margin-top: 24px; }}
+.cover .stat {{ background: rgba(255,255,255,0.15); padding: 10px 16px; border-radius: 8px; }}
+.cover .stat-num {{ font-size: 18pt; font-weight: 900; }}
+.cover .stat-label {{ font-size: 7pt; opacity: 0.8; }}
+.cover .url {{ margin-top: auto; font-size: 8pt; opacity: 0.5; }}
 
-/* Content pages */
-h2 {{ font-size: 12pt; font-weight: 800; color: #B76E79; margin: 14px 0 6px; border-bottom: 2px solid #B76E79; padding-bottom: 3px; }}
-h3 {{ font-size: 9.5pt; font-weight: 700; margin: 10px 0 4px; color: #44403C; }}
-p {{ margin: 3px 0; }}
+/* Content - no forced page breaks, tight spacing */
+h2 {{ font-size: 10pt; font-weight: 800; color: #B76E79; margin: 10px 0 3px; border-bottom: 2px solid #B76E79; padding-bottom: 2px; }}
+h3 {{ font-size: 8.5pt; font-weight: 700; margin: 6px 0 2px; color: #44403C; }}
+p {{ margin: 2px 0; font-size: 7pt; }}
 
-table {{ width: 100%; border-collapse: collapse; margin: 6px 0 12px; font-size: 7.5pt; }}
-th {{ background: #1C1917; color: #fff; padding: 4px 6px; text-align: left; font-weight: 600; font-size: 7pt; }}
-td {{ padding: 3px 6px; border-bottom: 1px solid #EEECEB; }}
+table {{ width: 100%; border-collapse: collapse; margin: 3px 0 8px; font-size: 6.5pt; }}
+th {{ background: #1C1917; color: #fff; padding: 2px 4px; text-align: left; font-weight: 600; font-size: 6pt; }}
+td {{ padding: 2px 4px; border-bottom: 1px solid #EEECEB; }}
 tr:nth-child(even) td {{ background: #FAFAF9; }}
+thead {{ display: table-header-group; }}
+tr {{ page-break-inside: avoid; }}
 
-.tip {{ background: #FAF5F6; border-left: 3px solid #B76E79; padding: 6px 10px; margin: 6px 0; border-radius: 0 6px 6px 0; font-size: 8pt; }}
-.formula {{ background: #1C1917; color: #fff; padding: 10px 16px; border-radius: 6px; text-align: center; font-size: 11pt; font-weight: 700; margin: 8px 0; }}
-.two-col {{ display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }}
-.rule {{ background: #FAF5F6; border-radius: 8px; padding: 8px 10px; }}
+.tip {{ background: #FAF5F6; border-left: 3px solid #B76E79; padding: 4px 8px; margin: 4px 0; border-radius: 0 4px 4px 0; font-size: 7pt; }}
+.formula {{ background: #1C1917; color: #fff; padding: 6px 12px; border-radius: 4px; text-align: center; font-size: 9pt; font-weight: 700; margin: 4px 0; }}
+.two-col {{ display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }}
+.rule {{ background: #FAF5F6; border-radius: 6px; padding: 4px 6px; font-size: 6.5pt; }}
 .rule strong {{ color: #B76E79; }}
-.footer {{ text-align: center; font-size: 7pt; color: #A8A29E; margin-top: 16px; padding-top: 8px; border-top: 1px solid #E7E5E4; }}
-.page {{ page-break-before: always; }}
+.footer {{ text-align: center; font-size: 6.5pt; color: #A8A29E; margin-top: 10px; padding-top: 6px; border-top: 1px solid #E7E5E4; }}
+/* No page breaks except after cover */
 </style>
 </head>
 <body>
@@ -101,7 +103,7 @@ tr:nth-child(even) td {{ background: #FAFAF9; }}
 </div>
 
 <!-- PAGE 2: SIZE CHARTS + MEASURING -->
-<div class="page">
+<div>
   <h2>Ring Size Conversion Chart (US 1-5)</h2>
   <table>
     <thead><tr><th>US</th><th>Japan</th><th>UK</th><th>EU</th><th>Circumference</th><th>Diameter</th></tr></thead>
@@ -150,7 +152,7 @@ tr:nth-child(even) td {{ background: #FAFAF9; }}
 </div>
 
 <!-- PAGE 3: ALL BRANDS - JAPANESE + SIZE 2 -->
-<div class="page">
+<div>
   <h2>Japanese Brands ({len(jp_brands)} brands) - Best for Sizes 1-3</h2>
   <p>Japanese brands have always designed for smaller hands. Many carry rings from US 1.5 (JP 1).</p>
   {brand_table(jp_brands)}
@@ -164,7 +166,7 @@ tr:nth-child(even) td {{ background: #FAFAF9; }}
 </div>
 
 <!-- PAGE 4: BUDGET + ADJUSTABLE + QUICK REFERENCE -->
-<div class="page">
+<div>
   <h2>Budget Picks: Under $100 ({len(under100)} brands)</h2>
   {brand_table(under100)}
 
