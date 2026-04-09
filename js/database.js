@@ -9,6 +9,7 @@
   const priceFilter = document.getElementById('filter-price');
   const matFilter = document.getElementById('filter-material');
   const adjFilter = document.getElementById('filter-adjustable');
+  const shipFilter = document.getElementById('filter-shipping');
   const sortSelect = document.getElementById('sort-by');
   const searchInput = document.getElementById('search-brand');
 
@@ -63,6 +64,9 @@
     if (mat) filtered = filtered.filter(b => b.materials.some(m => m.toLowerCase().includes(mat)));
     if (adj === 'yes') filtered = filtered.filter(b => b.adjustable);
     if (adj === 'no') filtered = filtered.filter(b => !b.adjustable);
+    const ship = shipFilter ? shipFilter.value : '';
+    if (ship === 'intl') filtered = filtered.filter(b => b.intl_shipping !== false);
+    if (ship === 'japan') filtered = filtered.filter(b => b.intl_shipping === false);
     if (q) filtered = filtered.filter(b => b.brand.toLowerCase().includes(q) || b.country.toLowerCase().includes(q) || b.note.toLowerCase().includes(q));
 
     const sort = sortSelect.value;
@@ -115,7 +119,7 @@
     grid.innerHTML = filtered.map(renderCard).join('');
   }
 
-  [catFilter, sizeFilter, priceFilter, matFilter, adjFilter, sortSelect].forEach(el => el.addEventListener('change', render));
+  [catFilter, sizeFilter, priceFilter, matFilter, adjFilter, shipFilter, sortSelect].filter(Boolean).forEach(el => el.addEventListener('change', render));
   searchInput.addEventListener('input', render);
 
   loadData();
