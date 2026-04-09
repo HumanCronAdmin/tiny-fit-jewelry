@@ -50,13 +50,14 @@
 <nav class="nav">
   <div class="container">
     <a href="index.html" class="nav-brand">Tiny<span>Fit</span></a>
-    <div class="nav-links">
-      <a href="rings.html">Rings</a>
-      <a href="bracelets.html">Bracelets</a>
-      <a href="database.html">Database</a>
-      <a href="guides.html">Guides</a>
-      <a href="compare.html" style="color:#B76E79;font-weight:700;">Compare</a>
-    </div>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="rings.html">Ring Guide</a></li>
+      <li><a href="bracelets.html">Bracelet Guide</a></li>
+      <li><a href="database.html">Brand Database</a></li>
+      <li><a href="guides.html">Guides</a></li>
+      <li><a href="compare.html">Compare</a></li>
+    </ul>
   </div>
 </nav>
 
@@ -155,10 +156,20 @@ fetch('data/brands.json').then(r=>r.json()).then(brands => {
 });
 </script>
 
+<footer class="footer">
+  <div class="container">
+    <div class="affiliate-disclosure">
+      <strong>Affiliate Disclosure:</strong> Some links on this site are affiliate links. We may earn a small commission if you make a purchase, at no extra cost to you. This helps us keep the database updated and free.
+    </div>
+    <p>&copy; 2026 TinyFit Jewelry. Built for women who know the struggle.</p>
+    <p style="margin-top:8px;"><a href="rings.html">Ring Guide</a> &middot; <a href="bracelets.html">Bracelet Guide</a> &middot; <a href="database.html">Database</a> &middot; <a href="compare.html">Compare</a> &middot; <a href="faq.html">FAQ</a> &middot; <a href="privacy.html">Privacy</a></p>
+  </div>
+</footer>
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6776399834647681" crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1N5PR9Y0H"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-H1N5PR9Y0H');</script>
-<script src="js/pinterest-save.js"></script>
+<script src="/tiny-fit-jewelry/js/pinterest-save.js"></script>
 <script src="js/wishlist.js"></script>
 </body>
 </html>
