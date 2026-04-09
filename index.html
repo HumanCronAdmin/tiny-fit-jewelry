@@ -37,7 +37,8 @@
       <li><a href="rings.html">Ring Guide</a></li>
       <li><a href="bracelets.html">Bracelet Guide</a></li>
       <li><a href="database.html">Brand Database</a></li>
-      <li><a href="guides.html">Guides</a></li>
+      <li><a href="guides.html">Guides</a>
+      <a href="compare.html">Compare</a></li>
     </ul>
   </div>
 </nav>
@@ -102,16 +103,25 @@
   </div>
 </section>
 
+<section style="background:var(--bg);">
+  <div class="container narrow">
+    <h2 class="section-title">Real Experiences</h2>
+    <p class="section-subtitle">From women who finally found jewelry that fits.</p>
+    <div id="testimonials-container"></div>
+  </div>
+</section>
+
 <section style="background:linear-gradient(135deg,#B76E79 0%,#8B5E6B 100%);color:#fff;padding:48px 0;">
   <div class="container narrow" style="text-align:center;">
-    <h2 style="color:#fff;margin:0 0 8px;font-size:1.5rem;">New brands added regularly.</h2>
-    <p style="color:rgba(255,255,255,0.85);margin:0 0 20px;font-size:0.95rem;">Get notified when we find new jewelry brands that carry your size. No spam, just brands.</p>
-    <form action="https://buttondown.com/api/emails/embed-subscribe/tinyfitjewelry" method="post" target="_blank" style="display:flex;gap:8px;max-width:420px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
-      <input type="hidden" name="tag" value="tinyfit">
-      <input type="email" name="email" placeholder="your@email.com" required style="flex:1;min-width:200px;padding:12px 16px;border:none;border-radius:8px;font-size:0.95rem;">
-      <button type="submit" style="padding:12px 24px;background:#1C1917;color:#fff;border:none;border-radius:8px;font-weight:600;font-size:0.95rem;cursor:pointer;">Subscribe</button>
+    <h2 style="color:#fff;margin:0 0 8px;font-size:1.5rem;">Free: The Complete Petite Size Guide (PDF)</h2>
+    <p style="color:rgba(255,255,255,0.85);margin:0 0 8px;font-size:0.95rem;">33 verified brands, size conversion charts, bracelet formula, and 5 styling rules — all in one printable guide.</p>
+    <p style="color:rgba(255,255,255,0.7);margin:0 0 20px;font-size:0.85rem;">Plus: get notified when we add new brands that carry your size.</p>
+    <form action="https://buttondown.com/api/emails/embed-subscribe/tinyfitjewelry" method="post" target="_blank" onsubmit="setTimeout(function(){window.open('guides/tinyfit-complete-size-guide.pdf','_blank')},500)" style="display:flex;gap:8px;max-width:480px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
+      <input type="hidden" name="tag" value="tinyfit-pdf">
+      <input type="email" name="email" placeholder="your@email.com" required style="flex:1;min-width:200px;padding:14px 16px;border:none;border-radius:8px;font-size:0.95rem;">
+      <button type="submit" style="padding:14px 28px;background:#1C1917;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:0.95rem;cursor:pointer;">Get Free Guide</button>
     </form>
-    <p style="font-size:0.75rem;color:rgba(255,255,255,0.6);margin:12px 0 0;">Free. Unsubscribe anytime.</p>
+    <p style="font-size:0.75rem;color:rgba(255,255,255,0.6);margin:12px 0 0;">Free PDF download + newsletter. Unsubscribe anytime.</p>
   </div>
 </section>
 
@@ -158,6 +168,8 @@
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-H1N5PR9Y0H');</script>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');</script>
 <script src="js/community.js"></script>
+<script src="js/testimonials.js"></script>
 <script src="/tiny-fit-jewelry/js/pinterest-save.js"></script>
+<script src="js/wishlist.js"></script>
 </body>
 </html>
