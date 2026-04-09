@@ -1,0 +1,11 @@
+Title: A free database of jewelry brands that actually carry ring sizes 2-4 and bracelets for wrists under 14cm
+
+Body:
+
+Most jewelry brands start at size 5 for rings and 16cm for bracelets. If your fingers or wrists are smaller than that, you're basically invisible to the industry.
+
+This site has 31 brands verified for their actual minimum sizes, filterable by size, price, material, and whether it's adjustable. Includes several Japanese brands that carry sizes as small as US 1.5 -- something most people outside Japan don't know about.
+
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+No accounts, no ads. Just data.

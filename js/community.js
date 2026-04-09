@@ -16,10 +16,10 @@
     + '  <p style="font-weight:700;font-size:1rem;color:#1C1917;margin:0 0 6px;">Help Us Stay Accurate</p>'
     + '  <p style="font-size:0.85rem;color:#78716C;margin:0 0 16px;line-height:1.5;">Real experiences from real people make this database better than any AI can. Share what you know.</p>'
     + '  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">'
-    + '    <a href="mailto:petitedevlog@gmail.com?subject=My%20Fit%20Experience&body=Hi!%20Here%27s%20my%20experience:%0A%0AMy%20ring%20size%20(US):%0AMy%20wrist%20size%20(cm):%0ABrand%20I%20tried:%0ADid%20it%20fit%3F%20(yes/no):%0ANotes:%0A" '
+    + '    <a href="https://github.com/HumanCronAdmin/tiny-fit-jewelry/issues/new?template=fit_experience.yml&title=Fit+Experience" target="_blank" rel="noopener" '
     + '       style="display:inline-block;padding:10px 20px;background:#B76E79;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.88rem;min-height:44px;line-height:24px;">'
     + '       Share My Fit Experience</a>'
-    + '    <a href="mailto:petitedevlog@gmail.com?subject=Brand%20Suggestion&body=Brand%20name:%0AMinimum%20ring%20size:%0AMinimum%20bracelet%20length:%0AWebsite%20URL:%0AAnything%20else:%0A" '
+    + '    <a href="https://github.com/HumanCronAdmin/tiny-fit-jewelry/issues/new?template=brand_suggestion.yml&title=Brand+Suggestion" target="_blank" rel="noopener" '
     + '       style="display:inline-block;padding:10px 20px;background:#1C1917;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.88rem;min-height:44px;line-height:24px;">'
     + '       Suggest a Brand</a>'
     + '  </div>'
@@ -57,8 +57,8 @@
       setTimeout(function() { el.style.opacity = '0.6'; }, 1500);
     } else {
       el.innerHTML = '<p style="font-weight:600;font-size:0.92rem;color:#1C1917;margin:0 0 10px;">Thanks for letting us know!</p>'
-        + '<a href="mailto:petitedevlog@gmail.com?subject=Outdated%20info:%20' + encodeURIComponent(brandName)
-        + '&body=Hi!%20The%20size%20info%20for%20' + encodeURIComponent(brandName) + '%20seems%20outdated.%0A%0AWhat%20changed:%0A" '
+        + '<a href="https://github.com/HumanCronAdmin/tiny-fit-jewelry/issues/new?title=Outdated+info:+' + encodeURIComponent(brandName)
+        + '&body=The+size+info+for+' + encodeURIComponent(brandName) + '+seems+outdated.%0A%0AWhat+changed:%0A" target="_blank" rel="noopener" '
         + 'style="display:inline-block;padding:10px 20px;background:#B76E79;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.88rem;min-height:44px;line-height:24px;">Tell Us What Changed</a>';
     }
   };

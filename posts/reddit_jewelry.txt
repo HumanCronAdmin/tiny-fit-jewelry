@@ -1,0 +1,18 @@
+Title: Resource: database of brands that carry ring sizes 2-4 (for those of us with tiny fingers)
+
+Body:
+
+I've seen a lot of posts here from people asking where to find rings in size 2, 3, or 4. Figured I'd share something I put together.
+
+I built a free database of 31 brands that are verified to carry small ring sizes, including:
+- Which brands actually go down to size 2 (Automic Gold, Satomi Kawakita, several Japanese brands)
+- Which carry size 3 (Catbird, Brilliant Earth, Vrai, etc.)
+- Japanese brands like Agete and 4C that start at US 1.5 as standard -- most people don't know about these
+
+Also has bracelet info for thin wrists (under 14cm).
+
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+You can filter by size, material, price range. No login or anything, just the data.
+
+If you know brands I'm missing, especially independent jewelers or Etsy shops that do custom small sizes, I'd love to add them.

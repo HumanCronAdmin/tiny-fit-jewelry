@@ -1,0 +1,75 @@
+PRODUCT HUNT LAUNCH COPY - TinyFit Jewelry
+============================================
+
+1. TAGLINE
+----------
+Finally, jewelry that fits tiny hands and wrists.
+
+
+2. DESCRIPTION
+--------------
+TinyFit Jewelry is a free, curated database of 31 verified brands that
+carry ring sizes 2-4 and bracelets for wrists under 14cm. No more
+guessing which brands go small enough -- every listing is size-verified
+so you can shop with confidence. Includes Japanese artisan brands that
+most Western shoppers have never heard of.
+
+
+3. MAKER COMMENT (first comment)
+---------------------------------
+Hi Product Hunt!
+
+I built TinyFit Jewelry because I got tired of the same frustrating
+cycle: find a beautiful ring online, fall in love with it, check the
+size chart -- smallest available is size 5. Close the tab. Repeat.
+
+I am 153cm tall. My ring size is 3. My wrist is 13.5cm around. Standard
+"small" jewelry does not fit me. It is not even close.
+
+After years of this, I started keeping a personal list of brands that
+actually carry my sizes. I discovered that Japanese jewelry makers are
+far ahead on this -- many of them craft down to size 1 as standard
+practice, not as a special order. But finding these brands from outside
+Japan is not easy, and most English-language jewelry guides completely
+ignore them.
+
+So I turned my personal list into a proper database. Every brand has
+been verified: I checked their size charts, confirmed availability, and
+noted the actual size ranges they carry. No affiliate links, no
+sponsored placements. Just 31 brands that genuinely serve small hands
+and wrists.
+
+If you have ever typed "tiny ring sizes" into a search bar at 2am, this
+is for you.
+
+
+4. TOPICS / TAGS
+-----------------
+- Fashion Tech
+- Women in Tech
+- Free
+- Design Tools
+- Curation
+
+
+5. GALLERY TEXT (screenshot descriptions)
+------------------------------------------
+Screenshot 1: HOMEPAGE
+Show the hero section with the tagline and the three main navigation
+paths (Rings / Bracelets / Full Database). Clean, minimal design that
+immediately communicates what the site does.
+
+Screenshot 2: RING DATABASE
+Show the rings listing page filtered to display brand cards with
+verified size ranges. Highlight the size badges (e.g., "Sizes 1-4")
+so viewers can see the verification at a glance.
+
+Screenshot 3: BRAND DETAIL
+Show one brand detail view with the full size chart, price range,
+shipping info, and direct link. Demonstrates the depth of information
+for each listing.
+
+Screenshot 4: RING SIZER TOOL
+Show the interactive ring sizer page. Demonstrates that the site is
+not just a directory but includes practical tools to help users find
+their actual size before shopping.

@@ -78,6 +78,32 @@
       <p style="font-size:0.72rem;color:#aaa;margin:8px 0 0;">Affiliate link &mdash; we may earn a small commission at no extra cost to you.</p>
     </div>
 
+    <div class="no-print" style="margin:40px 0;padding:28px;background:var(--white);border:2px solid var(--accent-light);border-radius:12px;">
+      <h2 style="margin-bottom:16px;">International Size Converter</h2>
+      <p style="margin-bottom:16px;font-size:0.9rem;color:var(--muted);">Select a ring size in any system to see the equivalent in all others.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;">
+        <select id="conv-system" style="padding:10px 14px;border:1px solid var(--border);border-radius:8px;font-size:0.9rem;min-height:44px;">
+          <option value="us">US Size</option>
+          <option value="jp">Japanese Size (JP)</option>
+          <option value="uk">UK Size</option>
+          <option value="eu">EU Size</option>
+          <option value="mm">Diameter (mm)</option>
+        </select>
+        <select id="conv-value" style="padding:10px 14px;border:1px solid var(--border);border-radius:8px;font-size:0.9rem;min-height:44px;flex:1;min-width:120px;"></select>
+      </div>
+      <div id="conv-result" style="background:#FAF5F6;padding:16px;border-radius:8px;"></div>
+
+      <h3 style="margin-top:28px;margin-bottom:12px;">Wrist Measurement Converter</h3>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+        <input type="number" id="wrist-input" placeholder="13.5" step="0.1" min="10" max="20" style="padding:10px 14px;border:1px solid var(--border);border-radius:8px;font-size:0.9rem;width:100px;min-height:44px;">
+        <select id="wrist-unit" style="padding:10px 14px;border:1px solid var(--border);border-radius:8px;font-size:0.9rem;min-height:44px;">
+          <option value="cm">cm</option>
+          <option value="in">inches</option>
+        </select>
+        <span id="wrist-result" style="font-weight:600;font-size:0.95rem;"></span>
+      </div>
+    </div>
+
     <p style="text-align:center;padding:24px 0;" class="no-print">After measuring, find brands that carry your size &rarr; <a href="database.html" class="btn">Browse Brand Database</a></p>
 
   </div>
@@ -93,7 +119,7 @@
   </div>
 <!-- Newsletter -->
 <div style="text-align:center;padding:24px 12px;margin:24px auto;max-width:600px;background:linear-gradient(135deg,#B76E79 0%,#8B5E6B 100%);border-radius:12px;">
-  <p style="font-weight:700;font-size:0.95rem;color:#fff;margin:0 0 8px;">We add new brands every week.</p>
+  <p style="font-weight:700;font-size:0.95rem;color:#fff;margin:0 0 8px;">New brands added regularly.</p>
   <p style="font-size:0.82rem;color:rgba(255,255,255,0.85);margin:0 0 12px;">Get notified when a new brand joins the database.</p>
   <form action="https://buttondown.com/api/emails/embed-subscribe/tinyfitjewelry" method="post" target="_blank" style="display:flex;gap:8px;max-width:380px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
     <input type="hidden" name="tag" value="tinyfit">
@@ -107,6 +133,41 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1N5PR9Y0H"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-H1N5PR9Y0H');</script>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');</script>
+<script>
+// Ring size conversion data (petite sizes focus)
+const sizes = [
+  {us:1,jp:1,uk:'B',eu:41.3,mm:13.1},{us:1.5,jp:2,uk:'C',eu:42.0,mm:13.4},
+  {us:2,jp:3,uk:'D',eu:42.7,mm:13.6},{us:2.5,jp:4,uk:'E',eu:43.5,mm:13.8},
+  {us:3,jp:5,uk:'F',eu:44.2,mm:14.1},{us:3.5,jp:6,uk:'F.5',eu:44.8,mm:14.3},
+  {us:4,jp:7,uk:'H',eu:46.8,mm:14.9},{us:4.5,jp:8,uk:'I',eu:47.4,mm:15.1},
+  {us:5,jp:9,uk:'J',eu:48.0,mm:15.3},{us:5.5,jp:10,uk:'K',eu:49.3,mm:15.7},
+  {us:6,jp:11,uk:'L',eu:50.6,mm:16.1},{us:6.5,jp:12,uk:'M',eu:51.2,mm:16.3},
+  {us:7,jp:13,uk:'N',eu:52.5,mm:16.7}
+];
+const sysEl=document.getElementById('conv-system'),valEl=document.getElementById('conv-value'),resEl=document.getElementById('conv-result');
+function populateValues(){
+  const s=sysEl.value;
+  valEl.innerHTML=sizes.map((r,i)=>'<option value="'+i+'">'+({us:r.us,jp:r.jp,uk:r.uk,eu:r.eu,mm:r.mm+'mm'}[s])+'</option>').join('');
+  convert();
+}
+function convert(){
+  const r=sizes[valEl.value];
+  if(!r)return;
+  resEl.innerHTML='<table style="width:100%;font-size:0.9rem;"><tr><td style="padding:6px 0;"><strong>US</strong></td><td>'+r.us+'</td></tr><tr><td style="padding:6px 0;"><strong>Japanese (JP)</strong></td><td>'+r.jp+'</td></tr><tr><td style="padding:6px 0;"><strong>UK</strong></td><td>'+r.uk+'</td></tr><tr><td style="padding:6px 0;"><strong>EU</strong></td><td>'+r.eu+'</td></tr><tr><td style="padding:6px 0;"><strong>Diameter</strong></td><td>'+r.mm+' mm</td></tr><tr><td style="padding:6px 0;"><strong>Circumference</strong></td><td>'+(r.mm*Math.PI).toFixed(1)+' mm</td></tr></table>';
+}
+sysEl.addEventListener('change',populateValues);
+valEl.addEventListener('change',convert);
+populateValues();
+// Wrist converter
+const wIn=document.getElementById('wrist-input'),wUnit=document.getElementById('wrist-unit'),wRes=document.getElementById('wrist-result');
+function convertWrist(){
+  const v=parseFloat(wIn.value);if(!v)return wRes.textContent='';
+  if(wUnit.value==='cm')wRes.textContent='= '+(v/2.54).toFixed(1)+' inches';
+  else wRes.textContent='= '+(v*2.54).toFixed(1)+' cm';
+}
+wIn.addEventListener('input',convertWrist);
+wUnit.addEventListener('change',convertWrist);
+</script>
 <script src="js/community.js"></script>
 </body>
 </html>

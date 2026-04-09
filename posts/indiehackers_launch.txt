@@ -1,0 +1,27 @@
+Title: I built a jewelry size database for women with tiny fingers -- 46 pages, zero cost, 1 day
+
+Body:
+
+THE PROBLEM
+
+If you wear a ring size 2-4 or have wrists under 14cm, shopping for jewelry online is miserable. Most brands start at size 5. You end up scrolling through dozens of sites, checking size charts one by one, only to find out they don't carry your size. There's no centralized resource that answers "which brands actually make jewelry small enough for me?"
+
+I know this because someone close to me has this exact problem.
+
+WHAT I BUILT
+
+TinyFit Jewelry (https://humancronadmin.github.io/tiny-fit-jewelry/) is a curated database of 31 verified jewelry brands that carry sizes for small hands and thin wrists. Users can filter by rings or bracelets, browse by brand, and find exactly what fits.
+
+Tech stack: plain HTML, CSS, and vanilla JS. Static site hosted on GitHub Pages. Total cost: $0. I built it in one day with AI assistance for research and code generation. Used programmatic SEO to generate 46 individual pages -- one per brand, plus category and size guide pages.
+
+THE NICHE OPPORTUNITY
+
+This market is genuinely underserved. There are Reddit threads, forum posts, and blog comments from women frustrated by the lack of small sizes. No one has aggregated the answer into a single searchable resource. One angle I haven't seen anywhere else: several Japanese jewelry brands specialize in petite sizing, but they're almost invisible to English-speaking shoppers. That gap alone makes this worth building.
+
+WHAT'S NEXT
+
+Monetization plan is affiliate links. I haven't activated them yet -- currently applying to brand affiliate programs. Growth strategy is SEO-driven: those 46 pages target long-tail queries like "ring size 3 brands" and "small wrist bracelet brands." I'll also share in relevant communities where people are actively asking this question.
+
+ASK
+
+Would love feedback on the site, the approach, or the niche. Has anyone here built a similar affiliate-style database site? What worked for getting initial traction before SEO kicks in? Any suggestions on affiliate networks that work well for jewelry brands?

@@ -1,0 +1,82 @@
+QUORA ANSWER DRAFTS — Tiny Fit Jewelry
+======================================
+
+
+Q1: "Where can I find rings in US size 2 or 3? Most brands start at size 5."
+-----------------------------------------------------------------------------
+
+I feel this so hard. I'm 153cm and my ring finger is a size 3. I spent years thinking something was wrong with me because nothing at the mall fit.
+
+Here is what I have found after a lot of searching. Most Western brands do start at size 5 or 6, which is useless for us. But there are options if you know where to look.
+
+Automic Gold carries rings starting at US size 2 in solid 14K gold. No plating, just real gold in actually small sizes. Catbird in Brooklyn also goes down to size 3 and their threadbare rings look beautiful on small fingers without overwhelming them. If you are open to Japanese brands, Agete starts at US 1.5 (their JP size 1) and their delicate vintage style works really well for petite hands.
+
+Adjustable rings can also work in a pinch, but honestly they never sit quite right on tiny fingers and tend to spin around.
+
+I got frustrated enough that I put together a searchable database of brands that actually carry small ring sizes. You can filter by your exact size: https://humancronadmin.github.io/tiny-fit-jewelry/
+
+It is not a complete list but I keep adding to it whenever I find something new.
+
+
+Q2: "My wrist is very thin (under 14cm). What bracelets won't fall off?"
+-------------------------------------------------------------------------
+
+My wrist is 13.5cm and I have lost more bracelets than I want to admit. Standard bracelets just slide right off my hand when I am not paying attention.
+
+A few things that actually work. First, look for brands that specifically make petite lengths. 4C (Yon-doshi), a Japanese jewelry brand, carries bracelets starting at 13.5cm which is the smallest I have found from any established brand. Bloom also makes bracelets at 14cm and they are pretty affordable as an entry point.
+
+Second, adjustable chain bracelets are your friend. Brands like Gorjana make sliding-clasp styles that you can tighten down to fit. Not as elegant as a fixed clasp but at least it stays on your wrist.
+
+Third, avoid bangles entirely unless they are hinged and very small in diameter. Open cuff styles can work if you can squeeze them tight enough but they lose their shape over time.
+
+I maintain a database where you can filter bracelets by minimum wrist size. It has saved me from a lot of wasted purchases: https://humancronadmin.github.io/tiny-fit-jewelry/
+
+The short version is that Japanese brands tend to run much smaller than Western ones.
+
+
+Q3: "Are there any jewelry brands that cater specifically to petite women?"
+---------------------------------------------------------------------------
+
+Yes, but most of them are Japanese. That is the honest answer.
+
+I am 153cm with a size 3 ring finger and a 13.5cm wrist, so I have spent a ridiculous amount of time on this. In the Western market, most "petite" jewelry means dainty-looking pieces in standard sizes, which completely misses the point.
+
+Japanese brands genuinely carry small sizes because the average hand and wrist sizes there are smaller. Agete and their sister brand Nojess both start rings at US size 1.5 and have a delicate aesthetic that actually suits small hands. Star Jewelry out of Yokohama carries size 2 and up with more of a modern look. These brands ship internationally though you may need a proxy service depending on where you are.
+
+On the Western side, Automic Gold goes down to size 2 in solid gold. Brilliant Earth and Vrai carry engagement rings from size 3 if you need something for a special occasion.
+
+I ended up building a free database that lets you filter jewelry brands by your actual measurements because I was tired of clicking through size charts one by one: https://humancronadmin.github.io/tiny-fit-jewelry/
+
+It covers rings, bracelets, and more across about 15 brands so far.
+
+
+Q4: "I need an engagement ring in size 3. Which jewelers carry this size?"
+---------------------------------------------------------------------------
+
+Congratulations first of all. And I totally understand the panic because finding a beautiful engagement ring in size 3 is way harder than it should be.
+
+I wear a size 3 myself and here is what I found when I went through this research.
+
+Brilliant Earth is probably your best mainstream option. They carry engagement rings from size 3, use ethically sourced stones, and offer free resizing if needed later. Their online customization tool is solid. Vrai is another great choice if you are interested in lab-grown diamonds. They also start at size 3 and the designs are clean and modern.
+
+For something less traditional, Catbird has some gorgeous options that go to size 3. Their designs lean delicate and unique which honestly looks better on small fingers than a massive solitaire would.
+
+One important tip: even if a jeweler does not list size 3 online, many will custom-size for you. Always ask. But it is easier to start with brands that already stock your size so the proportions of the setting are designed for a smaller band.
+
+I put together a database of brands sorted by minimum ring size to help with exactly this kind of search: https://humancronadmin.github.io/tiny-fit-jewelry/
+
+
+Q5: "Why don't more jewelry brands make small ring sizes?"
+-----------------------------------------------------------
+
+This is something I have thought about a lot as someone who wears a size 3.
+
+The main reason is economics. Most brands design for the bell curve, which in the US and Europe centers around sizes 6 to 8 for women. Sizes 2 and 3 represent a small percentage of buyers, so brands do not want to hold inventory that moves slowly. Each size requires its own mold or mandrel, and producing sizes that sell in low volume cuts into margins.
+
+There is also a design issue. Ring settings, stone mounts, and band widths that look proportional at size 7 can look clunky or structurally weak at size 2. Designing for small sizes often means rethinking the piece from scratch, not just scaling it down.
+
+This is why Japanese brands like Agete, Nojess, and Star Jewelry tend to carry much smaller sizes. The domestic market there has higher demand for sizes that Western brands consider niche. Their designs are built for small hands from the start.
+
+It is frustrating but the options are growing slowly. I track brands that carry small sizes in a free database here: https://humancronadmin.github.io/tiny-fit-jewelry/
+
+If enough of us buy from brands that stock small sizes, more will follow.

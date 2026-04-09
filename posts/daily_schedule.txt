@@ -1,0 +1,173 @@
+TinyFit Jewelry + Ship Fast Daily Schedule (FULL 8h version)
+Updated: 2026-04-05
+Base: 8:00 wake / 24:00 sleep / 8h active work
+
+============================================================
+EVERY DAY (8:00-17:00)
+============================================================
+
+--- 08:00-09:30 [90min] X ACTIVITY (non-negotiable) ---
+
+08:00  Phone: X notifications + GA4 check
+08:10  PC: python scripts/x_needs_pipeline.py --daily-posts
+08:15  Open output/x_daily_actions.txt
+08:20  Open ALL 10 search URLs. Scan every one.
+08:40  Reply to 5-10 tweets (personalize each one slightly)
+09:05  Post today's Build in Public tweet
+09:10  Reply to yesterday's responses
+09:20  Quote-RT or reply to 3-5 builders/petite fashion accounts
+09:30  Break 10min
+
+--- 09:40-11:00 [80min] DATA WORK ---
+
+09:40  Check all feedback (X DMs, Reddit comments, Quora)
+09:50  Add new brands to brands.json (research 3-5 new brands daily)
+       - Google "[brand name] ring size chart" to verify sizes
+       - Add to JSON, run node generate-pages.js, push
+10:40  Update site content based on feedback
+       - Fix errors, improve descriptions, add missing info
+11:00  Break. Lunch.
+
+--- 12:00-14:00 [120min] CONTENT CREATION (varies by day) ---
+
+  MONDAY: Long article for TinyFit
+    12:00  Write 1 SEO article (1500 words) with Claude Code
+           Topics rotation:
+           Week 1: "Best Engagement Rings in Size 3"
+           Week 2: "Agete vs 4C: Japanese Jewelry Size Comparison"
+           Week 3: "10 Etsy Shops for Ring Size 2"
+           Week 4: "Gift Guide: Jewelry for Petite Women Under $100"
+    13:30  Create 3 Pinterest pins from the article (Canva)
+    14:00  Publish + push + share on X
+
+  TUESDAY: Quora + Forums blitz
+    12:00  Search Quora for 10 new questions about small rings/bracelets
+    12:30  Write 5 detailed answers with site links
+    13:00  Search The Knot / WeddingWire for engagement ring sizing Qs
+    13:30  Answer 3-5 wedding forum questions
+    14:00  Search Facebook "petite jewelry" groups, answer questions
+
+  WEDNESDAY: NEW PRODUCT BUILD DAY
+    12:00  Review this week's pain points from X searches
+    12:15  Pick #1 pain point. Define: what to build in 3 hours
+    12:30  Build with Claude Code
+    15:30  Deploy to GitHub Pages
+    15:45  Post "I built this today" on X with screenshot
+    16:00  Reply to original tweeter who had the pain
+
+  THURSDAY: Outreach + Networking
+    12:00  Find 10 petite fashion accounts on X/IG. Engage genuinely
+    12:30  Find 5 jewelry bloggers. Leave thoughtful comments
+    13:00  Search "petite jewelry" on Medium. Comment on 3 articles
+    13:30  Write 1 Medium article (republish or new angle)
+    14:00  Post in Indie Hackers / r/SideProject with weekly update
+
+  FRIDAY: Pinterest + Database expansion
+    12:00  Create 10 Pinterest pins (Canva infographics, size charts)
+    13:00  Schedule all pins across boards
+    13:30  Research 10 new brands to add to database
+           - Search Etsy for "ring size 2", "ring size 3" shops
+           - Search for Korean/Thai jewelry brands (small Asian sizes)
+           - Verify each brand's actual size availability
+    14:30  Add verified brands to JSON, regenerate, push
+
+  SATURDAY: Competitor research + Strategy
+    12:00  Check SimilarWeb for petitedressing.com traffic
+    12:30  Read top 5 articles ranking for "petite jewelry" - what are they doing?
+    13:00  Check what's trending in r/petitefashion, r/jewelry
+    13:30  Check competitors' Pinterest boards - what pins perform well?
+    14:00  List 3 content gaps you can fill that competitors miss
+
+  SUNDAY: Weekly review + Planning
+    12:00  Numbers review (fill in every week):
+           X followers:       ___ → ___ (change: ___)
+           X impressions:     ___
+           X replies sent:    ___
+           X reply responses: ___
+           Site visitors:     ___
+           Top page:          ___
+           Affiliate clicks:  ___
+           New brands added:  ___
+           Articles published:___
+           Products shipped:  ___
+    12:30  Kill judgment:
+           - 2 weeks no X response → question the niche
+           - 1 month <50 visitors → pivot
+           - Response exists → double down
+    13:00  Plan next week:
+           Monday article topic:    ___
+           Wednesday build idea:    ___
+           Brands to research:      ___
+           Pinterest pin themes:    ___
+    13:30  Update handoff.md
+    14:00  Done with review
+
+--- 14:30-16:30 [120min] SECOND CONTENT BLOCK ---
+
+  14:30  Respond to ALL new X mentions, DMs, comments
+  15:00  Write tomorrow's X thread draft (save, don't post yet)
+  15:30  DAILY: Add 2-3 more brands to database
+         - Different source each day:
+           Mon: Japanese brands (search in Japanese)
+           Tue: Etsy top sellers in "tiny ring"
+           Wed: Korean/Asian brands
+           Thu: European indie jewelers
+           Fri: US DTC brands
+           Sat: Australian/NZ brands
+           Sun: Luxury brands with small sizes
+  16:00  Improve existing pages:
+         - Add internal links between brand pages
+         - Improve meta descriptions
+         - Fix any broken links
+  16:30  Final git push of the day
+
+--- 16:30-17:00 [30min] END OF DAY ---
+
+  16:30  Record today's numbers in a simple text file
+  16:45  Write 1 sentence: what's the #1 thing to do tomorrow
+  17:00  Done. Close PC.
+
+--- 20:00-21:00 [60min] OPTIONAL EVENING (phone OK) ---
+
+  20:00  Scroll X on phone. Like/reply to petite fashion posts
+  20:30  Read 1 Indie Hackers or r/juststart post
+  21:00  Done for real.
+
+============================================================
+WEEKLY TARGETS (track every Sunday)
+============================================================
+
+X replies:           50+ (7-10/day)
+X original posts:    7+ (1/day)
+New brands in DB:    15-20 (2-3/day)
+Articles:            1 (Monday)
+New products:        1 (Wednesday)
+Pinterest pins:      10+ (Friday)
+Quora answers:       5 (Tuesday)
+Forum answers:       5+ (Tuesday/Thursday)
+Medium articles:     1 (Thursday)
+
+============================================================
+MONTHLY MILESTONES
+============================================================
+
+Month 1 (April):
+  X followers:       100+
+  Site visitors:      500+
+  DB brands:          60+ (from 31)
+  Products shipped:   4+ (1/week)
+  Affiliate applied:  ShareASale, CJ, Etsy/Awin
+
+Month 2 (May):
+  X followers:       300+
+  Site visitors:      2,000+
+  DB brands:          100+
+  Affiliates active:  links replaced in brands.json
+  First click:        YES
+
+Month 3 (June):
+  X followers:       500+
+  Site visitors:      5,000+
+  DB brands:          150+
+  First $1 revenue:   YES
+  Products alive:     2-3 (from 12 shipped)

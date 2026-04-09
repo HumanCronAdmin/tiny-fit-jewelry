@@ -1,0 +1,282 @@
+[2026-04-09 02:28 UTC] ==================================================
+[2026-04-09 02:28 UTC] Pinterest Pipeline START [DRY RUN]
+[2026-04-09 02:28 UTC] ==================================================
+[2026-04-09 02:28 UTC] === Step: Auto-generate new pins ===
+[2026-04-09 02:28 UTC]   Found 15 new pages to create pins for:
+[2026-04-09 02:28 UTC]   
+[2026-04-09 02:28 UTC]     [guides-best-bracelets-thin-wrists] Best Bracelets for Thin Wrists: A Complete Guide
+[2026-04-09 02:28 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-bracelets-thin-wrists.html
+[2026-04-09 02:28 UTC]     [guides-best-rings-tiny-fingers] Best Rings for Tiny Fingers: A Size-by-Size Guide
+[2026-04-09 02:28 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-rings-tiny-fingers.html
+[2026-04-09 02:28 UTC]     [guides-engagement-ring-styles-petite-hands] The Ultimate Guide to Engagement Ring Styles for P
+[2026-04-09 02:28 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/engagement-ring-styles-petite-hands.html
+[2026-04-09 02:28 UTC]     [guides-make-ring-smaller-without-resizing] 7 Clever Ways to Make a Ring Smaller Without Perma
+[2026-04-09 02:28 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/make-ring-smaller-without-resizing.html
+[2026-04-09 02:28 UTC]     [guides-necklaces-for-petite-women] The Ultimate Guide to Necklaces for Petite Women
+[2026-04-09 02:28 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/necklaces-for-petite-women.html
+[2026-04-09 02:28 UTC]     [size-adjustable] Adjustable Jewelry for Petite Women
+[2026-04-09 02:28 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/adjustable.html
+[2026-04-09 02:28 UTC]     [size-japanese-brands] Japanese Jewelry Brands for Petite Sizes
+[2026-04-09 02:28 UTC]       Board: Japanese Jewelry Brands | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/japanese-brands.html
+[2026-04-09 02:28 UTC]     [size-ring-size-2] Rings in US Size 2 or Smaller
+[2026-04-09 02:28 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-2.html
+[2026-04-09 02:28 UTC]     [size-ring-size-3] Rings in US Size 3 or Smaller
+[2026-04-09 02:28 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-3.html
+[2026-04-09 02:28 UTC]     [size-ring-size-4] Rings in US Size 4 or Smaller
+[2026-04-09 02:28 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-4.html
+[2026-04-09 02:28 UTC]     [size-under-100] Petite Jewelry Under $100
+[2026-04-09 02:28 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/under-100.html
+[2026-04-09 02:28 UTC]     [size-wrist-14cm] Bracelets for Wrists 14cm or Under
+[2026-04-09 02:28 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-14cm.html
+[2026-04-09 02:28 UTC]     [size-wrist-15cm] Bracelets for Wrists 15cm or Under
+[2026-04-09 02:28 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-15cm.html
+[2026-04-09 02:28 UTC]     [page-bracelets] Bracelets for Thin Wrists Under 14cm: Complete Gui
+[2026-04-09 02:28 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/bracelets.html
+[2026-04-09 02:28 UTC]     [page-rings] Ring Size 2-4 Guide: Best Brands for Tiny Fingers
+[2026-04-09 02:28 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/rings.html
+[2026-04-09 02:28 UTC]   
+[2026-04-09 02:28 UTC]   [DRY RUN] Would create 15 pins. No changes made.
+[2026-04-09 02:28 UTC] === Step: Validate pins ===
+[2026-04-09 02:29 UTC]   Validating 38 pins (pending/failed)...
+[2026-04-09 02:29 UTC]   
+[2026-04-09 02:29 UTC]     [FAIL] info-01: Ring Size Chart: US vs Japanese vs EU Co
+[2026-04-09 02:29 UTC]            - Duplicate link: https://humancronadmin.github.io/tiny-fit-jewelry/rings.html
+[2026-04-09 02:29 UTC]     [FAIL] info-04: 5 Ring Styles That Look Best on Petite F
+[2026-04-09 02:29 UTC]            - Duplicate link: https://humancronadmin.github.io/tiny-fit-jewelry/rings.html
+[2026-04-09 02:29 UTC]   
+[2026-04-09 02:29 UTC]   === Validation Results ===
+[2026-04-09 02:29 UTC]     Valid: 36
+[2026-04-09 02:29 UTC]     Invalid: 2
+[2026-04-09 02:29 UTC]     Auto-fixed: 0
+[2026-04-09 02:29 UTC]     Total in queue: 38
+[2026-04-09 02:29 UTC] === Step: Post pins [SKIPPED - dry run] ===
+[2026-04-09 02:29 UTC] Pinterest Pipeline DONE
+[2026-04-09 02:29 UTC] 
+[2026-04-09 02:29 UTC] ==================================================
+[2026-04-09 02:29 UTC] Pinterest Pipeline START [DRY RUN]
+[2026-04-09 02:29 UTC] ==================================================
+[2026-04-09 02:29 UTC] === Step: Auto-generate new pins ===
+[2026-04-09 02:29 UTC]   Found 15 new pages to create pins for:
+[2026-04-09 02:29 UTC]   
+[2026-04-09 02:29 UTC]     [guides-best-bracelets-thin-wrists] Best Bracelets for Thin Wrists: A Complete Guide
+[2026-04-09 02:29 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-bracelets-thin-wrists.html
+[2026-04-09 02:29 UTC]     [guides-best-rings-tiny-fingers] Best Rings for Tiny Fingers: A Size-by-Size Guide
+[2026-04-09 02:29 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-rings-tiny-fingers.html
+[2026-04-09 02:29 UTC]     [guides-engagement-ring-styles-petite-hands] The Ultimate Guide to Engagement Ring Styles for P
+[2026-04-09 02:29 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/engagement-ring-styles-petite-hands.html
+[2026-04-09 02:29 UTC]     [guides-make-ring-smaller-without-resizing] 7 Clever Ways to Make a Ring Smaller Without Perma
+[2026-04-09 02:29 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/make-ring-smaller-without-resizing.html
+[2026-04-09 02:29 UTC]     [guides-necklaces-for-petite-women] The Ultimate Guide to Necklaces for Petite Women
+[2026-04-09 02:29 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/necklaces-for-petite-women.html
+[2026-04-09 02:29 UTC]     [size-adjustable] Adjustable Jewelry for Petite Women
+[2026-04-09 02:29 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/adjustable.html
+[2026-04-09 02:29 UTC]     [size-japanese-brands] Japanese Jewelry Brands for Petite Sizes
+[2026-04-09 02:29 UTC]       Board: Japanese Jewelry Brands | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/japanese-brands.html
+[2026-04-09 02:29 UTC]     [size-ring-size-2] Rings in US Size 2 or Smaller
+[2026-04-09 02:29 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-2.html
+[2026-04-09 02:29 UTC]     [size-ring-size-3] Rings in US Size 3 or Smaller
+[2026-04-09 02:29 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-3.html
+[2026-04-09 02:29 UTC]     [size-ring-size-4] Rings in US Size 4 or Smaller
+[2026-04-09 02:29 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-4.html
+[2026-04-09 02:29 UTC]     [size-under-100] Petite Jewelry Under $100
+[2026-04-09 02:29 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/under-100.html
+[2026-04-09 02:29 UTC]     [size-wrist-14cm] Bracelets for Wrists 14cm or Under
+[2026-04-09 02:29 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-14cm.html
+[2026-04-09 02:29 UTC]     [size-wrist-15cm] Bracelets for Wrists 15cm or Under
+[2026-04-09 02:29 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-15cm.html
+[2026-04-09 02:29 UTC]     [page-bracelets] Bracelets for Thin Wrists Under 14cm: Complete Gui
+[2026-04-09 02:29 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/bracelets.html
+[2026-04-09 02:29 UTC]     [page-rings] Ring Size 2-4 Guide: Best Brands for Tiny Fingers
+[2026-04-09 02:29 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/rings.html
+[2026-04-09 02:29 UTC]   
+[2026-04-09 02:29 UTC]   [DRY RUN] Would create 15 pins. No changes made.
+[2026-04-09 02:29 UTC] === Step: Validate pins ===
+[2026-04-09 02:29 UTC]   Validating 0 pins (pending/failed)...
+[2026-04-09 02:29 UTC]   
+[2026-04-09 02:29 UTC]   
+[2026-04-09 02:29 UTC]   === Validation Results ===
+[2026-04-09 02:29 UTC]     Valid: 0
+[2026-04-09 02:29 UTC]     Invalid: 0
+[2026-04-09 02:29 UTC]     Auto-fixed: 0
+[2026-04-09 02:29 UTC]     Total in queue: 38
+[2026-04-09 02:29 UTC] === Step: Post pins [SKIPPED - dry run] ===
+[2026-04-09 02:29 UTC] Pinterest Pipeline DONE
+[2026-04-09 02:29 UTC] 
+[2026-04-09 02:35 UTC] ==================================================
+[2026-04-09 02:35 UTC] Pinterest Pipeline START [DRY RUN]
+[2026-04-09 02:35 UTC] ==================================================
+[2026-04-09 02:35 UTC] === Step: Generate content pins ===
+[2026-04-09 02:35 UTC]   [price] 4 new pins:
+[2026-04-09 02:35 UTC]     price-under-50: Petite Jewelry Under $50: 14 Verified Brands
+[2026-04-09 02:35 UTC]     price-under-100: Petite Jewelry Under $100: 25 Verified Brands
+[2026-04-09 02:35 UTC]     price-under-200: Petite Jewelry Under $200: 28 Verified Brands
+[2026-04-09 02:35 UTC]     price-luxury: Petite Jewelry Luxury Picks ($200+): 5 Verified Brands
+[2026-04-09 02:35 UTC]   
+[2026-04-09 02:35 UTC]   [country] 3 new pins:
+[2026-04-09 02:35 UTC]     country-japan: 9 Japan Brands with Petite Ring Sizes (Verified)
+[2026-04-09 02:35 UTC]     country-usa: 17 USA Brands with Petite Ring Sizes (Verified)
+[2026-04-09 02:35 UTC]     country-uk: 3 UK Brands with Petite Ring Sizes (Verified)
+[2026-04-09 02:35 UTC]   [ERROR] Exit code 1
+[2026-04-09 02:35 UTC]   STDERR: Traceback (most recent call last):
+[2026-04-09 02:35 UTC]   STDERR:   File "C:\Users\user\Claude-Workspace\projects\tiny-fit-jewelry\pinterest\content_generator.py", line 489, in <module>
+[2026-04-09 02:35 UTC]   STDERR:     main()
+[2026-04-09 02:35 UTC]   STDERR:     ~~~~^^
+[2026-04-09 02:35 UTC]   STDERR:   File "C:\Users\user\Claude-Workspace\projects\tiny-fit-jewelry\pinterest\content_generator.py", line 460, in main
+[2026-04-09 02:35 UTC] === Step: Auto-generate page pins ===
+[2026-04-09 02:36 UTC]   Found 15 new pages to create pins for:
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]     [guides-best-bracelets-thin-wrists] Best Bracelets for Thin Wrists: A Complete Guide
+[2026-04-09 02:36 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-bracelets-thin-wrists.html
+[2026-04-09 02:36 UTC]     [guides-best-rings-tiny-fingers] Best Rings for Tiny Fingers: A Size-by-Size Guide
+[2026-04-09 02:36 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-rings-tiny-fingers.html
+[2026-04-09 02:36 UTC]     [guides-engagement-ring-styles-petite-hands] The Ultimate Guide to Engagement Ring Styles for P
+[2026-04-09 02:36 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/engagement-ring-styles-petite-hands.html
+[2026-04-09 02:36 UTC]     [guides-make-ring-smaller-without-resizing] 7 Clever Ways to Make a Ring Smaller Without Perma
+[2026-04-09 02:36 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/make-ring-smaller-without-resizing.html
+[2026-04-09 02:36 UTC]     [guides-necklaces-for-petite-women] The Ultimate Guide to Necklaces for Petite Women
+[2026-04-09 02:36 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/necklaces-for-petite-women.html
+[2026-04-09 02:36 UTC]     [size-adjustable] Adjustable Jewelry for Petite Women
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/adjustable.html
+[2026-04-09 02:36 UTC]     [size-japanese-brands] Japanese Jewelry Brands for Petite Sizes
+[2026-04-09 02:36 UTC]       Board: Japanese Jewelry Brands | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/japanese-brands.html
+[2026-04-09 02:36 UTC]     [size-ring-size-2] Rings in US Size 2 or Smaller
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-2.html
+[2026-04-09 02:36 UTC]     [size-ring-size-3] Rings in US Size 3 or Smaller
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-3.html
+[2026-04-09 02:36 UTC]     [size-ring-size-4] Rings in US Size 4 or Smaller
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-4.html
+[2026-04-09 02:36 UTC]     [size-under-100] Petite Jewelry Under $100
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/under-100.html
+[2026-04-09 02:36 UTC]     [size-wrist-14cm] Bracelets for Wrists 14cm or Under
+[2026-04-09 02:36 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-14cm.html
+[2026-04-09 02:36 UTC]     [size-wrist-15cm] Bracelets for Wrists 15cm or Under
+[2026-04-09 02:36 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-15cm.html
+[2026-04-09 02:36 UTC]     [page-bracelets] Bracelets for Thin Wrists Under 14cm: Complete Gui
+[2026-04-09 02:36 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/bracelets.html
+[2026-04-09 02:36 UTC]     [page-rings] Ring Size 2-4 Guide: Best Brands for Tiny Fingers
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/rings.html
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [DRY RUN] Would create 15 pins. No changes made.
+[2026-04-09 02:36 UTC] === Step: Generate missing images ===
+[2026-04-09 02:36 UTC]   All pin images exist. Nothing to generate.
+[2026-04-09 02:36 UTC] === Step: Validate pins ===
+[2026-04-09 02:36 UTC]   Validating 0 pins (pending/failed)...
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   === Validation Results ===
+[2026-04-09 02:36 UTC]     Valid: 0
+[2026-04-09 02:36 UTC]     Invalid: 0
+[2026-04-09 02:36 UTC]     Auto-fixed: 0
+[2026-04-09 02:36 UTC]     Total in queue: 38
+[2026-04-09 02:36 UTC] === Step: Post pins [SKIPPED - dry run] ===
+[2026-04-09 02:36 UTC] Pinterest Pipeline DONE
+[2026-04-09 02:36 UTC] 
+[2026-04-09 02:36 UTC] ==================================================
+[2026-04-09 02:36 UTC] Pinterest Pipeline START [DRY RUN]
+[2026-04-09 02:36 UTC] ==================================================
+[2026-04-09 02:36 UTC] === Step: Generate content pins ===
+[2026-04-09 02:36 UTC]   [price] 4 new pins:
+[2026-04-09 02:36 UTC]     price-under-50: Petite Jewelry Under $50: 14 Verified Brands
+[2026-04-09 02:36 UTC]     price-under-100: Petite Jewelry Under $100: 25 Verified Brands
+[2026-04-09 02:36 UTC]     price-under-200: Petite Jewelry Under $200: 28 Verified Brands
+[2026-04-09 02:36 UTC]     price-luxury: Petite Jewelry Luxury Picks ($200+): 5 Verified Brands
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [country] 3 new pins:
+[2026-04-09 02:36 UTC]     country-japan: 9 Japan Brands with Petite Ring Sizes (Verified)
+[2026-04-09 02:36 UTC]     country-usa: 17 USA Brands with Petite Ring Sizes (Verified)
+[2026-04-09 02:36 UTC]     country-uk: 3 UK Brands with Petite Ring Sizes (Verified)
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [usecase] 6 new pins:
+[2026-04-09 02:36 UTC]     usecase-engagement: Engagement Rings in Size 2-4: Where to Actually Find Them
+[2026-04-09 02:36 UTC]     usecase-everyday-stack: Best Stackable Rings for Small Fingers (Size 2-4)
+[2026-04-09 02:36 UTC]     usecase-gift-guide: Gift Guide: Jewelry for Someone with Tiny Fingers
+[2026-04-09 02:36 UTC]     usecase-adjustable: Adjustable Jewelry That Actually Works for Thin Wrists
+[2026-04-09 02:36 UTC]     usecase-minimalist: Minimalist Jewelry for Petite Women: Less Is More
+[2026-04-09 02:36 UTC]     usecase-sustainable: Ethical & Sustainable Petite Jewelry Brands (Verified Sizes)
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [comparison] 8 new pins:
+[2026-04-09 02:36 UTC]     compare-agete-vs-catbird: Japanese Elegance vs Brooklyn Cool: Rings from Size 1-3
+[2026-04-09 02:36 UTC]     compare-mejuri-vs-ana-luisa: Mejuri vs Ana Luisa: Which Has Better Petite Sizes?
+[2026-04-09 02:36 UTC]     compare-brilliant-earth-vs-vrai: Lab Diamond Engagement Rings in Small Sizes: Who Wins?
+[2026-04-09 02:36 UTC]     compare-4-yon-doshi-vs-star-jewelry: Japan's Top 2 Petite Jewelry Brands Compared
+[2026-04-09 02:36 UTC]     compare-gorjana-vs-monica-vinader: Best Adjustable Bracelets for Thin Wrists: Compared
+[2026-04-09 02:36 UTC]     compare-nojess-vs-bloom: Affordable Japanese Petite Jewelry: Nojess vs Bloom
+[2026-04-09 02:36 UTC]     compare-automic-gold-vs-catbird: Custom Size Rings: Automic Gold vs Catbird
+[2026-04-09 02:36 UTC]     compare-missoma-vs-stone-and-strand: Trendy Petite Jewelry Under $200: UK vs USA
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [problem] 5 new pins:
+[2026-04-09 02:36 UTC]     problem-ring-spinning: Ring Keeps Spinning on Your Finger? Here Is the Fix
+[2026-04-09 02:36 UTC]     problem-bracelet-sliding: Bracelet Keeps Sliding Off? Your Wrist Is Below Industry Sta
+[2026-04-09 02:36 UTC]     problem-childrens-section: Stop Sending Us to the Children's Section (We Wear Size 2-4)
+[2026-04-09 02:36 UTC]     tip-measure-evening: Always Measure Your Ring Size in the Evening (Here Is Why)
+[2026-04-09 02:36 UTC]     tip-proportion-rule: The Proportion Rule: Why Thin Bands Look Better on Small Fin
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [seasonal] 6 new pins:
+[2026-04-09 02:36 UTC]     seasonal-valentines: Valentine's Day Jewelry for Petite Women (2026)
+[2026-04-09 02:36 UTC]     seasonal-holiday: Holiday Gift Guide: Petite Jewelry (2026)
+[2026-04-09 02:36 UTC]     seasonal-wedding: Wedding Season Jewelry for Petite Brides & Guests (2026)
+[2026-04-09 02:36 UTC]     seasonal-summer: Summer Jewelry for Petite Women: Lightweight & Small (2026)
+[2026-04-09 02:36 UTC]     seasonal-graduation: Graduation Gift: Jewelry for Petite Women (2026)
+[2026-04-09 02:36 UTC]     seasonal-mothers-day: Mother's Day Jewelry for Petite Moms (2026)
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [material] 3 new pins:
+[2026-04-09 02:36 UTC]     material-gold: Gold Rings in Size 2-4: Every Brand That Carries Them
+[2026-04-09 02:36 UTC]     material-silver: Sterling Silver Petite Jewelry: Affordable Small Sizes
+[2026-04-09 02:36 UTC]     material-platinum: Platinum Rings in Petite Sizes: Where to Find Them
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [checklist] 3 new pins:
+[2026-04-09 02:36 UTC]     checklist-shopping: Petite Jewelry Shopping Checklist (Save This!)
+[2026-04-09 02:36 UTC]     checklist-online-ordering: How to Order Jewelry Online When You Wear Size 2-4
+[2026-04-09 02:36 UTC]     data-sizes-by-country: Average Ring Size by Country: Where Do You Fit?
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   === Total: 38 new pins ===
+[2026-04-09 02:36 UTC]   [DRY RUN] No changes made.
+[2026-04-09 02:36 UTC] === Step: Auto-generate page pins ===
+[2026-04-09 02:36 UTC]   Found 15 new pages to create pins for:
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]     [guides-best-bracelets-thin-wrists] Best Bracelets for Thin Wrists: A Complete Guide
+[2026-04-09 02:36 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-bracelets-thin-wrists.html
+[2026-04-09 02:36 UTC]     [guides-best-rings-tiny-fingers] Best Rings for Tiny Fingers: A Size-by-Size Guide
+[2026-04-09 02:36 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-rings-tiny-fingers.html
+[2026-04-09 02:36 UTC]     [guides-engagement-ring-styles-petite-hands] The Ultimate Guide to Engagement Ring Styles for P
+[2026-04-09 02:36 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/engagement-ring-styles-petite-hands.html
+[2026-04-09 02:36 UTC]     [guides-make-ring-smaller-without-resizing] 7 Clever Ways to Make a Ring Smaller Without Perma
+[2026-04-09 02:36 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/make-ring-smaller-without-resizing.html
+[2026-04-09 02:36 UTC]     [guides-necklaces-for-petite-women] The Ultimate Guide to Necklaces for Petite Women
+[2026-04-09 02:36 UTC]       Board: Petite Style Tips | Link: https://humancronadmin.github.io/tiny-fit-jewelry/guides/necklaces-for-petite-women.html
+[2026-04-09 02:36 UTC]     [size-adjustable] Adjustable Jewelry for Petite Women
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/adjustable.html
+[2026-04-09 02:36 UTC]     [size-japanese-brands] Japanese Jewelry Brands for Petite Sizes
+[2026-04-09 02:36 UTC]       Board: Japanese Jewelry Brands | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/japanese-brands.html
+[2026-04-09 02:36 UTC]     [size-ring-size-2] Rings in US Size 2 or Smaller
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-2.html
+[2026-04-09 02:36 UTC]     [size-ring-size-3] Rings in US Size 3 or Smaller
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-3.html
+[2026-04-09 02:36 UTC]     [size-ring-size-4] Rings in US Size 4 or Smaller
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-4.html
+[2026-04-09 02:36 UTC]     [size-under-100] Petite Jewelry Under $100
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/under-100.html
+[2026-04-09 02:36 UTC]     [size-wrist-14cm] Bracelets for Wrists 14cm or Under
+[2026-04-09 02:36 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-14cm.html
+[2026-04-09 02:36 UTC]     [size-wrist-15cm] Bracelets for Wrists 15cm or Under
+[2026-04-09 02:36 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-15cm.html
+[2026-04-09 02:36 UTC]     [page-bracelets] Bracelets for Thin Wrists Under 14cm: Complete Gui
+[2026-04-09 02:36 UTC]       Board: Bracelets for Thin Wrists | Link: https://humancronadmin.github.io/tiny-fit-jewelry/bracelets.html
+[2026-04-09 02:36 UTC]     [page-rings] Ring Size 2-4 Guide: Best Brands for Tiny Fingers
+[2026-04-09 02:36 UTC]       Board: Ring Size 2-4 Guide | Link: https://humancronadmin.github.io/tiny-fit-jewelry/rings.html
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   [DRY RUN] Would create 15 pins. No changes made.
+[2026-04-09 02:36 UTC] === Step: Generate missing images ===
+[2026-04-09 02:36 UTC]   All pin images exist. Nothing to generate.
+[2026-04-09 02:36 UTC] === Step: Validate pins ===
+[2026-04-09 02:36 UTC]   Validating 0 pins (pending/failed)...
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   
+[2026-04-09 02:36 UTC]   === Validation Results ===
+[2026-04-09 02:36 UTC]     Valid: 0
+[2026-04-09 02:36 UTC]     Invalid: 0
+[2026-04-09 02:36 UTC]     Auto-fixed: 0
+[2026-04-09 02:36 UTC]     Total in queue: 38
+[2026-04-09 02:36 UTC] === Step: Post pins [SKIPPED - dry run] ===
+[2026-04-09 02:36 UTC] Pinterest Pipeline DONE
+[2026-04-09 02:36 UTC] 

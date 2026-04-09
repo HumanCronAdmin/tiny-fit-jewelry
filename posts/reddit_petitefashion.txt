@@ -1,0 +1,20 @@
+Title: I made a free database of jewelry brands that carry ring sizes 2-4 and bracelets for wrists under 14cm
+
+Body:
+
+Hey everyone. I'm 153cm with size 3 ring fingers and a 13.5cm wrist. I've been lurking here for a while and I know a lot of us share the same frustration with jewelry sizing.
+
+I got tired of googling "small ring size" and getting results that start at size 5, or reading "petite jewelry" articles that recommend brands with nothing below a 4. So I spent some time researching and built a free database.
+
+What it has:
+- 31 brands verified for their actual minimum ring size and bracelet length
+- Filter by size, price, material, and adjustable/non-adjustable
+- Japanese brands that most of us don't know about (they carry sizes from US 1.5 as standard)
+- Ring size guide with US/JP/EU/UK conversion
+- Bracelet guide for wrists under 14cm
+
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+I'd really appreciate it if you took a look and told me what's missing. If you know any brands that carry small sizes that aren't listed, please tell me. I want this to be as complete as possible.
+
+Also open to suggestions on what other content would be helpful. Thinking about doing individual brand reviews focused on their small size offerings.

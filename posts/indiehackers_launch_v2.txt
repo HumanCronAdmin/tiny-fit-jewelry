@@ -1,0 +1,39 @@
+Title: I built a free jewelry database for women with tiny fingers. Posted it on Reddit and the community started building it with me.
+
+Body:
+
+THE PROBLEM
+
+If you wear a ring size 2-4 or have wrists under 14cm, shopping for jewelry online sucks. Most brands start at size 5. You end up checking size charts one by one across dozens of sites only to find out they dont carry your size. No one has made a single place that answers "which brands actually make jewelry small enough for me?"
+
+I know this because I have this exact problem. Im 153cm with ring size 3 and 13.5cm wrists.
+
+WHAT I BUILT
+
+TinyFit Jewelry (https://humancronadmin.github.io/tiny-fit-jewelry/) is a database of 33 verified jewelry brands that carry small sizes. Filter by ring size, bracelet length, price, country. Static site, GitHub Pages, $0 cost.
+
+Tech: plain HTML/CSS/JS. I used a Node script to generate 46 pages programmatically from a single JSON file -- one page per brand, plus size filter pages and guides. Adding a new brand takes 2 minutes: add to JSON, run the script, push.
+
+WHAT HAPPENED WHEN I SHARED IT
+
+I posted it on r/XXS (a subreddit for petite women). 130 upvotes, 36 comments. But the interesting part wasnt the numbers -- people started contributing. They told me about brands I had never heard of. One person recommended an Etsy shop. Another pointed out a brand link on my site was broken. Someone shared a bracelet line specifically made for 5.5 inch wrists.
+
+I added every brand suggestion to the database the same day. Fixed the broken link within hours. The community is literally building this with me and that was not part of the plan.
+
+THE NICHE
+
+This is genuinely underserved. There are Reddit threads and forum posts going back years from women frustrated about this. No one aggregated the answer. One thing I found: Japanese jewelry brands carry some of the smallest sizes in the world but are almost invisible to English speakers. That gap alone makes this worth building.
+
+MONETIZATION
+
+Plan is affiliate links. Havent activated yet -- applying to programs now. 33 brands across 8 countries gives me a decent spread. The site targets long-tail SEO queries like "ring size 3 brands" and "bracelet for thin wrist."
+
+LESSONS SO FAR
+
+1. Post where your users actually are, not where builders hang out. Reddit gave me real users and real feedback. Twitter gave me impressions from other builders.
+2. A broken link on your site can kill trust instantly. Someone caught mine before I did. Build feedback loops early.
+3. Programmatic SEO from a JSON file is underrated. 46 pages from one data source. Easy to maintain, easy to scale.
+
+ASK
+
+Anyone here running a similar niche database or affiliate site? How did you get initial traction before SEO kicked in? What affiliate networks work well for you?

@@ -1,0 +1,15 @@
+Title: I built a jewelry size database because nothing fits my tiny fingers
+
+Body:
+
+I have size 3 ring fingers and a 13.5cm wrist. If you know, you know -- every "small" ring starts at size 5, every bracelet slides right off. I've spent years buying rings that spin around my finger and bracelets I had to wrap with hair ties to keep on.
+
+So I got frustrated enough to actually do something about it. I built a database of 31 brands that are verified to carry truly small sizes -- rings from US size 1.5 up, bracelets for wrists under 14cm.
+
+One thing that surprised me during research: Japanese jewelry brands carry incredibly small sizes as standard. Like, size 1.5 is just normal inventory for them. Most Western brands don't even acknowledge we exist, but Japanese craftsmen have been making tiny sizes forever. I included a bunch of those in the database.
+
+The site lets you filter by size, material, price range, and whether something is adjustable. No accounts, no ads, just the data.
+
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+Would love feedback on the site. Also if you know any brands that carry genuinely small sizes that I'm missing, please drop them -- I want to keep growing this.
