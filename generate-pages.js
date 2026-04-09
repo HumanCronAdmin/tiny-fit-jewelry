@@ -151,6 +151,18 @@ for (const b of brands) {
     </div>`
   ).join('\n      ');
 
+  // Build size availability lines (no empty lines)
+  const sizeLines = [];
+  if (hasRing) sizeLines.push(`<p><strong>Rings:</strong> Available from US size ${b.min_ring_size_us}. ${b.min_ring_size_us <= 2 ? 'This is one of the few brands that carries sizes this small for adult women.' : b.min_ring_size_us <= 3 ? 'Size 3 is available, which is smaller than most mainstream brands.' : 'Size 4 is available, though some styles may start at 5.'}</p>`);
+  if (hasBracelet) sizeLines.push(`<p><strong>Bracelets:</strong> Available from ${b.min_bracelet_cm}cm. ${b.min_bracelet_cm <= 14 ? 'This works for wrists under 14cm without modification.' : 'You may need the smallest setting or an adjustable style for wrists under 14cm.'}</p>`);
+  if (b.adjustable) sizeLines.push('<p><strong>Adjustable:</strong> Yes. Some pieces can be adjusted to fit smaller sizes.</p>');
+
+  // CTA button
+  const visitLabel = b.intl_shipping === false ? 'View ' + b.brand + ' (Japan Only)' : 'Shop ' + b.brand;
+  const visitUrl = b.affiliate_url || b.shop_url;
+  const sizeChartBtn = b.size_chart_url && b.size_chart_url !== b.shop_url ? `<a href="${b.size_chart_url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-left:8px;">Size Chart</a>` : '';
+  const amazonBtn = b.amazon_url ? `<a href="${b.amazon_url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-left:8px;">Find on Amazon</a>` : '';
+
   const html = `${headBlock(title, desc, `brands/${s}.html`, brandSchema)}
 <body>
 ${nav()}
@@ -158,7 +170,7 @@ ${nav()}
   <div class="container narrow">
     <p style="font-size:0.85rem;color:var(--muted);margin-bottom:8px;"><a href="../database.html">&larr; All Brands</a></p>
     <h1>${b.brand} Size Guide for Petite Women</h1>
-    <p class="meta">${b.country} &middot; ${cats} &middot; $${b.price_min}&ndash;$${b.price_max}</p>
+    <p class="meta">${b.country} &middot; ${cats} &middot; $${b.price_min}&ndash;$${b.price_max} &middot; <em>${b.style}</em></p>
 
     ${b.verified ? '<div style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:#E8F5E9;border-radius:20px;font-size:0.82rem;font-weight:600;color:#2E7D32;margin:12px 0;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg> Verified by TinyFit</div>' : ''}
 
@@ -169,13 +181,14 @@ ${nav()}
       ${materialTags}
     </div>
 
+    <div style="margin:20px 0;">
+      <a href="${visitUrl}" target="_blank" rel="noopener noreferrer" class="btn" style="padding:12px 28px;font-size:1rem;">${visitLabel}</a>
+      ${sizeChartBtn}
+      ${amazonBtn}
+    </div>
+
     ${b.editorial ? `<h2>Why We Recommend ${b.brand}</h2>
     <p style="line-height:1.7;">${b.editorial}</p>` : ''}
-
-    ${b.petite_tip ? `<div style="padding:16px;background:linear-gradient(135deg,#FFF8E1,#FFF3E0);border-radius:10px;margin:20px 0;border-left:4px solid #FFB74D;">
-      <strong style="font-size:0.85rem;">&#128161; Petite Tip:</strong>
-      <p style="font-size:0.88rem;margin:6px 0 0;line-height:1.6;">${b.petite_tip}</p>
-    </div>` : ''}
 
     <h2>Petite Fit Score</h2>
     <p style="font-size:0.82rem;color:var(--muted);margin-bottom:12px;">Overall: <strong>${totalScore}/${maxScore}</strong></p>
@@ -184,23 +197,20 @@ ${nav()}
     </div>
 
     <h2>Size Availability</h2>
-    ${hasRing ? `<p><strong>Rings:</strong> Available from US size ${b.min_ring_size_us}. ${b.min_ring_size_us <= 2 ? 'This is one of the few brands that carries sizes this small for adult women.' : b.min_ring_size_us <= 3 ? 'Size 3 is available, which is smaller than most mainstream brands.' : 'Size 4 is available, though some styles may start at 5.'}</p>` : ''}
-    ${hasBracelet ? `<p><strong>Bracelets:</strong> Available from ${b.min_bracelet_cm}cm. ${b.min_bracelet_cm <= 14 ? 'This works for wrists under 14cm without modification.' : 'You may need the smallest setting or an adjustable style for wrists under 14cm.'}</p>` : ''}
-    ${b.adjustable ? '<p><strong>Adjustable:</strong> Yes. Some pieces can be adjusted to fit smaller sizes.</p>' : ''}
+    ${sizeLines.join('\n    ')}
 
     ${recProds ? `<h2>Best for Petite Women</h2>
       ${recProds}` : ''}
 
-    <h2>About ${b.brand}</h2>
-    <p>${b.note}</p>
-    <p><strong>Style:</strong> ${b.style}</p>
-    <p><strong>Materials:</strong> ${b.materials.join(', ')}</p>
-    <p><strong>Price range:</strong> $${b.price_min} &ndash; $${b.price_max}</p>
+    ${b.petite_tip ? `<div style="padding:16px;background:linear-gradient(135deg,#FFF8E1,#FFF3E0);border-radius:10px;margin:24px 0;border-left:4px solid #FFB74D;">
+      <strong style="font-size:0.85rem;">&#128161; Petite Tip</strong>
+      <p style="font-size:0.88rem;margin:6px 0 0;line-height:1.6;">${b.petite_tip}</p>
+    </div>` : ''}
 
-    <div style="margin:24px 0;">
-      <a href="${b.affiliate_url || b.shop_url}" target="_blank" rel="noopener noreferrer" class="btn">${b.intl_shipping === false ? 'View ' + b.brand + ' (Japan Only)' : 'Visit ' + b.brand}</a>
-      ${b.size_chart_url && b.size_chart_url !== b.shop_url ? `<a href="${b.size_chart_url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-left:8px;">Size Chart</a>` : ''}
-      ${b.amazon_url ? `<a href="${b.amazon_url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-left:8px;">Find on Amazon</a>` : ''}
+    <div style="text-align:center;padding:28px 20px;margin:28px 0;background:var(--surface,#f9f7f5);border-radius:12px;">
+      <p style="font-size:0.9rem;margin:0 0 14px;color:var(--muted);">Ready to shop?</p>
+      <a href="${visitUrl}" target="_blank" rel="noopener noreferrer" class="btn" style="padding:14px 36px;font-size:1.05rem;">${visitLabel}</a>
+      ${sizeChartBtn ? `<br><a href="${b.size_chart_url}" target="_blank" rel="noopener noreferrer" style="font-size:0.82rem;color:var(--muted);display:inline-block;margin-top:10px;">View ${b.brand} Size Chart &rarr;</a>` : ''}
     </div>
 
     ${similarBrands.length > 0 ? `<h2>Similar Brands in This Size Range</h2>
