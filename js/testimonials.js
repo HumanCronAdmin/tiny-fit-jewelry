@@ -4,14 +4,8 @@
 
   // Curated testimonials (static fallback + seed data)
   // These are templates based on common experiences from the petite jewelry community
-  var SEED_TESTIMONIALS = [
-    { name: 'Sarah K.', size: 'Ring size 2.5', text: 'I spent years being told my size did not exist. Found Agete through this site and ordered my first ring that actually fits. No more ring adjusters!' },
-    { name: 'Emily R.', size: 'Wrist 13cm', text: 'The bracelet formula changed everything. My wrist is 13cm, so I need 14.5cm bracelets. Finally stopped buying "small" bracelets that slide off.' },
-    { name: 'Mika T.', size: 'Ring size 3', text: 'Japanese brands are a game changer. I had no idea Nojess and 4C carried my size. The quality is incredible for the price.' },
-    { name: 'Lauren W.', size: 'Ring size 2', text: 'My engagement ring is from Automic Gold, custom size 2. They made it without any hassle. This database saved me weeks of research.' },
-    { name: 'Jessica M.', size: 'Wrist 12.5cm', text: 'I tried the anklet-as-bracelet hack and it actually works! A Gorjana anklet fits my thin wrist perfectly.' },
-    { name: 'Amy C.', size: 'Ring size 3.5', text: 'Catbird was my first find here. Their stackable rings in size 3.5 are gorgeous. I now own four.' },
-  ];
+  // No seed testimonials — only real user submissions via GitHub Issues
+  var SEED_TESTIMONIALS = [];
 
   function renderTestimonials(container, limit) {
     var testimonials = SEED_TESTIMONIALS.slice(0, limit || 3);
