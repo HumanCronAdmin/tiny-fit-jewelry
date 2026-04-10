@@ -1,138 +1,5 @@
 [
   {
-    "brand": "Agete",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 1.5,
-    "min_bracelet_cm": 14,
-    "price_min": 80,
-    "price_max": 500,
-    "materials": [
-      "10K gold",
-      "18K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "delicate, classic",
-    "size_chart_url": "https://agete.com/",
-    "shop_url": "https://agete.com/",
-    "note": "Japanese brand. Carries rings from JP size 1 (US 1.5). Known for delicate, vintage-inspired designs. Japan domestic shipping only — visit in-store if traveling to Japan.",
-    "intl_shipping": false,
-    "editorial": "Agete is a dream for petite fingers, offering rings from a tiny US size 1.5 (JP size 1). Their signature delicate, vintage-inspired designs are perfectly scaled, ensuring they don't overwhelm smaller hands. While their bracelets start at 14cm, which might be a snug fit for some under 14cm wrists, their ring selection is truly exceptional. The main limitation is their Japan-only domestic shipping, meaning a trip to Japan or a proxy service is required for purchase.",
-    "recommended_products": [
-      {
-        "name": "Delicate Stacking Rings",
-        "why": "Their wide range of petite ring sizes and intricate, vintage-inspired designs are ideal for small fingers."
-      },
-      {
-        "name": "Vintage-Inspired Charm Bracelets",
-        "why": "Though bracelets start at 14cm, their delicate aesthetic ensures they won't look bulky on smaller wrists, if the length works."
-      }
-    ],
-    "petite_tip": "As Agete ships only within Japan, consider visiting their beautiful boutiques in person if you're traveling to Japan, where you can try on their precise JP size 1 rings.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 3
-    },
-    "verified": true,
-    "verified_date": "2026-04-09"
-  },
-  {
-    "brand": "4℃ (Yon-doshi)",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet",
-      "necklace"
-    ],
-    "min_ring_size_us": 1.5,
-    "min_bracelet_cm": 13.5,
-    "price_min": 50,
-    "price_max": 800,
-    "materials": [
-      "platinum",
-      "18K gold",
-      "10K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "elegant, feminine",
-    "size_chart_url": "https://www.fdcp.co.jp/4c-jewelry/",
-    "shop_url": "https://www.fdcp.co.jp/4c-jewelry/",
-    "note": "Major Japanese jewelry brand. Rings from JP size 1. Bracelets available in petite lengths. Japan domestic shipping only — visit in-store if traveling to Japan.",
-    "intl_shipping": false,
-    "editorial": "4℃ stands out as a top contender for petite jewelry, especially for those with very slender wrists. They offer rings from US size 1.5 (JP size 1) and, uniquely among many brands, provide bracelets starting at an incredibly petite 13.5cm. Their elegant and feminine designs are always scaled with a delicate touch, making them an excellent choice for women who struggle with standard sizing. Be aware that purchases require Japan domestic shipping or an in-store visit.",
-    "recommended_products": [
-      {
-        "name": "Petite Length Bracelets",
-        "why": "Their availability of bracelets as short as 13.5cm is a rare find for wrists under 14cm, ensuring a perfect fit."
-      },
-      {
-        "name": "Delicate Solitaire Rings",
-        "why": "Starting at US size 1.5, their rings are perfectly sized for petite fingers and feature elegant, timeless designs."
-      }
-    ],
-    "petite_tip": "Prioritize their bracelet collection first, as their 13.5cm options are a rare gem for truly tiny wrists. Always double-check the specific length listed for each bracelet style.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 3
-    },
-    "verified": true,
-    "verified_date": "2026-04-09"
-  },
-  {
-    "brand": "Nojess",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 1.5,
-    "min_bracelet_cm": 14,
-    "price_min": 60,
-    "price_max": 400,
-    "materials": [
-      "10K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "antique, romantic",
-    "size_chart_url": "https://www.nojess.net/",
-    "shop_url": "https://www.nojess.net/",
-    "note": "Japanese brand, sister brand of Agete. Vintage antique style. Rings from JP size 1. Japan domestic shipping only — visit in-store if traveling to Japan.",
-    "intl_shipping": false,
-    "editorial": "Nojess, a sister brand to Agete, is another excellent Japanese option for petite jewelry lovers, particularly for rings. They consistently offer rings from US size 1.5 (JP size 1), ideal for the smallest fingers, and their antique, romantic style lends itself well to delicate scaling. While their bracelets start at 14cm, which might be slightly loose for the very smallest wrists, their ring selection is a definite highlight. Remember, like many Japanese brands, shipping is domestic-only.",
-    "recommended_products": [
-      {
-        "name": "Antique-Inspired Stackable Rings",
-        "why": "Their US 1.5 ring sizes and intricate, vintage aesthetic are perfect for creating a personalized, delicate look on petite hands."
-      },
-      {
-        "name": "Delicate Chain Bracelets",
-        "why": "Their bracelets, while starting at 14cm, maintain a fine and elegant style that won't overwhelm slender wrists."
-      }
-    ],
-    "petite_tip": "When considering their rings, explore their layering options. Many petite women find that stacking several of Nojess's delicate, small-sized rings creates a beautiful and proportionate look.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 4,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09"
-  },
-  {
     "brand": "Star Jewelry",
     "country": "Japan",
     "category": [
@@ -173,138 +40,6 @@
       "adjustability": 2,
       "accessibility": 4,
       "value": 2
-    },
-    "verified": true,
-    "verified_date": "2026-04-09"
-  },
-  {
-    "brand": "Vendome Aoyama",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet",
-      "necklace"
-    ],
-    "min_ring_size_us": 2,
-    "min_bracelet_cm": 14.5,
-    "price_min": 80,
-    "price_max": 600,
-    "materials": [
-      "platinum",
-      "18K gold",
-      "10K gold"
-    ],
-    "adjustable": false,
-    "style": "refined, professional",
-    "size_chart_url": "https://vendome.jp/aoyama/",
-    "shop_url": "https://vendome.jp/aoyama/",
-    "note": "Popular Japanese brand for working women. Elegant, office-appropriate designs in small sizes. Japan domestic shipping only — visit in-store if traveling to Japan.",
-    "intl_shipping": false,
-    "editorial": "Vendome Aoyama is a revered Japanese brand known for its refined, professional designs that are surprisingly petite-friendly. They consistently offer rings from US size 2, making elegant and office-appropriate styles accessible for smaller fingers. While their bracelets start at 14.5cm, which may be slightly loose for wrists under 14cm, their exquisite rings and necklaces are perfectly scaled. This brand is ideal for petite women seeking sophisticated pieces that transition seamlessly from work to evening wear, though it requires Japan domestic shipping.",
-    "recommended_products": [
-      {
-        "name": "Classic Solitaire Rings",
-        "why": "Their elegant ring designs, available from US size 2, are perfectly proportioned for petite hands, ideal for a refined look."
-      },
-      {
-        "name": "Delicate Pendant Necklaces",
-        "why": "Their necklaces feature subtle pendants and fine chains that sit beautifully without overwhelming a petite frame."
-      }
-    ],
-    "petite_tip": "For the best fit, especially if your wrist is significantly under 14cm, focus on their extensive collection of rings and necklaces, as the 14.5cm minimum bracelet length might be too large for a snug fit.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 3
-    },
-    "verified": true,
-    "verified_date": "2026-04-09"
-  },
-  {
-    "brand": "Bloom",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 2,
-    "min_bracelet_cm": 14,
-    "price_min": 30,
-    "price_max": 200,
-    "materials": [
-      "10K gold",
-      "silver",
-      "stainless steel"
-    ],
-    "adjustable": false,
-    "style": "casual, everyday",
-    "size_chart_url": "https://bloomonline.jp/",
-    "shop_url": "https://bloomonline.jp/",
-    "note": "Affordable Japanese brand. Great entry point for petite jewelry. Small sizes available. Japan domestic shipping only.",
-    "intl_shipping": false,
-    "editorial": "Bloom offers an excellent entry point into petite jewelry, especially for those on a budget. As an affordable Japanese brand, they provide rings from US size 2 and bracelets from 14cm, making stylish everyday pieces accessible for smaller dimensions. Their casual, everyday style is perfect for those seeking versatile jewelry that won't break the bank. While their shipping is limited to Japan, their price point makes them a great option for exploring petite sizing without a significant investment.",
-    "recommended_products": [
-      {
-        "name": "Everyday Stacking Rings",
-        "why": "Their affordable rings, available from US size 2, are perfect for building a delicate, everyday stack on petite fingers."
-      },
-      {
-        "name": "Simple Chain Bracelets",
-        "why": "Starting at 14cm, these basic and versatile bracelets are a good option for a casual fit on smaller wrists."
-      }
-    ],
-    "petite_tip": "Given their affordable price point, Bloom is ideal for experimenting with different petite styles. Consider trying a ring in US size 2 to confirm your fit before investing in more expensive pieces from other brands.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 4,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09"
-  },
-  {
-    "brand": "Take-Up",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 2,
-    "min_bracelet_cm": 14,
-    "price_min": 30,
-    "price_max": 150,
-    "materials": [
-      "10K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "trendy, youthful",
-    "size_chart_url": "https://www.take-up.co.jp/",
-    "shop_url": "https://www.take-up.co.jp/",
-    "note": "Budget-friendly Japanese brand with wide size range including very small sizes. Japan domestic shipping only.",
-    "intl_shipping": false,
-    "editorial": "Take-Up is a fantastic budget-friendly Japanese brand that truly understands the need for small sizes. They offer a wide range of rings starting from US size 2 and bracelets from 14cm, making them highly accessible for petite women. Their trendy, youthful designs ensure you can stay current without sacrificing fit. For those seeking fashionable and well-sized pieces without a hefty price tag, Take-Up is an excellent choice, though it does require Japan domestic shipping.",
-    "recommended_products": [
-      {
-        "name": "Trendy Stackable Rings",
-        "why": "Their extensive range of rings from US size 2 allows for fashionable stacking that's perfectly scaled for petite hands."
-      },
-      {
-        "name": "Delicate Charm Bracelets",
-        "why": "These bracelets, starting at 14cm, offer youthful designs that add a touch of personality without overwhelming small wrists."
-      }
-    ],
-    "petite_tip": "Take advantage of their wide size range. When shopping for rings, don't hesitate to try the smallest available sizes (US 2) to ensure the most comfortable and secure fit for your petite fingers.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 4,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 5
     },
     "verified": true,
     "verified_date": "2026-04-09"
@@ -1394,6 +1129,271 @@
       "adjustability": 2,
       "accessibility": 4,
       "value": 4
+    },
+    "verified": true,
+    "verified_date": "2026-04-09"
+  },
+  {
+    "brand": "Agete",
+    "country": "Japan",
+    "category": [
+      "ring",
+      "bracelet"
+    ],
+    "min_ring_size_us": 1.5,
+    "min_bracelet_cm": 14,
+    "price_min": 80,
+    "price_max": 500,
+    "materials": [
+      "10K gold",
+      "18K gold",
+      "silver"
+    ],
+    "adjustable": false,
+    "style": "delicate, classic",
+    "size_chart_url": "https://agete.com/",
+    "shop_url": "https://agete.com/",
+    "note": "Japanese brand. Carries rings from JP size 1 (US 1.5). Known for delicate, vintage-inspired designs. Japan domestic shipping only — visit in-store if traveling to Japan.",
+    "intl_shipping": false,
+    "editorial": "Agete is a dream for petite fingers, offering rings from a tiny US size 1.5 (JP size 1). Their signature delicate, vintage-inspired designs are perfectly scaled, ensuring they don't overwhelm smaller hands. While their bracelets start at 14cm, which might be a snug fit for some under 14cm wrists, their ring selection is truly exceptional. The main limitation is their Japan-only domestic shipping, meaning a trip to Japan or a proxy service is required for purchase.",
+    "recommended_products": [
+      {
+        "name": "Delicate Stacking Rings",
+        "why": "Their wide range of petite ring sizes and intricate, vintage-inspired designs are ideal for small fingers."
+      },
+      {
+        "name": "Vintage-Inspired Charm Bracelets",
+        "why": "Though bracelets start at 14cm, their delicate aesthetic ensures they won't look bulky on smaller wrists, if the length works."
+      }
+    ],
+    "petite_tip": "As Agete ships only within Japan, consider visiting their beautiful boutiques in person if you're traveling to Japan, where you can try on their precise JP size 1 rings.",
+    "fit_score": {
+      "size_range": 5,
+      "materials": 5,
+      "adjustability": 2,
+      "accessibility": 2,
+      "value": 3
+    },
+    "verified": true,
+    "verified_date": "2026-04-09"
+  },
+  {
+    "brand": "4℃ (Yon-doshi)",
+    "country": "Japan",
+    "category": [
+      "ring",
+      "bracelet",
+      "necklace"
+    ],
+    "min_ring_size_us": 1.5,
+    "min_bracelet_cm": 13.5,
+    "price_min": 50,
+    "price_max": 800,
+    "materials": [
+      "platinum",
+      "18K gold",
+      "10K gold",
+      "silver"
+    ],
+    "adjustable": false,
+    "style": "elegant, feminine",
+    "size_chart_url": "https://www.fdcp.co.jp/4c-jewelry/",
+    "shop_url": "https://www.fdcp.co.jp/4c-jewelry/",
+    "note": "Major Japanese jewelry brand. Rings from JP size 1. Bracelets available in petite lengths. Japan domestic shipping only — visit in-store if traveling to Japan.",
+    "intl_shipping": false,
+    "editorial": "4℃ stands out as a top contender for petite jewelry, especially for those with very slender wrists. They offer rings from US size 1.5 (JP size 1) and, uniquely among many brands, provide bracelets starting at an incredibly petite 13.5cm. Their elegant and feminine designs are always scaled with a delicate touch, making them an excellent choice for women who struggle with standard sizing. Be aware that purchases require Japan domestic shipping or an in-store visit.",
+    "recommended_products": [
+      {
+        "name": "Petite Length Bracelets",
+        "why": "Their availability of bracelets as short as 13.5cm is a rare find for wrists under 14cm, ensuring a perfect fit."
+      },
+      {
+        "name": "Delicate Solitaire Rings",
+        "why": "Starting at US size 1.5, their rings are perfectly sized for petite fingers and feature elegant, timeless designs."
+      }
+    ],
+    "petite_tip": "Prioritize their bracelet collection first, as their 13.5cm options are a rare gem for truly tiny wrists. Always double-check the specific length listed for each bracelet style.",
+    "fit_score": {
+      "size_range": 5,
+      "materials": 5,
+      "adjustability": 2,
+      "accessibility": 2,
+      "value": 3
+    },
+    "verified": true,
+    "verified_date": "2026-04-09"
+  },
+  {
+    "brand": "Nojess",
+    "country": "Japan",
+    "category": [
+      "ring",
+      "bracelet"
+    ],
+    "min_ring_size_us": 1.5,
+    "min_bracelet_cm": 14,
+    "price_min": 60,
+    "price_max": 400,
+    "materials": [
+      "10K gold",
+      "silver"
+    ],
+    "adjustable": false,
+    "style": "antique, romantic",
+    "size_chart_url": "https://www.nojess.net/",
+    "shop_url": "https://www.nojess.net/",
+    "note": "Japanese brand, sister brand of Agete. Vintage antique style. Rings from JP size 1. Japan domestic shipping only — visit in-store if traveling to Japan.",
+    "intl_shipping": false,
+    "editorial": "Nojess, a sister brand to Agete, is another excellent Japanese option for petite jewelry lovers, particularly for rings. They consistently offer rings from US size 1.5 (JP size 1), ideal for the smallest fingers, and their antique, romantic style lends itself well to delicate scaling. While their bracelets start at 14cm, which might be slightly loose for the very smallest wrists, their ring selection is a definite highlight. Remember, like many Japanese brands, shipping is domestic-only.",
+    "recommended_products": [
+      {
+        "name": "Antique-Inspired Stackable Rings",
+        "why": "Their US 1.5 ring sizes and intricate, vintage aesthetic are perfect for creating a personalized, delicate look on petite hands."
+      },
+      {
+        "name": "Delicate Chain Bracelets",
+        "why": "Their bracelets, while starting at 14cm, maintain a fine and elegant style that won't overwhelm slender wrists."
+      }
+    ],
+    "petite_tip": "When considering their rings, explore their layering options. Many petite women find that stacking several of Nojess's delicate, small-sized rings creates a beautiful and proportionate look.",
+    "fit_score": {
+      "size_range": 5,
+      "materials": 4,
+      "adjustability": 2,
+      "accessibility": 2,
+      "value": 4
+    },
+    "verified": true,
+    "verified_date": "2026-04-09"
+  },
+  {
+    "brand": "Vendome Aoyama",
+    "country": "Japan",
+    "category": [
+      "ring",
+      "bracelet",
+      "necklace"
+    ],
+    "min_ring_size_us": 2,
+    "min_bracelet_cm": 14.5,
+    "price_min": 80,
+    "price_max": 600,
+    "materials": [
+      "platinum",
+      "18K gold",
+      "10K gold"
+    ],
+    "adjustable": false,
+    "style": "refined, professional",
+    "size_chart_url": "https://vendome.jp/aoyama/",
+    "shop_url": "https://vendome.jp/aoyama/",
+    "note": "Popular Japanese brand for working women. Elegant, office-appropriate designs in small sizes. Japan domestic shipping only — visit in-store if traveling to Japan.",
+    "intl_shipping": false,
+    "editorial": "Vendome Aoyama is a revered Japanese brand known for its refined, professional designs that are surprisingly petite-friendly. They consistently offer rings from US size 2, making elegant and office-appropriate styles accessible for smaller fingers. While their bracelets start at 14.5cm, which may be slightly loose for wrists under 14cm, their exquisite rings and necklaces are perfectly scaled. This brand is ideal for petite women seeking sophisticated pieces that transition seamlessly from work to evening wear, though it requires Japan domestic shipping.",
+    "recommended_products": [
+      {
+        "name": "Classic Solitaire Rings",
+        "why": "Their elegant ring designs, available from US size 2, are perfectly proportioned for petite hands, ideal for a refined look."
+      },
+      {
+        "name": "Delicate Pendant Necklaces",
+        "why": "Their necklaces feature subtle pendants and fine chains that sit beautifully without overwhelming a petite frame."
+      }
+    ],
+    "petite_tip": "For the best fit, especially if your wrist is significantly under 14cm, focus on their extensive collection of rings and necklaces, as the 14.5cm minimum bracelet length might be too large for a snug fit.",
+    "fit_score": {
+      "size_range": 5,
+      "materials": 5,
+      "adjustability": 2,
+      "accessibility": 2,
+      "value": 3
+    },
+    "verified": true,
+    "verified_date": "2026-04-09"
+  },
+  {
+    "brand": "Bloom",
+    "country": "Japan",
+    "category": [
+      "ring",
+      "bracelet"
+    ],
+    "min_ring_size_us": 2,
+    "min_bracelet_cm": 14,
+    "price_min": 30,
+    "price_max": 200,
+    "materials": [
+      "10K gold",
+      "silver",
+      "stainless steel"
+    ],
+    "adjustable": false,
+    "style": "casual, everyday",
+    "size_chart_url": "https://bloomonline.jp/",
+    "shop_url": "https://bloomonline.jp/",
+    "note": "Affordable Japanese brand. Great entry point for petite jewelry. Small sizes available. Japan domestic shipping only.",
+    "intl_shipping": false,
+    "editorial": "Bloom offers an excellent entry point into petite jewelry, especially for those on a budget. As an affordable Japanese brand, they provide rings from US size 2 and bracelets from 14cm, making stylish everyday pieces accessible for smaller dimensions. Their casual, everyday style is perfect for those seeking versatile jewelry that won't break the bank. While their shipping is limited to Japan, their price point makes them a great option for exploring petite sizing without a significant investment.",
+    "recommended_products": [
+      {
+        "name": "Everyday Stacking Rings",
+        "why": "Their affordable rings, available from US size 2, are perfect for building a delicate, everyday stack on petite fingers."
+      },
+      {
+        "name": "Simple Chain Bracelets",
+        "why": "Starting at 14cm, these basic and versatile bracelets are a good option for a casual fit on smaller wrists."
+      }
+    ],
+    "petite_tip": "Given their affordable price point, Bloom is ideal for experimenting with different petite styles. Consider trying a ring in US size 2 to confirm your fit before investing in more expensive pieces from other brands.",
+    "fit_score": {
+      "size_range": 5,
+      "materials": 4,
+      "adjustability": 2,
+      "accessibility": 2,
+      "value": 4
+    },
+    "verified": true,
+    "verified_date": "2026-04-09"
+  },
+  {
+    "brand": "Take-Up",
+    "country": "Japan",
+    "category": [
+      "ring",
+      "bracelet"
+    ],
+    "min_ring_size_us": 2,
+    "min_bracelet_cm": 14,
+    "price_min": 30,
+    "price_max": 150,
+    "materials": [
+      "10K gold",
+      "silver"
+    ],
+    "adjustable": false,
+    "style": "trendy, youthful",
+    "size_chart_url": "https://www.take-up.co.jp/",
+    "shop_url": "https://www.take-up.co.jp/",
+    "note": "Budget-friendly Japanese brand with wide size range including very small sizes. Japan domestic shipping only.",
+    "intl_shipping": false,
+    "editorial": "Take-Up is a fantastic budget-friendly Japanese brand that truly understands the need for small sizes. They offer a wide range of rings starting from US size 2 and bracelets from 14cm, making them highly accessible for petite women. Their trendy, youthful designs ensure you can stay current without sacrificing fit. For those seeking fashionable and well-sized pieces without a hefty price tag, Take-Up is an excellent choice, though it does require Japan domestic shipping.",
+    "recommended_products": [
+      {
+        "name": "Trendy Stackable Rings",
+        "why": "Their extensive range of rings from US size 2 allows for fashionable stacking that's perfectly scaled for petite hands."
+      },
+      {
+        "name": "Delicate Charm Bracelets",
+        "why": "These bracelets, starting at 14cm, offer youthful designs that add a touch of personality without overwhelming small wrists."
+      }
+    ],
+    "petite_tip": "Take advantage of their wide size range. When shopping for rings, don't hesitate to try the smallest available sizes (US 2) to ensure the most comfortable and secure fit for your petite fingers.",
+    "fit_score": {
+      "size_range": 5,
+      "materials": 4,
+      "adjustability": 2,
+      "accessibility": 2,
+      "value": 5
     },
     "verified": true,
     "verified_date": "2026-04-09"
