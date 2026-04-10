@@ -70,7 +70,13 @@
     if (q) filtered = filtered.filter(b => b.brand.toLowerCase().includes(q) || b.country.toLowerCase().includes(q) || b.note.toLowerCase().includes(q));
 
     const sort = sortSelect.value;
-    if (sort === 'size-asc') filtered.sort((a, b) => (a.min_ring_size_us || 99) - (b.min_ring_size_us || 99));
+    if (sort === 'intl-first') filtered.sort((a, b) => {
+      const aIntl = a.intl_shipping !== false ? 0 : 1;
+      const bIntl = b.intl_shipping !== false ? 0 : 1;
+      if (aIntl !== bIntl) return aIntl - bIntl;
+      return (a.min_ring_size_us || 99) - (b.min_ring_size_us || 99);
+    });
+    else if (sort === 'size-asc') filtered.sort((a, b) => (a.min_ring_size_us || 99) - (b.min_ring_size_us || 99));
     else if (sort === 'price-asc') filtered.sort((a, b) => a.price_min - b.price_min);
     else if (sort === 'price-desc') filtered.sort((a, b) => b.price_max - a.price_max);
     else if (sort === 'name') filtered.sort((a, b) => a.brand.localeCompare(b.brand));
