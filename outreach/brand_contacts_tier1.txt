@@ -1,0 +1,80 @@
+TinyFit Jewelry — Tier 1 ブランド連絡先リスト
+================================================
+作成日: 2026-04-10
+用途: 写真使用許諾 + 掲載通知メール送信
+※メールアドレスは各社公式サイトのContact/Pressページで要確認
+
+=== 送信順序 ===
+1. Monica Vinader（最強ポジティブ角度）
+2. Catbird（threadbare角度がユニーク）
+3. Gorjana（最高スコア、adjustable角度）
+4. Brilliant Earth（婚約指輪ニッチ）
+5. Mejuri（最大ブランドだが正直角度）
+6. Ana Luisa（サステナブル角度）
+
+=== 1. MONICA VINADER ===
+Website: https://www.monicavinader.com/
+Contact Page: https://www.monicavinader.com/contact-us
+Email: 要確認（Contact Usページにフォームあり）
+       press向け: press@monicavinader.com（要確認）
+Instagram: @monicavinader
+LinkedIn: Monica Vinader（検索）
+TinyFit Page: brands/monica-vinader.html
+Fit Score: 20/25
+メール: brand_emails_tier1.txt 参照
+
+=== 2. CATBIRD ===
+Website: https://www.catbirdnyc.com/
+Contact Page: https://www.catbirdnyc.com/contact
+Email: 要確認（hello@catbirdnyc.com が一般的パターン）
+Instagram: @catabordjewelry / @catbirdnyc
+LinkedIn: Catbird（検索）
+TinyFit Page: brands/catbird.html
+Fit Score: 19/25
+メール: brand_emails_tier1.txt 参照
+
+=== 3. GORJANA ===
+Website: https://www.gorjana.com/
+Contact Page: https://www.gorjana.com/pages/contact-us
+Email: 要確認（customercare@gorjana.com が公開、press向け別途）
+Instagram: @gorjana
+LinkedIn: gorjana（検索）
+TinyFit Page: brands/gorjana.html
+Fit Score: 21/25
+メール: brand_emails_tier1.txt 参照
+
+=== 4. BRILLIANT EARTH ===
+Website: https://www.brilliantearth.com/
+Contact Page: https://www.brilliantearth.com/contact/
+Email: 要確認（press@brilliantearth.com が一般的パターン）
+Instagram: @brilliantearth
+LinkedIn: Brilliant Earth（検索）
+TinyFit Page: brands/brilliant-earth.html
+Fit Score: 18/25
+メール: brand_emails_tier1.txt 参照
+
+=== 5. MEJURI ===
+Website: https://mejuri.com/
+Contact Page: https://mejuri.com/contact
+Email: 要確認（press@mejuri.com が一般的パターン）
+Instagram: @mejuri
+LinkedIn: Mejuri（検索）
+TinyFit Page: brands/mejuri.html
+Fit Score: 19/25
+メール: brand_emails_tier1.txt 参照
+
+=== 6. ANA LUISA ===
+Website: https://www.analuisa.com/
+Contact Page: https://www.analuisa.com/pages/contact
+Email: 要確認（hello@analuisa.com が一般的パターン）
+Instagram: @analuisany
+LinkedIn: Ana Luisa（検索）
+TinyFit Page: brands/ana-luisa.html
+Fit Score: 記事作成後に追加
+メール: 作成予定
+
+=== 次のステップ ===
+1. 各ブランドの公式サイトContactページを開いて正確なメールアドレスを確認
+2. Contactフォームしかない場合はLinkedInでPR/Marketing担当を探す
+3. メール文面は brand_emails_tier1.txt に完成済み（5社分）
+4. Ana Luisaのメール文面を追加作成する

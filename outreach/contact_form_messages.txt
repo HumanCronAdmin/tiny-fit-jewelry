@@ -1,0 +1,224 @@
+TinyFit Jewelry — Contactフォーム送信用メッセージ
+==================================================
+作成日: 2026-04-10
+送信方法: 各ブランド公式サイトのContact Usフォーム
+目的: 写真使用許諾 + 掲載情報の正確性確認 + 関係構築
+
+=== 設計方針 ===
+- Contactフォームはカスタマーサポートが最初に読む
+- 「これは自分の担当じゃない」→ press/partnershipに転送させる
+- そのために冒頭に「Please forward to your press or partnerships team」
+- 本文は短く（フォームの文字数制限対策）
+- 「もう掲載済み」+「数字」で無視できなくする
+- 各ブランド固有の具体的な言及で「テンプレ営業」感を消す
+
+=== 送信順序 ===
+1. Monica Vinader（Fiji bracelet = 最強推薦ポイント）
+2. Catbird（threadbare ring = ユニーク角度）
+3. Gorjana（最高スコア21/25）
+4. Brilliant Earth（婚約指輪ニッチ）
+5. Mejuri（最大ブランド、正直角度）
+6. Ana Luisa（サステナブル角度）
+
+
+================================================================
+1. MONICA VINADER
+================================================================
+URL: https://www.monicavinader.com/ → Contact Us
+Subject/Topic: Press / Partnership Inquiry
+
+Message:
+
+Hi — please forward this to your press or partnerships team.
+
+I run TinyFit Jewelry (https://humancronadmin.github.io/tiny-fit-jewelry/), the only jewelry size database built for petite women — ring sizes 2-4, wrists under 14cm.
+
+Your Fiji friendship bracelet is the #1 most recommended bracelet on our entire site. For women with wrists under 14cm, it is one of the only adjustable options that actually stays on. We gave Monica Vinader a Petite Fit Score of 20/25.
+
+Your dedicated page: https://humancronadmin.github.io/tiny-fit-jewelry/brands/monica-vinader.html
+
+Our site launched on Reddit two days ago and received 184 upvotes, 45 comments, and 15,000 views from petite women actively looking for jewelry in their size. You can see the post and community response here: https://www.reddit.com/r/XXS/comments/u/Human_Cron_Admin/ (search r/XXS for "jewelry database" if the link does not work).
+
+Two things I need your help with:
+1. Could we use your official product photos on our listing? We currently use placeholder images. Proper photos would help your potential customers see exactly what they are buying.
+2. What is the actual minimum circumference the Fiji toggle can cinch to? Our readers keep asking and I want to give them the exact number.
+
+We link directly to your store from every product mention. This is not a paid placement request — your listing is free and permanent. I just want to make sure it is accurate and looks its best.
+
+Our full media kit with verified stats: https://humancronadmin.github.io/tiny-fit-jewelry/media-kit.html
+
+Best,
+TinyFit Jewelry
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+
+================================================================
+2. CATBIRD
+================================================================
+URL: https://www.catbirdnyc.com/ → Contact
+Subject/Topic: Press / Partnership Inquiry
+
+Message:
+
+Hi — please forward this to your press or partnerships team.
+
+I run TinyFit Jewelry (https://humancronadmin.github.io/tiny-fit-jewelry/), the only jewelry size database for petite women — ring sizes 2-4, wrists under 14cm.
+
+Your threadbare rings come up every time someone asks "where can I find a ring that does not look ridiculous on tiny fingers?" The ultra-delicate design is exactly what works on petite hands — substantial rings in size 3 still look oversized, but a threadbare ring in size 3 looks intentional and beautiful. We gave Catbird a Petite Fit Score of 19/25.
+
+Your dedicated page: https://humancronadmin.github.io/tiny-fit-jewelry/brands/catbird.html
+
+We launched on Reddit and received 184 upvotes, 45 comments, and 15,000 views from women actively searching for small-size jewelry. You can see the post and community response here: https://www.reddit.com/r/XXS/comments/u/Human_Cron_Admin/ (search r/XXS for "jewelry database" if the link does not work).
+
+Two things I need your help with:
+1. Could we use your official product photos? Seeing threadbare rings on smaller hands would make a huge difference in purchase confidence for our readers.
+2. Which threadbare styles are available in size 3, and do any go to size 2?
+
+Your listing is free and we link directly to catbirdnyc.com. I just want to make sure our information is accurate and your products look their best on our site.
+
+Our full media kit with verified stats: https://humancronadmin.github.io/tiny-fit-jewelry/media-kit.html
+
+Best,
+TinyFit Jewelry
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+
+================================================================
+3. GORJANA
+================================================================
+URL: https://www.gorjana.com/ → Contact Us
+Subject/Topic: Press / Partnership Inquiry
+
+Message:
+
+Hi — please forward this to your press or partnerships team.
+
+I run TinyFit Jewelry (https://humancronadmin.github.io/tiny-fit-jewelry/), the only jewelry size database for petite women — ring sizes 2-4, wrists under 14cm.
+
+Gorjana has the highest Petite Fit Score of any US brand on our site: 21 out of 25. Your adjustable slider bracelets and open-band rings keep coming up in our community as pieces that "actually work" for smaller wrists. Most brands do not think about the woman with 13.5cm wrists — your adjustable designs do.
+
+Your dedicated page: https://humancronadmin.github.io/tiny-fit-jewelry/brands/gorjana.html
+
+We launched on Reddit two days ago: 184 upvotes, 45 comments, 15,000 views from petite women actively shopping for jewelry in their size. You can see the post and community response here: https://www.reddit.com/r/XXS/comments/u/Human_Cron_Admin/ (search r/XXS for "jewelry database" if the link does not work).
+
+Two things I need your help with:
+1. Could we use your official product photos on our listing? Proper images would help our readers go straight to the right pieces.
+2. Which slider bracelets adjust small enough for 13-14cm wrists? Specific product names would help me point readers to exactly the right item.
+
+Your listing is free and every product mention links directly to gorjana.com. I want to make sure the information is accurate and does your brand justice.
+
+Our full media kit with verified stats: https://humancronadmin.github.io/tiny-fit-jewelry/media-kit.html
+
+Best,
+TinyFit Jewelry
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+
+================================================================
+4. BRILLIANT EARTH
+================================================================
+URL: https://www.brilliantearth.com/ → Contact
+Subject/Topic: Press / Partnership Inquiry
+
+Message:
+
+Hi — please forward this to your press or partnerships team.
+
+I run TinyFit Jewelry (https://humancronadmin.github.io/tiny-fit-jewelry/), the only jewelry size database for petite women — ring sizes 2-4, wrists under 14cm.
+
+Engagement rings are the #1 reason petite women come to our site. "Where can I find an engagement ring in size 3?" is the most common question we get. Brilliant Earth is one of the very few fine jewelers we can actually recommend — most start at size 5. We gave you a Petite Fit Score of 18/25.
+
+Your dedicated page: https://humancronadmin.github.io/tiny-fit-jewelry/brands/brilliant-earth.html
+
+Our Reddit launch: 184 upvotes, 45 comments, 15,000 views from women actively looking for jewelry that fits. You can see the post and community response here: https://www.reddit.com/r/XXS/comments/u/Human_Cron_Admin/ (search r/XXS for "jewelry database" if the link does not work).
+
+Two things I need your help with:
+1. Could we use your official product photos? Seeing engagement rings on petite hands would directly help our readers feel confident enough to purchase.
+2. Do any settings or styles go below size 3? Some of our readers are size 2-2.5 and I want to give them accurate information.
+
+Your listing is free and we link directly to brilliantearth.com. Your free resizing service is highlighted as a major selling point for petite women who are between sizes.
+
+Our full media kit with verified stats: https://humancronadmin.github.io/tiny-fit-jewelry/media-kit.html
+
+Best,
+TinyFit Jewelry
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+
+================================================================
+5. MEJURI
+================================================================
+URL: https://mejuri.com/ → Contact
+Subject/Topic: Press / Partnership Inquiry
+
+Message:
+
+Hi — please forward this to your press or partnerships team.
+
+I run TinyFit Jewelry (https://humancronadmin.github.io/tiny-fit-jewelry/), the only jewelry size database for petite women — ring sizes 2-4, wrists under 14cm.
+
+I want to be upfront: women love Mejuri, but they cannot figure out what will actually fit their small hands and wrists. "Does Mejuri have anything in size 3?" comes up constantly. Your rings mostly start at size 4-5 and bracelets at 15cm, so we redirect petite shoppers toward your necklaces and earrings where sizing is not an issue and your designs really shine on smaller frames.
+
+Your Petite Fit Score is 19/25 (strong on materials and value, limited on ring size range).
+
+Your dedicated page: https://humancronadmin.github.io/tiny-fit-jewelry/brands/mejuri.html
+
+Our Reddit launch got 184 upvotes, 45 comments, and 15,000 views from petite women actively shopping. You can see the post and community response here: https://www.reddit.com/r/XXS/comments/u/Human_Cron_Admin/ (search r/XXS for "jewelry database" if the link does not work).
+
+Two things:
+1. Could we use your official product photos? Our listing would look much better with real images.
+2. Are there any ring styles in US size 3? Even one or two would significantly change our recommendation for Mejuri.
+
+We are sending your existing fans to the right products instead of letting them walk away frustrated. Your listing is free and links directly to mejuri.com.
+
+Our full media kit with verified stats: https://humancronadmin.github.io/tiny-fit-jewelry/media-kit.html
+
+Best,
+TinyFit Jewelry
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+
+================================================================
+6. ANA LUISA
+================================================================
+URL: https://www.analuisa.com/ → Contact
+Subject/Topic: Press / Partnership Inquiry
+
+Message:
+
+Hi — please forward this to your press or partnerships team.
+
+I run TinyFit Jewelry (https://humancronadmin.github.io/tiny-fit-jewelry/), the only jewelry size database for petite women — ring sizes 2-4, wrists under 14cm.
+
+Ana Luisa stands out on our site for combining sustainable materials with accessible pricing. Your recycled gold pieces offer petite women an ethical option that many premium brands in this space do not provide. That matters to our audience.
+
+Your dedicated page: https://humancronadmin.github.io/tiny-fit-jewelry/brands/ana-luisa.html
+
+We launched on Reddit and received 184 upvotes, 45 comments, and 15,000 views from women actively searching for small-size jewelry. You can see the post and community response here: https://www.reddit.com/r/XXS/comments/u/Human_Cron_Admin/ (search r/XXS for "jewelry database" if the link does not work).
+
+Two things I need your help with:
+1. Could we use your official product photos on our listing? Real images make a significant difference in reader trust.
+2. What is your smallest available ring size, and do any bracelet styles work for wrists under 14cm?
+
+Your listing is free and links directly to analuisa.com. I want to make sure the information is accurate.
+
+Our full media kit with verified stats: https://humancronadmin.github.io/tiny-fit-jewelry/media-kit.html
+
+Best,
+TinyFit Jewelry
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+
+================================================================
+送信チェックリスト
+================================================================
+□ Monica Vinader — monicavinader.com/contact-us
+□ Catbird — catbirdnyc.com/contact
+□ Gorjana — gorjana.com/pages/contact-us
+□ Brilliant Earth — brilliantearth.com/contact/
+□ Mejuri — mejuri.com/contact
+□ Ana Luisa — analuisa.com/pages/contact
+
+送信後:
+□ 送信日時をこのファイルに記録
+□ 1週間後に返信なければフォローアップ検討
