@@ -103,12 +103,12 @@
       "gold vermeil",
       "silver"
     ],
-    "adjustable": true,
+    "adjustable": false,
     "style": "minimalist, sustainable",
     "size_chart_url": "https://faq.analuisa.com/how-do-i-find-my-ring-size-SypyD3_M5",
     "shop_url": "https://www.analuisa.com/",
-    "note": "Sustainable jewelry. Some adjustable pieces work for smaller sizes. Affiliate program pays 10-15%.",
-    "editorial": "Ana Luisa offers a sustainable approach to minimalist jewelry, and thankfully, they incorporate adjustable features that can be a game-changer for petite women. While their standard ring sizes start at US 4 and bracelets at 15cm, don't write them off entirely. Their commitment to adjustability means certain designs can be tailored to fit smaller wrists and fingers, providing more options than many other brands with similar starting sizes.",
+    "note": "Sustainable minimalist jewelry with recycled gold. Rings from US 4, bracelets from 15cm. Open cuff styles work for smaller wrists. Best for upper target (size 4) + necklaces/earrings.",
+    "editorial": "Ana Luisa is the strongest sustainable option on our site for petite women who prioritize ethical materials and accessible pricing. Their rings start at US 4 and fixed-length bracelets start at 15cm, so they do not cover the smallest end of our target. For petite wrists under 14cm, their open cuff styles (such as the Arlo collection) can be bent to fit. Where Ana Luisa really shines for our audience is in dainty necklaces and delicate earrings where sizing is not a concern, and their recycled 14K gold keeps them firmly in an ethical-jewelry niche that very few brands match at this price.",
     "recommended_products": [
       {
         "name": "Adjustable Chain Bracelets",
@@ -123,7 +123,7 @@
     "fit_score": {
       "size_range": 3,
       "materials": 5,
-      "adjustability": 4,
+      "adjustability": 2,
       "accessibility": 5,
       "value": 4
     },
