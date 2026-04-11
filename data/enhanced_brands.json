@@ -155,7 +155,7 @@
     "shop_url": "https://www.star-jewelry.com/common-internationalshipping.html",
     "note": "Yokohama-based since 1946. Carries small sizes. Known for quality craftsmanship. International orders accepted via email (FedEx shipping).",
     "intl_shipping": true,
-    "editorial": "Star Jewelry is a fantastic Japanese brand that thoughtfully caters to smaller sizes, offering rings from US size 2 and bracelets from 14cm. What truly sets them apart from many of their Japanese counterparts is their willingness to accept international orders via email with FedEx shipping, making their high-quality craftsmanship accessible worldwide. Their modern, sophisticated designs are always well-proportioned for petite frames, without appearing bulky. They are a reliable choice for stylish, well-fitting pieces.",
+    "editorial": "Star Jewelry is a fantastic Japanese brand that thoughtfully caters to smaller sizes, offering rings from US size 2 and bracelets from 14cm. What truly sets them apart from many of their Japanese counterparts is their willingness to accept international orders via email with FedEx shipping, making their high-quality craftsmanship accessible worldwide. Their modern, elegant designs are always well-proportioned for petite frames, without appearing bulky. They are a reliable choice for stylish, well-fitting pieces.",
     "recommended_products": [
       {
         "name": "Modern Minimalist Rings",
@@ -200,7 +200,7 @@
     "shop_url": "https://vendome.jp/aoyama/",
     "note": "Popular Japanese brand for working women. Elegant, office-appropriate designs in small sizes. Japan domestic shipping only — visit in-store if traveling to Japan.",
     "intl_shipping": false,
-    "editorial": "Vendome Aoyama is a revered Japanese brand known for its refined, professional designs that are surprisingly petite-friendly. They consistently offer rings from US size 2, making elegant and office-appropriate styles accessible for smaller fingers. While their bracelets start at 14.5cm, which may be slightly loose for wrists under 14cm, their exquisite rings and necklaces are perfectly scaled. This brand is ideal for petite women seeking sophisticated pieces that transition seamlessly from work to evening wear, though it requires Japan domestic shipping.",
+    "editorial": "Vendome Aoyama is a revered Japanese brand known for its refined, professional designs that are surprisingly petite-friendly. They consistently offer rings from US size 2, making elegant and office-appropriate styles accessible for smaller fingers. While their bracelets start at 14.5cm, which may be slightly loose for wrists under 14cm, their exquisite rings and necklaces are perfectly scaled. This brand is ideal for petite women seeking elegant pieces that transition seamlessly from work to evening wear, though it requires Japan domestic shipping.",
     "recommended_products": [
       {
         "name": "Classic Solitaire Rings",
@@ -211,7 +211,7 @@
         "why": "Their necklaces feature subtle pendants and fine chains that sit beautifully without overwhelming a petite frame."
       }
     ],
-    "petite_tip": "For the best fit, especially if your wrist is significantly under 14cm, focus on their extensive collection of rings and necklaces, as the 14.5cm minimum bracelet length might be too large for a snug fit.",
+    "petite_tip": "For the best fit, especially if your wrist is under 14cm, focus on their extensive collection of rings and necklaces, as the 14.5cm minimum bracelet length might be too large for a snug fit.",
     "fit_score": {
       "size_range": 5,
       "materials": 5,
@@ -244,7 +244,7 @@
     "shop_url": "https://bloomonline.jp/",
     "note": "Affordable Japanese brand. Great entry point for petite jewelry. Small sizes available. Japan domestic shipping only.",
     "intl_shipping": false,
-    "editorial": "Bloom offers an excellent entry point into petite jewelry, especially for those on a budget. As an affordable Japanese brand, they provide rings from US size 2 and bracelets from 14cm, making stylish everyday pieces accessible for smaller dimensions. Their casual, everyday style is perfect for those seeking versatile jewelry that won't break the bank. While their shipping is limited to Japan, their price point makes them a great option for exploring petite sizing without a significant investment.",
+    "editorial": "Bloom offers an excellent entry point into petite jewelry, especially for those on a budget. As an affordable Japanese brand, they provide rings from US size 2 and bracelets from 14cm, making stylish everyday pieces accessible for smaller dimensions. Their casual, everyday style is perfect for those seeking versatile jewelry that won't break the bank. While their shipping is limited to Japan, their price point makes them a great option for exploring petite sizing without a investment.",
     "recommended_products": [
       {
         "name": "Everyday Stacking Rings",
@@ -329,7 +329,7 @@
     "size_chart_url": "https://www.catbirdnyc.com/sizing",
     "shop_url": "https://www.catbirdnyc.com/",
     "note": "Brooklyn-based. Known for threadbare rings. Some styles available in size 3.",
-    "editorial": "Catbird is a beloved US brand known for its delicate, minimalist aesthetic and 'threadbare' rings, which are often available in US size 3. This makes them a great option for petite women seeking fine rings that don't overpower their hands. However, it's crucial to note that their bracelets typically start at 15cm, which will unfortunately be too loose for wrists under 14cm. Focus on their beautiful ring collections for the best petite fit.",
+    "editorial": "Catbird is a beloved US brand known for its delicate, minimalist aesthetic and 'threadbare' rings, which are often available in US size 3. This makes them a great option for petite women seeking fine rings that don't overpower their hands. However, it's to note that their bracelets typically start at 15cm, which will unfortunately be too loose for wrists under 14cm. Focus on their beautiful ring collections for the best petite fit.",
     "recommended_products": [
       {
         "name": "Threadbare Rings",
@@ -458,7 +458,7 @@
     "size_chart_url": "https://www.automicgold.com/",
     "shop_url": "https://www.automicgold.com/",
     "note": "Gender-inclusive brand. Carries rings from size 2. Solid gold, no plating.",
-    "editorial": "Automic Gold stands out as a truly inclusive brand, and it's a fantastic resource for petite women, particularly for rings. They explicitly offer rings starting from US size 2, which is a rare find in solid gold jewelry. While their bracelets begin at 14cm, which is still challenging for wrists significantly under that, their commitment to smaller ring sizes makes them a top recommendation for those struggling to find rings that fit.",
+    "editorial": "Automic Gold stands out as a truly inclusive brand, and it's a fantastic resource for petite women, particularly for rings. They explicitly offer rings starting from US size 2, which is a rare find in solid gold jewelry. While their bracelets begin at 14cm, which is still challenging for wrists under that, their commitment to smaller ring sizes makes them a top recommendation for those struggling to find rings that fit.",
     "recommended_products": [
       {
         "name": "Solid Gold Rings (from size 2)",
@@ -501,7 +501,7 @@
     "size_chart_url": "https://www.vrai.com/find-your-ring-size",
     "shop_url": "https://www.vrai.com/",
     "note": "Lab-grown diamond fine jewelry. Engagement rings available from size 3.",
-    "editorial": "Vrai is an excellent choice for petite women seeking fine jewelry, especially for significant pieces like engagement rings, due to their impressive sizing options. Unlike many fine jewelers, they offer rings starting at US size 3, which is a critical feature for those with smaller fingers. Their focus on lab-grown diamonds ensures ethical sourcing without compromising on the availability of smaller sizes in high-quality materials.",
+    "editorial": "Vrai is an excellent choice for petite women seeking fine jewelry, especially for pieces like engagement rings, due to their impressive sizing options. Unlike many fine jewelers, they offer rings starting at US size 3, which is a critical feature for those with smaller fingers. Their focus on lab-grown diamonds ensures ethical sourcing without compromising on the availability of smaller sizes in high-quality materials.",
     "recommended_products": [
       {
         "name": "Engagement Rings (from size 3)",
@@ -545,7 +545,7 @@
     "size_chart_url": "https://www.localeclectic.com/blogs/news/how-to-find-your-ring-size",
     "shop_url": "https://localeclectic.com/",
     "note": "Curates indie designers. Some designers offer size 3. Filter by size on site.",
-    "editorial": "Local Eclectic is a treasure trove for petite women willing to explore, as they curate indie designers, some of whom offer smaller sizes. While their standard bracelet minimum is 15cm, the key here is their diverse range of designers. Crucially, they allow filtering by ring size down to US 3, making it significantly easier to discover unique pieces that truly fit. This platform empowers petite shoppers to find less common, more personalized jewelry.",
+    "editorial": "Local Eclectic is a great place for petite women looking around, as they curate indie designers, some of whom offer smaller sizes. While their standard bracelet minimum is 15cm, the key here is their diverse range of designers. Crucially, they allow filtering by ring size down to US 3, making it easier to discover unique pieces that truly fit. This platform helps petite shoppers to find less common, personal jewelry.",
     "recommended_products": [
       {
         "name": "Rings (filter by US size 3)",
@@ -587,7 +587,7 @@
     "size_chart_url": "https://www.brilliantearth.com/ring-size-chart/",
     "shop_url": "https://www.brilliantearth.com/",
     "note": "Ethical fine jewelry. Wedding/engagement rings from size 3. Free resizing.",
-    "editorial": "Brilliant Earth is an exceptional destination for petite women seeking ethical fine jewelry, particularly for significant life events. They offer wedding and engagement rings starting from US size 3, which is a huge advantage for those with smaller fingers. Their commitment to ethical sourcing is paired with practical considerations for fit, including free resizing, ensuring your investment is perfectly tailored to you.",
+    "editorial": "Brilliant Earth is an exceptional destination for petite women seeking ethical fine jewelry, particularly for life events. They offer wedding and engagement rings starting from US size 3, which is a huge advantage for those with smaller fingers. Their commitment to ethical sourcing is paired with practical considerations for fit, including free resizing, ensuring your investment is perfectly tailored to you.",
     "recommended_products": [
       {
         "name": "Engagement Rings (from size 3)",
@@ -712,7 +712,7 @@
     "size_chart_url": "https://www.satomikawakita.com/",
     "shop_url": "https://www.satomikawakita.com/",
     "note": "Japanese jeweler based in NYC. Handmade 18K gold. Custom sizing from size 2.",
-    "editorial": "For petite women seeking exquisite fine jewelry, Satomi Kawakita is a standout. This brand specializes in handcrafted 18K gold pieces and offers custom sizing all the way down to US ring size 2, which is incredibly rare and valuable. Her organic, delicate designs are perfectly scaled for smaller hands, ensuring a beautiful, proportionate look. While a higher price point, the investment guarantees a perfect, heirloom-quality fit.",
+    "editorial": "For petite women seeking exquisite fine jewelry, Satomi Kawakita is a strong pick. This brand specializes in handcrafted 18K gold pieces and offers custom sizing all the way down to US ring size 2, which is incredibly rare and valuable. Her organic, delicate designs are perfectly scaled for smaller hands, ensuring a beautiful, proportionate look. While a higher price point, the investment guarantees a perfect, heirloom-quality fit.",
     "recommended_products": [
       {
         "name": "Engagement & Wedding Rings",
@@ -752,7 +752,7 @@
     "size_chart_url": "https://eng.polene-paris.com/",
     "shop_url": "https://eng.polene-paris.com/",
     "note": "French brand known for bags. Jewelry line has adjustable bracelets that work for thinner wrists.",
-    "editorial": "While primarily known for their bags, Polene's jewelry line offers a curated selection of architectural and minimalist bracelets that can work for some petite wrists. Their bracelets typically start at 15cm, which is slightly above our 14cm threshold, but many feature adjustable designs. This adjustability is key for achieving a better fit, though it's crucial to confirm the specific minimum circumference. Their sophisticated aesthetic adds a polished touch without being overly ornate.",
+    "editorial": "While primarily known for their bags, Polene's jewelry line offers a curated selection of architectural and minimalist bracelets that can work for some petite wrists. Their bracelets typically start at 15cm, which is slightly above our 14cm threshold, but many feature adjustable designs. This adjustability is key for achieving a better fit, though it's to confirm the specific minimum circumference. Their elegant aesthetic adds a polished touch without being overly ornate.",
     "recommended_products": [
       {
         "name": "Adjustable Chain Bracelets",
@@ -790,7 +790,7 @@
     "size_chart_url": "https://shopsoko.com/",
     "shop_url": "https://shopsoko.com/",
     "note": "Kenyan artisan-made. Adjustable cuffs can be bent to fit smaller wrists.",
-    "editorial": "Soko offers unique, ethically made jewelry with an artisanal touch, and can be a good option for petite women, particularly for bracelets. While their rings typically start at US size 4, limiting options for very tiny fingers, their adjustable cuff bracelets are a standout. These pieces are designed to be gently bent to fit, making them highly adaptable for wrists under 14cm. The bold yet refined aesthetic works well without overwhelming a petite frame.",
+    "editorial": "Soko offers unique, ethically made jewelry with an artisanal touch, and can be a good option for petite women, particularly for bracelets. While their rings typically start at US size 4, limiting options for very tiny fingers, their adjustable cuff bracelets are a strong pick. These pieces are designed to be gently bent to fit, making them highly adaptable for wrists under 14cm. The bold yet refined aesthetic works well without overwhelming a petite frame.",
     "recommended_products": [
       {
         "name": "Adjustable Cuff Bracelets",
@@ -874,7 +874,7 @@
     "size_chart_url": "https://www.stoneandstrand.com/pages/faq",
     "shop_url": "https://www.stoneandstrand.com/",
     "note": "Affordable fine jewelry. Dainty rings from size 3. Adjustable chain bracelets.",
-    "editorial": "Stone and Strand is an excellent choice for petite women seeking dainty, affordable fine jewelry. Their rings consistently start at US size 3, a crucial offering for slender fingers often overlooked by other brands. While their bracelets list a 15cm minimum, many feature adjustable chain designs that can often be cinched down for a better fit on wrists under 14cm. This brand truly understands the need for delicate proportions that complement a petite frame without overwhelming it.",
+    "editorial": "Stone and Strand is an excellent choice for petite women seeking dainty, affordable fine jewelry. Their rings consistently start at US size 3, a offering for slender fingers often overlooked by other brands. While their bracelets list a 15cm minimum, many feature adjustable chain designs that can often be cinched down for a better fit on wrists under 14cm. This brand truly understands the need for delicate proportions that complement a petite frame without overwhelming it.",
     "recommended_products": [
       {
         "name": "Dainty Diamond Rings",
@@ -916,7 +916,7 @@
     "size_chart_url": "https://bario-neal.com/pages/size-guide",
     "shop_url": "https://bario-neal.com/",
     "note": "Ethical fine jeweler. Custom engagement rings from size 3. Recycled and Fairmined metals.",
-    "editorial": "For petite women prioritizing ethical sourcing and bespoke design, Bario Neal offers exceptional fine jewelry. They specialize in custom and engagement rings, consistently providing sizes from US 3, which is vital for achieving a perfect fit on very slender fingers. While their focus is predominantly on rings and they don't cater to bracelets for small wrists, their commitment to recycled and Fairmined metals makes them a standout choice for a significant, custom-made piece that will fit flawlessly.",
+    "editorial": "For petite women prioritizing ethical sourcing and bespoke design, Bario Neal offers exceptional fine jewelry. They specialize in custom and engagement rings, consistently providing sizes from US 3, which is vital for achieving a perfect fit on very slender fingers. While their focus is predominantly on rings and they don't cater to bracelets for small wrists, their commitment to recycled and Fairmined metals makes them a strong pick choice for a significant, custom-made piece that will fit flawlessly.",
     "recommended_products": [
       {
         "name": "Custom Engagement Rings",
@@ -1001,7 +1001,7 @@
     "size_chart_url": "https://ringconcierge.com/pages/jewelry-size-guides",
     "shop_url": "https://ringconcierge.com/",
     "note": "Engagement ring specialist. Carries from size 3. Popular on Instagram.",
-    "editorial": "Ring Concierge is a premier destination for petite women seeking high-quality engagement and fine rings. They consistently offer rings from US size 3, which is critical for achieving a comfortable and secure fit on slender fingers, especially for significant investment pieces. While their primary focus is rings and they do not cater to bracelets for small wrists, their expertise in crafting beautiful, proportionate rings for smaller hands is invaluable. This brand is ideal for those looking for a luxurious and perfectly sized ring.",
+    "editorial": "Ring Concierge is a premier destination for petite women seeking high-quality engagement and fine rings. They consistently offer rings from US size 3, which is critical for achieving a comfortable and secure fit on slender fingers, especially for investment pieces. While their primary focus is rings and they do not cater to bracelets for small wrists, their expertise in crafting beautiful, proportionate rings for smaller hands is a great resource. This brand is ideal for those looking for a luxurious and perfectly sized ring.",
     "recommended_products": [
       {
         "name": "Engagement Rings",
@@ -1044,7 +1044,7 @@
     "size_chart_url": "https://www.kendrascott.com/ring-size-chart-v2.html",
     "shop_url": "https://www.kendrascott.com/",
     "note": "Texas-based. Adjustable slider bracelets can work for small wrists. Rings mostly size 4+.",
-    "editorial": "Kendra Scott offers a vibrant selection of jewelry, and while their rings generally start at US size 4 and might be too large for some petite women, their adjustable slider bracelets are a true highlight. These bracelets, despite a listed 15cm minimum, can often be cinched down significantly, providing a surprisingly good fit for wrists under 14cm. It's crucial to be selective and focus on these adjustable styles, as fixed-size items will likely be too big for a petite frame. They offer fun, colorful options where sizing is often a challenge.",
+    "editorial": "Kendra Scott offers a vibrant selection of jewelry, and while their rings generally start at US size 4 and might be too large for some petite women, their adjustable slider bracelets are a true highlight. These bracelets, despite a listed 15cm minimum, can often be cinched down significantly, providing a surprisingly good fit for wrists under 14cm. It's to be selective and focus on these adjustable styles, as fixed-size items will likely be too big for a petite frame. They offer fun, colorful options where sizing is often a challenge.",
     "recommended_products": [
       {
         "name": "Elisa Slider Bracelet",
@@ -1128,7 +1128,7 @@
     "size_chart_url": "https://enewtondesign.com/collections/egirl-bracelets",
     "shop_url": "https://enewtondesign.com/",
     "note": "eGirl line designed for 5.5 inch (14cm) wrists. Stretch beaded bracelets in gold-filled and gemstone beads. Great for petite women and teens.",
-    "editorial": "enewton is a true standout for petite women, offering comfortable, everyday bracelets that genuinely fit. Their 'eGirl' line is specifically designed for 5.5 inch (14cm) wrists, directly addressing the common issue of oversized bracelets. These gold-filled and gemstone beaded stretch bracelets are not only stylish and stackable but also incredibly practical for smaller frames. This brand is a must-try for anyone tired of bracelets slipping off or looking disproportionately bulky on their wrist.",
+    "editorial": "enewton is a true strong pick for petite women, offering comfortable, everyday bracelets that genuinely fit. Their 'eGirl' line is specifically designed for 5.5 inch (14cm) wrists, directly addressing the common issue of oversized bracelets. These gold-filled and gemstone beaded stretch bracelets are not only stylish and stackable but also incredibly practical for smaller frames. This brand is a must-try for anyone tired of bracelets slipping off or looking disproportionately bulky on their wrist.",
     "recommended_products": [
       {
         "name": "eGirl Bracelets",

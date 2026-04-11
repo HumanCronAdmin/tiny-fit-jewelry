@@ -24,43 +24,14 @@
     container.innerHTML = html;
   }
 
-  // Try to fetch real testimonials from GitHub Issues (label: "fit-experience")
-  function fetchGitHubTestimonials(container, limit) {
-    fetch('https://api.github.com/repos/HumanCronAdmin/tiny-fit-jewelry/issues?labels=fit-experience&state=closed&per_page=6')
-      .then(function(r) { return r.json(); })
-      .then(function(issues) {
-        if (!Array.isArray(issues) || issues.length === 0) {
-          renderTestimonials(container, limit);
-          return;
-        }
-        // Use real issues as testimonials
-        var real = issues.map(function(issue) {
-          var body = issue.body || '';
-          var name = issue.user ? issue.user.login : 'Anonymous';
-          // Try to extract ring size from body
-          var sizeMatch = body.match(/size\s*(\d+\.?\d*)/i) || body.match(/wrist\s*(\d+\.?\d*)/i);
-          var size = sizeMatch ? 'Size ' + sizeMatch[1] : '';
-          return { name: name, size: size, text: body.substring(0, 200) };
-        });
-        // Combine real + seed
-        var all = real.concat(SEED_TESTIMONIALS);
-        SEED_TESTIMONIALS.length = 0;
-        all.forEach(function(t) { SEED_TESTIMONIALS.push(t); });
-        renderTestimonials(container, limit);
-      })
-      .catch(function() {
-        renderTestimonials(container, limit);
-      });
-  }
-
-  // Auto-insert on index.html
+  // Auto-insert on index.html (static fallback only, no external fetch)
   if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/tiny-fit-jewelry/')) {
     var target = document.querySelector('#testimonials-container');
     if (target) {
-      fetchGitHubTestimonials(target, 3);
+      renderTestimonials(target, 3);
     }
   }
 
   // Expose for manual use on other pages
-  window.TinyFitTestimonials = { render: renderTestimonials, fetch: fetchGitHubTestimonials };
+  window.TinyFitTestimonials = { render: renderTestimonials };
 })();

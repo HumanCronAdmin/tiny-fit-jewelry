@@ -136,23 +136,19 @@ for (const b of brands) {
     `<li><a href="${slug(x.brand)}.html">${x.brand}</a> (${x.country}${x.min_ring_size_us !== null ? ', ring from US ' + x.min_ring_size_us : ''})</li>`
   ).join('\n        ');
 
-  // Fit Score bar generator
-  const fitScore = b.fit_score || {};
-  const scoreLabels = {size_range:'Size Range',materials:'Materials',adjustability:'Adjustability',accessibility:'Accessibility',value:'Value'};
-  const scoreColors = {5:'#4CAF50',4:'#8BC34A',3:'#FFC107',2:'#FF9800',1:'#F44336'};
-  const fitScoreHtml = Object.entries(scoreLabels).map(([key,label]) => {
-    const val = fitScore[key] || 0;
-    const pct = val * 20;
-    return `<div style="display:flex;align-items:center;gap:8px;margin:4px 0;">
-      <span style="min-width:100px;font-size:0.82rem;color:var(--muted);">${label}</span>
-      <div style="flex:1;background:#eee;border-radius:4px;height:8px;overflow:hidden;">
-        <div style="width:${pct}%;height:100%;background:${scoreColors[val]||'#ccc'};border-radius:4px;"></div>
-      </div>
-      <span style="font-size:0.78rem;font-weight:600;min-width:20px;text-align:right;">${val}/5</span>
-    </div>`;
-  }).join('\n      ');
-  const totalScore = Object.values(fitScore).reduce((a,c)=>a+c,0);
-  const maxScore = Object.keys(scoreLabels).length * 5;
+  // Quick Take (replaces Fit Score) — uses petite_emotional_value + fit_caveats
+  const whatsGreat = (b.petite_emotional_value || '').trim();
+  const watchFor = (b.fit_caveats || '').trim();
+  const quickTakeHtml = (whatsGreat || watchFor) ? `<div style="background:#FAF5F6;border-radius:12px;padding:20px 24px;margin:24px 0;">
+      ${whatsGreat ? `<div style="margin-bottom:${watchFor ? '16px' : '0'};">
+        <strong style="font-size:0.88rem;color:#2E7D32;display:block;margin-bottom:6px;">&#9825; What's great</strong>
+        <p style="font-size:0.92rem;line-height:1.65;margin:0;color:#333;">${whatsGreat}</p>
+      </div>` : ''}
+      ${watchFor ? `<div>
+        <strong style="font-size:0.88rem;color:#B76E79;display:block;margin-bottom:6px;">&#9888; What to watch for</strong>
+        <p style="font-size:0.92rem;line-height:1.65;margin:0;color:#333;">${watchFor}</p>
+      </div>` : ''}
+    </div>` : '';
 
   // Recommended products
   const recProds = (b.recommended_products || []).map(p =>
@@ -199,19 +195,17 @@ ${nav()}
       ${amazonBtn}
     </div>
 
-    ${b.editorial ? `<h2>Why We Recommend ${b.brand}</h2>
+    ${b.editorial ? `<h2 style="color:#B76E79;">${b.is_community_pick ? `Why the community likes ${b.brand}` : `Why we list ${b.brand}`}</h2>
     <p style="line-height:1.7;">${b.editorial}</p>` : ''}
 
-    <h2>Petite Fit Score</h2>
-    <p style="font-size:0.82rem;color:var(--muted);margin-bottom:12px;">Overall: <strong>${totalScore}/${maxScore}</strong></p>
-    <div style="max-width:360px;">
-      ${fitScoreHtml}
+    ${quickTakeHtml}
+
+    <h2 style="color:#B76E79;">Size Availability</h2>
+    <div style="background:#F0F9F2;border-left:4px solid #4CAF50;border-radius:10px;padding:18px 22px;margin:16px 0 24px;">
+      ${sizeLines.join('\n      ')}
     </div>
 
-    <h2>Size Availability</h2>
-    ${sizeLines.join('\n    ')}
-
-    ${recProds ? `<h2>Best for Petite Women</h2>
+    ${recProds ? `<h2 style="color:#B76E79;">Best for Petite Women</h2>
       ${recProds}` : ''}
 
     ${b.petite_tip ? `<div style="padding:16px;background:linear-gradient(135deg,#FFF8E1,#FFF3E0);border-radius:10px;margin:24px 0;border-left:4px solid #FFB74D;">
@@ -225,7 +219,7 @@ ${nav()}
       ${sizeChartBtn ? `<br><a href="${b.size_chart_url}" target="_blank" rel="noopener noreferrer" style="font-size:0.82rem;color:var(--muted);display:inline-block;margin-top:10px;">View ${b.brand} Size Chart &rarr;</a>` : ''}
     </div>
 
-    ${similarBrands.length > 0 ? `<h2>Similar Brands in This Size Range</h2>
+    ${similarBrands.length > 0 ? `<h2 style="color:#B76E79;">Similar Brands in This Size Range</h2>
     <ul>
         ${similarLinks}
     </ul>` : ''}

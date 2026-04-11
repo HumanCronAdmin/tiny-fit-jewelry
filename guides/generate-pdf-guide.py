@@ -319,7 +319,7 @@ body {{ font-family:'Inter',sans-serif; background:{BG}; color:{TEXT}; font-size
 
   <div class="ft">
     <div><strong>TinyFit Jewelry</strong> &bull; humancronadmin.github.io/tiny-fit-jewelry</div>
-    <div>All data verified 2026 &bull; Free to share &bull; @petitedevlog</div>
+    <div>All data verified 2026 &bull; Free to share</div>
   </div>
 </div>
 
