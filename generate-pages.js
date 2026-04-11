@@ -8,6 +8,11 @@ const fs = require('fs');
 const path = require('path');
 
 const brands = JSON.parse(fs.readFileSync('data/brands.json', 'utf-8'));
+const mainBrands = brands.filter(b => !b.is_community_pick);
+const communityBadgeHtml = `<div style="background:#FFF8E1;border-left:4px solid #FFB74D;padding:14px 16px;border-radius:8px;margin:12px 0 20px;">
+      <strong style="font-size:0.85rem;display:block;margin-bottom:4px;">Community Recommendation</strong>
+      <p style="font-size:0.85rem;margin:0;line-height:1.5;">This one is in our Community Recommendations section, not the Main Database. TinyFit friends brought it back as something that worked for them. <a href="../selection-criteria.html" style="color:var(--accent);font-weight:600;">See why we separate them</a>.</p>
+    </div>`;
 
 // Ensure directories
 ['brands', 'size'].forEach(d => {
@@ -34,7 +39,13 @@ function headBlock(title, desc, canonicalPath, schemaJson) {
   <meta property="og:url" content="${url}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="TinyFit Jewelry">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://humancronadmin.github.io/tiny-fit-jewelry/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${title} | TinyFit Jewelry">
+  <meta name="twitter:description" content="${desc}">
+  <meta name="twitter:image" content="https://humancronadmin.github.io/tiny-fit-jewelry/og-image.png">
   <meta name="theme-color" content="#B76E79">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="../manifest.json">
@@ -114,8 +125,8 @@ for (const b of brands) {
 
   const materialTags = b.materials.map(m => `<span class="tag tag-gold">${m}</span>`).join(' ');
 
-  // Find other brands in same size range for internal links
-  const similarBrands = brands.filter(x =>
+  // Find other brands in same size range for internal links (independent brands only)
+  const similarBrands = mainBrands.filter(x =>
     x.brand !== b.brand &&
     x.category.some(c => b.category.includes(c)) &&
     (hasRing ? x.min_ring_size_us !== null && x.min_ring_size_us <= (b.min_ring_size_us + 1) : true)
@@ -169,6 +180,7 @@ ${nav()}
 <article class="article">
   <div class="container narrow">
     <p style="font-size:0.85rem;color:var(--muted);margin-bottom:8px;"><a href="../database.html">&larr; All Brands</a></p>
+    ${b.is_community_pick ? communityBadgeHtml : ''}
     <h1>${b.brand} Size Guide for Petite Women</h1>
     <p class="meta">${b.country} &middot; ${cats} &middot; $${b.price_min}&ndash;$${b.price_max} &middot; <em>${b.style}</em></p>
 
@@ -219,7 +231,7 @@ ${nav()}
     </ul>` : ''}
 
     <div style="text-align:center;padding:24px 0;">
-      <a href="../database.html" class="btn btn-outline">Browse All ${brands.length} Brands</a>
+      <a href="../database.html" class="btn btn-outline">Browse All ${mainBrands.length} Brands</a>
     </div>
   </div>
 </article>
@@ -243,7 +255,7 @@ const sizeGroups = [
 
 let sizePages = 0;
 for (const group of sizeGroups) {
-  const matching = brands.filter(group.filter);
+  const matching = mainBrands.filter(group.filter);
   const brandList = matching.map(b => {
     const s = slug(b.brand);
     let info = [];
@@ -285,7 +297,7 @@ ${nav()}
     ${brandList}
     </div>
     <div style="text-align:center;padding:24px 0;">
-      <a href="../database.html" class="btn btn-outline">Browse All ${brands.length} Brands</a>
+      <a href="../database.html" class="btn btn-outline">Browse All ${mainBrands.length} Brands</a>
     </div>
   </div>
 </section>

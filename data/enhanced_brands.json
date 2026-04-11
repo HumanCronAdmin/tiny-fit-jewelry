@@ -40,7 +40,8 @@
       "accessibility": 2,
       "value": 3
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "4℃ (Yon-doshi)",
@@ -85,7 +86,8 @@
       "accessibility": 2,
       "value": 3
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Nojess",
@@ -127,7 +129,8 @@
       "accessibility": 2,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Star Jewelry",
@@ -171,7 +174,8 @@
       "accessibility": 4,
       "value": 2
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Vendome Aoyama",
@@ -215,7 +219,8 @@
       "accessibility": 2,
       "value": 3
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Bloom",
@@ -258,7 +263,8 @@
       "accessibility": 2,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Take-Up",
@@ -300,7 +306,8 @@
       "accessibility": 2,
       "value": 5
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Catbird",
@@ -341,7 +348,8 @@
       "accessibility": 5,
       "value": 3
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Ana Luisa",
@@ -384,7 +392,8 @@
       "accessibility": 5,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Missoma",
@@ -426,7 +435,8 @@
       "accessibility": 5,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Automic Gold",
@@ -467,7 +477,8 @@
       "accessibility": 5,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Vrai",
@@ -509,7 +520,8 @@
       "accessibility": 5,
       "value": 2
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Local Eclectic",
@@ -552,7 +564,8 @@
       "accessibility": 5,
       "value": 3
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": true
   },
   {
     "brand": "Brilliant Earth",
@@ -593,7 +606,8 @@
       "accessibility": 5,
       "value": 2
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Gorjana",
@@ -634,7 +648,8 @@
       "accessibility": 5,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Astrid & Miyu",
@@ -676,7 +691,8 @@
       "accessibility": 5,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Satomi Kawakita",
@@ -715,7 +731,8 @@
       "accessibility": 4,
       "value": 2
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Polene",
@@ -750,7 +767,8 @@
       "accessibility": 4,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Soko",
@@ -791,7 +809,8 @@
       "accessibility": 4,
       "value": 5
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Wwake",
@@ -832,7 +851,8 @@
       "accessibility": 5,
       "value": 2
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Stone and Strand",
@@ -873,7 +893,8 @@
       "accessibility": 5,
       "value": 3
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Bario Neal",
@@ -914,7 +935,8 @@
       "accessibility": 5,
       "value": 2
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "AUrate",
@@ -956,7 +978,8 @@
       "accessibility": 5,
       "value": 3
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Ring Concierge",
@@ -997,7 +1020,8 @@
       "accessibility": 5,
       "value": 2
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Kendra Scott",
@@ -1039,7 +1063,8 @@
       "accessibility": 5,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "Monica Vinader",
@@ -1081,7 +1106,8 @@
       "accessibility": 5,
       "value": 3
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "enewton",
@@ -1121,7 +1147,8 @@
       "accessibility": 5,
       "value": 5
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": false
   },
   {
     "brand": "SilverArtisan925",
@@ -1161,7 +1188,8 @@
       "accessibility": 4,
       "value": 5
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": true
   },
   {
     "brand": "Kuololit",
@@ -1203,6 +1231,7 @@
       "accessibility": 4,
       "value": 4
     },
-    "verified": true
+    "verified": true,
+    "is_community_pick": true
   }
 ]

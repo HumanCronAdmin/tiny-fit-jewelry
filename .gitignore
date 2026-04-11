@@ -1,0 +1,14 @@
+# Data backups
+data/*.bak.*
+data/*_backup.*
+
+# Internal outreach tracking (contains personal email + strategy notes)
+outreach/sent_log/
+outreach/drafts/
+outreach/outreach_log.txt
+outreach/brand_contacts_tier2.txt
+outreach/brand_contacts_tier3.txt
+
+# Python cache
+__pycache__/
+*.pyc

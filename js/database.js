@@ -2,6 +2,8 @@
 (function () {
   let brands = [];
   const grid = document.getElementById('brand-grid');
+  const communityGrid = document.getElementById('community-grid');
+  const communitySection = document.getElementById('community-section');
   const countEl = document.getElementById('result-count');
 
   const catFilter = document.getElementById('filter-category');
@@ -116,13 +118,31 @@
 
   function render() {
     const filtered = getFiltered();
-    countEl.textContent = filtered.length + ' brand' + (filtered.length !== 1 ? 's' : '') + ' found';
-    if (filtered.length === 0) {
+    const mainBrands = filtered.filter(b => !b.is_community_pick);
+    const communityPicks = filtered.filter(b => b.is_community_pick);
+
+    const mainCount = mainBrands.length;
+    const commCount = communityPicks.length;
+    let countText = mainCount + ' brand' + (mainCount !== 1 ? 's' : '') + ' found';
+    if (commCount > 0) countText += ' + ' + commCount + ' community pick' + (commCount !== 1 ? 's' : '');
+    countEl.textContent = countText;
+
+    if (mainCount === 0) {
       const isWishlist = catFilter.value === 'wishlist';
       grid.innerHTML = '<div class="no-results"><p>' + (isWishlist ? 'No saved brands yet. Click the heart icon on any brand to save it here.' : 'No brands match your filters. Try adjusting your criteria.') + '</p></div>';
-      return;
+    } else {
+      grid.innerHTML = mainBrands.map(renderCard).join('');
     }
-    grid.innerHTML = filtered.map(renderCard).join('');
+
+    if (communityGrid && communitySection) {
+      if (commCount > 0) {
+        communityGrid.innerHTML = communityPicks.map(renderCard).join('');
+        communitySection.style.display = 'block';
+      } else {
+        communityGrid.innerHTML = '';
+        communitySection.style.display = 'none';
+      }
+    }
   }
 
   [catFilter, sizeFilter, priceFilter, matFilter, adjFilter, shipFilter, sortSelect].filter(Boolean).forEach(el => el.addEventListener('change', render));

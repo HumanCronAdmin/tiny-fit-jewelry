@@ -1,6 +1,6 @@
 /**
  * TinyFit Form Webhook Receiver v3
- * Super simple version — handles FORMLOVA's known payload format directly.
+ * Super simple version - handles FORMLOVA's known payload format directly.
  */
 
 const BRANDS_URL = 'https://raw.githubusercontent.com/HumanCronAdmin/tiny-fit-jewelry/master/data/brands.json';
@@ -68,7 +68,7 @@ function isYes(value) {
   if (value === true) return true;
   if (typeof value !== 'string') return false;
   var v = value.toLowerCase().trim();
-  return v === 'yes' || v === 'true' || v === 'y' || v === '1' || v === 'はい';
+  return v === 'yes' || v === 'true' || v === 'y' || v === '1';
 }
 
 function jsonResponse(obj) {
@@ -91,8 +91,21 @@ function pickBrands(brands, ringSize, wristSize, category) {
   var ringMax = (ringMap[ringSize] != null) ? ringMap[ringSize] : 4;
   var wristMax = (wristMap[wristSize] != null) ? wristMap[wristSize] : 15;
 
-  var wantRings = category.indexOf('rings') !== -1;
-  var wantBracelets = category.indexOf('bracelets') !== -1;
+  var catMap = {
+    'rings': 'ring',
+    'bracelets': 'bracelet',
+    'necklaces': 'necklace',
+    'anklets': 'anklet',
+  };
+
+  var wantedCats = [];
+  for (var c = 0; c < category.length; c++) {
+    var mapped = catMap[category[c]];
+    if (mapped && wantedCats.indexOf(mapped) === -1) wantedCats.push(mapped);
+  }
+  if (wantedCats.length === 0) {
+    wantedCats = ['ring', 'bracelet', 'necklace', 'anklet'];
+  }
 
   var filtered = [];
   for (var i = 0; i < brands.length; i++) {
@@ -103,12 +116,22 @@ function pickBrands(brands, ringSize, wristSize, category) {
     var minWrist = (b.min_bracelet_cm != null) ? b.min_bracelet_cm : 99;
     var cats = b.category || [];
 
-    var ok = false;
-    if (wantRings && cats.indexOf('ring') !== -1 && minRing <= ringMax) ok = true;
-    if (wantBracelets && cats.indexOf('bracelet') !== -1 && minWrist <= wristMax) ok = true;
-    if (!wantRings && !wantBracelets && (minRing <= ringMax || minWrist <= wristMax)) ok = true;
+    var matched = false;
+    for (var w = 0; w < wantedCats.length; w++) {
+      var wantedCat = wantedCats[w];
+      if (cats.indexOf(wantedCat) === -1) continue;
 
-    if (ok) filtered.push(b);
+      if (wantedCat === 'ring') {
+        if (minRing <= ringMax) { matched = true; break; }
+      } else if (wantedCat === 'bracelet') {
+        if (minWrist <= wristMax) { matched = true; break; }
+      } else {
+        matched = true;
+        break;
+      }
+    }
+
+    if (matched) filtered.push(b);
   }
 
   filtered.sort(function (a, b) { return scoreFit(b) - scoreFit(a); });
@@ -135,16 +158,16 @@ function buildEmail(ringSize, brands) {
   };
   var sizeLabel = sizeLabels[ringSize] || 'your size';
 
-  var subject = 'Your picks — brands that fit ' + sizeLabel;
+  var subject = 'Your picks - brands that fit ' + sizeLabel;
   var body = 'Hey,\n\n';
-  body += 'Chikako here from TinyFit Jewelry — thanks for taking the quiz.\n\n';
+  body += 'Chikako here from TinyFit Jewelry - thanks for taking the quiz.\n\n';
 
   if (brands.length === 0) {
-    body += "I don't have enough brand matches for your exact combo yet.\n";
-    body += 'Check the full database and I will send new picks as I find them:\n';
-    body += '-> ' + DATABASE_URL + '\n\n';
-  } else {
-    body += 'Based on your answers, here are ' + brands.length + ' brands to start with:\n\n';
+    body += "I'm sorry - I don't have a brand in my database that matches your combo yet.\n\n";
+    body += "This is why TinyFit exists. Jewelry for ring size 2, 3, 4 - or wrists under 14cm - is hard to find. Most brands don't make it. I add new brands to the database as I find them.\n\n";
+    body += "Browse the full database here:\n-> " + DATABASE_URL + "\n\n";
+  } else if (brands.length === 3) {
+    body += "Here are 3 brands that fit your combo:\n\n";
     for (var i = 0; i < brands.length; i++) {
       var b = brands[i];
       body += (i + 1) + '. ' + b.brand + '\n';
@@ -153,6 +176,19 @@ function buildEmail(ringSize, brands) {
       }
       body += '   -> ' + b.shop_url + '\n\n';
     }
+    body += 'Browse the full database:\n-> ' + DATABASE_URL + '\n\n';
+  } else {
+    var oneMatch = brands.length === 1;
+    body += "Sorry - I've only got " + (oneMatch ? '1 brand' : brands.length + ' brands') + " that " + (oneMatch ? 'fits' : 'fit') + " your combo right now.\n\n";
+    for (var j = 0; j < brands.length; j++) {
+      var bb = brands[j];
+      body += (j + 1) + '. ' + bb.brand + '\n';
+      if (bb.petite_tip) {
+        body += '   ' + String(bb.petite_tip).trim() + '\n';
+      }
+      body += '   -> ' + bb.shop_url + '\n\n';
+    }
+    body += "The database is still growing - I add new brands whenever I find a new one that fits.\n\n";
     body += 'Browse the full database:\n-> ' + DATABASE_URL + '\n\n';
   }
 
@@ -166,25 +202,40 @@ function addSubscriber(email, ringSize, wristSize) {
   var apiKey = PropertiesService.getScriptProperties().getProperty('BUTTONDOWN_API_KEY');
   if (!apiKey) throw new Error('BUTTONDOWN_API_KEY not set');
 
-  var payload = {
-    email_address: email,
-    type: 'regular',
-    metadata: { ring_size: ringSize, wrist_size: wristSize },
-  };
+  var metadata = { ring_size: ringSize, wrist_size: wristSize };
+  var headers = { 'Authorization': 'Token ' + apiKey };
 
-  var res = UrlFetchApp.fetch('https://api.buttondown.com/v1/subscribers', {
+  var createRes = UrlFetchApp.fetch('https://api.buttondown.com/v1/subscribers', {
     method: 'post',
     contentType: 'application/json',
-    headers: { 'Authorization': 'Token ' + apiKey },
-    payload: JSON.stringify(payload),
+    headers: headers,
+    payload: JSON.stringify({
+      email_address: email,
+      type: 'regular',
+      metadata: metadata,
+    }),
     muteHttpExceptions: true,
   });
+  var createCode = createRes.getResponseCode();
 
-  var code = res.getResponseCode();
-  if (code >= 500) {
-    throw new Error('Buttondown ' + code + ': ' + res.getContentText().substring(0, 200));
+  if (createCode === 200 || createCode === 201) {
+    return createRes.getContentText();
   }
-  return res.getContentText();
+
+  var patchRes = UrlFetchApp.fetch('https://api.buttondown.com/v1/subscribers/' + encodeURIComponent(email), {
+    method: 'patch',
+    contentType: 'application/json',
+    headers: headers,
+    payload: JSON.stringify({ metadata: metadata }),
+    muteHttpExceptions: true,
+  });
+  var patchCode = patchRes.getResponseCode();
+
+  if (patchCode >= 200 && patchCode < 300) {
+    return 'updated: ' + patchRes.getContentText();
+  }
+
+  throw new Error('Buttondown create=' + createCode + ' patch=' + patchCode + ': ' + patchRes.getContentText().substring(0, 200));
 }
 
 function testExtractSelf() {
