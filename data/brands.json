@@ -87,50 +87,6 @@
     "verified_date": "2026-04-09"
   },
   {
-    "brand": "Mejuri",
-    "country": "Canada",
-    "category": [
-      "ring",
-      "bracelet",
-      "necklace"
-    ],
-    "min_ring_size_us": 4,
-    "min_bracelet_cm": 15,
-    "price_min": 30,
-    "price_max": 400,
-    "materials": [
-      "14K gold",
-      "18K gold vermeil",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "minimalist, modern",
-    "size_chart_url": "https://mejuri.com/how-to/sizing/ring-sizing-101",
-    "shop_url": "https://mejuri.com/",
-    "note": "Popular DTC brand. Most rings start at size 4-5. Limited options for size 2-3.",
-    "editorial": "Mejuri is a popular brand known for its minimalist aesthetic, but it's crucial for petite women to note their sizing limitations. While their quality and style are appealing, most rings start at a US size 4 or 5, making options for sizes 2-3 very scarce. Bracelets also begin at 15cm, which will be too large for wrists under 14cm. If your ring size is US 4 and your wrist is exactly 15cm, you might find some pieces, but for true petite sizing, it's generally not the first stop.",
-    "recommended_products": [
-      {
-        "name": "Dainty Necklaces",
-        "why": "While rings and bracelets are challenging, their delicate necklaces are often a good fit for petite frames as length is more easily adjustable or chosen."
-      },
-      {
-        "name": "Earrings",
-        "why": "Earrings are universally sized and Mejuri offers a wide range of minimalist studs, hoops, and huggies that complement smaller features without overwhelming them."
-      }
-    ],
-    "petite_tip": "Focus on their necklace and earring collections, as these are less impacted by standard ring and bracelet sizing issues for petite women.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 5,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09"
-  },
-  {
     "brand": "Ana Luisa",
     "country": "USA",
     "category": [
