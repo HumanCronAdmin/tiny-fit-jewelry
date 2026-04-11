@@ -506,43 +506,6 @@
     "verified_date": "2026-04-09"
   },
   {
-    "brand": "Cuyana",
-    "country": "USA",
-    "category": [
-      "bracelet"
-    ],
-    "min_ring_size_us": null,
-    "min_bracelet_cm": 15,
-    "price_min": 60,
-    "price_max": 200,
-    "materials": [
-      "14K gold vermeil",
-      "silver"
-    ],
-    "adjustable": true,
-    "style": "essential, timeless",
-    "size_chart_url": "https://www.cuyana.com/",
-    "shop_url": "https://www.cuyana.com/",
-    "note": "Fewer, better things philosophy. Adjustable chain bracelets can fit smaller wrists.",
-    "editorial": "Cuyana, with its 'fewer, better things' philosophy, offers timeless and elegant bracelets that can be suitable for petite wrists, provided you focus on their adjustable styles. While their standard bracelet lengths typically start around 15cm, their adjustable chain bracelets are the ones to look for. These pieces are designed to be delicate and essential, ensuring they complement a smaller frame without feeling cumbersome. They're perfect for those seeking understated sophistication.",
-    "recommended_products": [
-      {
-        "name": "Adjustable Chain Bracelets",
-        "why": "These delicate bracelets feature adjustable clasps or sliders, allowing for a more tailored fit on wrists that are slightly smaller than the standard 15cm."
-      }
-    ],
-    "petite_tip": "Prioritize their chain bracelets that explicitly mention adjustability, and if possible, measure the smallest circumference they can be adjusted to, to ensure a snug fit.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 5,
-      "adjustability": 4,
-      "accessibility": 5,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09"
-  },
-  {
     "brand": "Soko",
     "country": "Kenya/USA",
     "category": [
