@@ -1,0 +1,43 @@
+Target: r/PetiteFashionAdvice (74k members)
+When: This weekend (April 11-12, 2026)
+Account: Main account
+Tone reference: posts/reference_original_xxs_post.txt
+
+---
+
+title: i have size 3 fingers and 13.5cm wrists and i was losing my mind so i built a jewelry size database
+
+body:
+
+most petite jewelry starts at size 5 which is a joke every bracelet i have ever bought has just slid straight off my hand i got fed up with being ignored by the industry so i put together a list of 33 brands that actually carry real small sizes not size 5 is our smallest small but rings starting from size 1.5 and bracelets made for wrists under 14cm
+
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+the biggest thing i learned doing this is that japanese brands are on a whole different level they just casually stock size 1.5 like its no big deal while most western brands act like anyone under a size 6 does not exist so theres a lot of japanese brands in there
+
+you can filter everything by size material price and whether its adjustable theres also a brand comparison tool and guides for rings bracelets and engagement rings
+
+no product photos yet because im not going to use brand images without asking im reaching out to them now every brand page links to their shop though
+
+if you know brands i missed especially if youve actually ordered from them and the sizing was legit please let me know the verification part takes forever and i want to keep this growing also theres a design toggle at the bottom of the site id love to know which one you prefer
+
+
+===================================================
+日本語訳（確認用・投稿には使わない）
+===================================================
+
+タイトル: 指輪サイズ3号で手首13.5cmで頭おかしくなりそうだったからジュエリーサイズDBを作った
+
+本文:
+
+プチジュエリーの大半はサイズ5からでそれ冗談でしょって感じで今まで買ったブレスレットは全部手からするっと滑り落ちてきたし業界に無視され続けるのにうんざりして実際に小さいサイズを扱ってる33ブランドをまとめたサイズ5が一番小さいですじゃなくて1.5号からの指輪と14cm以下の手首向けブレスレット
+
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+これやって一番の発見は日本ブランドが次元違うってことで1.5号を当たり前みたいに在庫してるのに西洋ブランドの大半は6号以下の人間が存在しないみたいに振る舞ってるからリストには日本ブランドがかなり入ってる
+
+サイズと素材と価格と調節可能かでフィルターできるのとブランド比較ツールと指輪とブレスレットと婚約指輪のガイドもある
+
+商品写真はまだない勝手にブランドの画像使う気ないから今許可取ってる最中で各ブランドページから公式ショップには直リンクしてる
+
+載ってないブランド知ってたら特に実際に買ったことがあってサイズが本物だって確認できてるなら教えてほしい検証パートが永遠にかかるんだけどこれをもっと大きくしていきたいあとサイトの下にデザイン切り替えがあるからどっちがいいか教えてくれると嬉しい

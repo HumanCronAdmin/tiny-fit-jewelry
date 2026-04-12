@@ -90,8 +90,8 @@ function footer() {
 </div>
 </footer>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6776399834647681" crossorigin="anonymous"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1N5PR9Y0H"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-H1N5PR9Y0H');</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-18FRFZ4E6G"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-18FRFZ4E6G');</script>
 </body></html>`;
 }
 

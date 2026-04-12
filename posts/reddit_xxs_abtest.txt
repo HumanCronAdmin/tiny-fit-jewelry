@@ -1,0 +1,35 @@
+Target: r/XXS (where we got 184 upvotes)
+When: Same weekend as PetiteFashionAdvice post, or 1 day after
+Account: u/Human_Cron_Admin (same as original post)
+Tone reference: posts/reference_original_xxs_post.txt
+
+---
+
+title: need your help picking a design for the jewelry database
+
+body:
+
+hey so i posted the jewelry size database here last week and got a ton of great brand suggestions from you guys which really helped thank you
+
+i have a quick favor to ask im testing two different design directions for the site and i genuinely cannot tell which one is better theres a small toggle at the bottom of the page one is warm rose gold tones and the other is more minimal black and gold just tell me which one feels right or if they both look bad thats useful too
+
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+also still looking for bracelet brands for wrists under 14cm thats still the hardest category to find anything for so if you know something i dont please tell me
+
+
+===================================================
+日本語訳（確認用・投稿には使わない）
+===================================================
+
+タイトル: ジュエリーDBのデザイン選ぶの手伝ってほしい
+
+本文:
+
+先週ここにジュエリーサイズDB投稿したらめちゃくちゃいいブランド提案もらえて本当に助かったありがとう
+
+一つお願いがあって今サイトのデザインを2パターン試してるんだけどどっちがいいかマジで分からないページの下に小さい切り替えがあって一つはローズゴールドの温かい感じでもう一つは黒とゴールドのミニマルな感じどっちがしっくりくるか教えてほしいどっちもダメならそれも教えてほしい
+
+https://humancronadmin.github.io/tiny-fit-jewelry/
+
+あと手首14cm以下向けのブレスレットブランドまだ探してるこのカテゴリが一番見つからないから何か知ってたら教えてほしい

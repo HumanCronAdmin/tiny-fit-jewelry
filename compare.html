@@ -1,175 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Compare Brands | TinyFit Jewelry</title>
-  <meta name="description" content="Compare petite jewelry brands side by side. See ring sizes, bracelet lengths, prices, and materials for brands that carry size 2-4.">
-  <link rel="canonical" href="https://humancronadmin.github.io/tiny-fit-jewelry/compare.html">
-  <meta property="og:title" content="Compare Petite Jewelry Brands | TinyFit Jewelry">
-  <meta property="og:description" content="Compare petite jewelry brands side by side. Ring sizes, prices, materials — all verified.">
-  <meta property="og:url" content="https://humancronadmin.github.io/tiny-fit-jewelry/compare.html">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="TinyFit Jewelry">
-  <meta property="og:image" content="https://humancronadmin.github.io/tiny-fit-jewelry/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta name="p:domain_verify" content="pending"/>
-  <meta name="twitter:card" content="summary">
-  <meta name="theme-color" content="#B76E79">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    .compare-selectors { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin: 24px 0; }
-    .compare-selectors select { padding: 12px 16px; font-size: 1rem; border: 2px solid #E7E5E4; border-radius: 8px; font-family: inherit; min-width: 200px; }
-    .compare-selectors select:focus { border-color: #B76E79; outline: none; }
-    .vs-label { display: flex; align-items: center; font-size: 1.2rem; font-weight: 800; color: #B76E79; }
-    .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 32px; }
-    @media (max-width: 640px) { .compare-grid { grid-template-columns: 1fr; } }
-    .compare-card { background: #fff; border-radius: 12px; padding: 28px; border: 2px solid #E7E5E4; }
-    .compare-card.highlight { border-color: #B76E79; }
-    .compare-card h3 { font-size: 1.4rem; margin-bottom: 4px; }
-    .compare-card .country { color: #78716C; font-size: 0.9rem; margin-bottom: 16px; }
-    .compare-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #F0EEEE; }
-    .compare-row:last-child { border-bottom: none; }
-    .compare-label { color: #78716C; font-size: 0.9rem; }
-    .compare-value { font-weight: 700; font-size: 0.95rem; }
-    .compare-value.win { color: #16a34a; }
-    .compare-value.lose { color: #A8A29E; }
-    .compare-note { margin-top: 16px; padding: 12px 16px; background: #FAF5F6; border-radius: 8px; font-size: 0.85rem; color: #44403C; line-height: 1.5; }
-    .compare-link { display: inline-block; margin-top: 12px; color: #B76E79; font-weight: 600; text-decoration: none; }
-    .compare-link:hover { text-decoration: underline; }
-    .empty-state { text-align: center; padding: 60px 20px; color: #78716C; }
-    .empty-state p { font-size: 1.1rem; margin-bottom: 8px; }
-  </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Compare Brands | TinyFit Jewelry</title>
+ <meta name="description" content="Compare petite jewelry brands side by side. See ring sizes, bracelet lengths, prices, and materials for brands that carry size 2-4.">
+ <link rel="canonical" href="https://humancronadmin.github.io/tiny-fit-jewelry/compare.html">
+ <meta property="og:title" content="Compare Petite Jewelry Brands | TinyFit Jewelry">
+ <meta property="og:description" content="Compare petite jewelry brands side by side. Ring sizes, prices, materials — all verified.">
+ <meta property="og:url" content="https://humancronadmin.github.io/tiny-fit-jewelry/compare.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="TinyFit Jewelry">
+ <meta property="og:image" content="https://humancronadmin.github.io/tiny-fit-jewelry/og-image.png">
+ <meta property="og:image:width" content="1200">
+ <meta property="og:image:height" content="630">
+ <meta name="p:domain_verify" content="pending"/>
+ <meta name="twitter:title" content="Compare Petite Jewelry Brands | TinyFit Jewelry">
+ <meta name="twitter:description" content="Compare petite jewelry brands side by side. Ring sizes, prices, materials — all verified.">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:image" content="https://humancronadmin.github.io/tiny-fit-jewelry/og-image.png">
+ <meta name="theme-color" content="#B76E79">
+ <link rel="icon" href="favicon.svg" type="image/svg+xml">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css">
+ <style>
+ .compare-selectors { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin: 24px 0; }
+ .compare-selectors select { padding: 12px 16px; font-size: 1rem; border: 2px solid #E7E5E4; border-radius: 8px; font-family: inherit; min-width: 200px; }
+ .compare-selectors select:focus { border-color: #B76E79; outline: none; }
+ .vs-label { display: flex; align-items: center; font-size: 1.2rem; font-weight: 800; color: #B76E79; }
+ .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 32px; }
+ @media (max-width: 640px) { .compare-grid { grid-template-columns: 1fr; } }
+ .compare-card { background: #fff; border-radius: 12px; padding: 28px; border: 2px solid #E7E5E4; }
+ .compare-card.highlight { border-color: #B76E79; }
+ .compare-card h3 { font-size: 1.4rem; margin-bottom: 4px; }
+ .compare-card .country { color: #78716C; font-size: 0.9rem; margin-bottom: 16px; }
+ .compare-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #F0EEEE; }
+ .compare-row:last-child { border-bottom: none; }
+ .compare-label { color: #78716C; font-size: 0.9rem; }
+ .compare-value { font-weight: 700; font-size: 0.95rem; }
+ .compare-value.win { color: #16a34a; }
+ .compare-value.lose { color: #A8A29E; }
+ .compare-note { margin-top: 16px; padding: 12px 16px; background: #FAF5F6; border-radius: 8px; font-size: 0.85rem; color: #44403C; line-height: 1.5; }
+ .compare-link { display: inline-block; margin-top: 12px; color: #B76E79; font-weight: 600; text-decoration: none; }
+ .compare-link:hover { text-decoration: underline; }
+ .empty-state { text-align: center; padding: 60px 20px; color: #78716C; }
+ .empty-state p { font-size: 1.1rem; margin-bottom: 8px; }
+ </style>
 </head>
 <body>
 
 <nav class="nav">
-  <div class="container">
-    <a href="index.html" class="nav-brand">Tiny<span>Fit</span></a>
-    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')" aria-label="Menu">&#9776;</button>
-    <ul class="nav-links">
-      <li><a href="rings.html">Ring Guide</a></li>
-      <li><a href="bracelets.html">Bracelet Guide</a></li>
-      <li><a href="database.html">Brand Database</a></li>
-      <li><a href="guides.html">Guides</a></li>
-      <li><a href="compare.html">Compare</a></li>
-    </ul>
-  </div>
+ <div class="container">
+ <a href="index.html" class="nav-brand">Tiny<span>Fit</span></a>
+ <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')" aria-label="Menu">&#9776;</button>
+ <ul class="nav-links">
+ <li><a href="rings.html">Ring Guide</a></li>
+ <li><a href="bracelets.html">Bracelet Guide</a></li>
+ <li><a href="database.html">Brand Database</a></li>
+ <li><a href="guides.html">Guides</a></li>
+ <li><a href="compare.html">Compare</a></li>
+ </ul>
+ </div>
 </nav>
 
 <section style="padding-top:100px;">
-  <div class="container narrow" style="text-align:center;">
-    <h1 style="font-size:2rem;margin-bottom:8px;">Compare Brands</h1>
-    <p style="color:#78716C;">Pick two brands to see how they stack up for petite sizes.</p>
+ <div class="container narrow" style="text-align:center;">
+ <h1 style="font-size:2rem;margin-bottom:8px;">Compare Brands</h1>
+ <p style="color:#78716C;">Pick two brands to see how they stack up for petite sizes.</p>
 
-    <div class="compare-selectors">
-      <select id="brand-a"><option value="">Select Brand A</option></select>
-      <div class="vs-label">VS</div>
-      <select id="brand-b"><option value="">Select Brand B</option></select>
-    </div>
+ <div class="compare-selectors">
+ <select id="brand-a"><option value="">Select Brand A</option></select>
+ <div class="vs-label">VS</div>
+ <select id="brand-b"><option value="">Select Brand B</option></select>
+ </div>
 
-    <div id="compare-result"></div>
-  </div>
+ <div id="compare-result"></div>
+ </div>
 </section>
 
 <script>
 fetch('data/brands.json').then(r=>r.json()).then(brands => {
-  const selA = document.getElementById('brand-a');
-  const selB = document.getElementById('brand-b');
-  const result = document.getElementById('compare-result');
+ const selA = document.getElementById('brand-a');
+ const selB = document.getElementById('brand-b');
+ const result = document.getElementById('compare-result');
 
-  brands.sort((a,b) => a.brand.localeCompare(b.brand));
-  brands.forEach(b => {
-    selA.innerHTML += `<option value="${b.brand}">${b.brand} (${b.country})</option>`;
-    selB.innerHTML += `<option value="${b.brand}">${b.brand} (${b.country})</option>`;
-  });
+ brands.sort((a,b) => a.brand.localeCompare(b.brand));
+ brands.forEach(b => {
+ selA.innerHTML += `<option value="${b.brand}">${b.brand} (${b.country})</option>`;
+ selB.innerHTML += `<option value="${b.brand}">${b.brand} (${b.country})</option>`;
+ });
 
-  function slug(name) { return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+ function slug(name) { return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
 
-  function renderCompare() {
-    const a = brands.find(b => b.brand === selA.value);
-    const bBrand = brands.find(b => b.brand === selB.value);
-    if (!a || !bBrand) {
-      result.innerHTML = '<div class="empty-state"><p>Select two brands above to compare.</p><p style="font-size:0.9rem;">We will show size range, price, materials, and more.</p></div>';
-      return;
-    }
+ function renderCompare() {
+ const a = brands.find(b => b.brand === selA.value);
+ const bBrand = brands.find(b => b.brand === selB.value);
+ if (!a || !bBrand) {
+ result.innerHTML = '<div class="empty-state"><p>Select two brands above to compare.</p><p style="font-size:0.9rem;">We will show size range, price, materials, and more.</p></div>';
+ return;
+ }
 
-    function row(label, valA, valB, lowerIsBetter) {
-      let classA = '', classB = '';
-      if (valA !== '-' && valB !== '-' && typeof valA === 'number' && typeof valB === 'number') {
-        if (lowerIsBetter) {
-          classA = valA <= valB ? 'win' : 'lose';
-          classB = valB <= valA ? 'win' : 'lose';
-        } else {
-          classA = valA >= valB ? 'win' : 'lose';
-          classB = valB >= valA ? 'win' : 'lose';
-        }
-      }
-      return { label, valA: { text: valA, cls: classA }, valB: { text: valB, cls: classB } };
-    }
+ function row(label, valA, valB, lowerIsBetter) {
+ let classA = '', classB = '';
+ if (valA !== '-' && valB !== '-' && typeof valA === 'number' && typeof valB === 'number') {
+ if (lowerIsBetter) {
+ classA = valA <= valB ? 'win' : 'lose';
+ classB = valB <= valA ? 'win' : 'lose';
+ } else {
+ classA = valA >= valB ? 'win' : 'lose';
+ classB = valB >= valA ? 'win' : 'lose';
+ }
+ }
+ return { label, valA: { text: valA, cls: classA }, valB: { text: valB, cls: classB } };
+ }
 
-    const rows = [
-      row('Min Ring Size (US)', a.min_ring_size_us || '-', bBrand.min_ring_size_us || '-', true),
-      row('Min Bracelet (cm)', a.min_bracelet_cm || '-', bBrand.min_bracelet_cm || '-', true),
-      row('Price Min ($)', a.price_min || '-', bBrand.price_min || '-', true),
-      row('Price Max ($)', a.price_max || '-', bBrand.price_max || '-', false),
-      { label: 'Materials', valA: { text: (a.materials||[]).join(', '), cls: '' }, valB: { text: (bBrand.materials||[]).join(', '), cls: '' } },
-      { label: 'Adjustable', valA: { text: a.adjustable ? 'Yes' : 'No', cls: a.adjustable ? 'win' : '' }, valB: { text: bBrand.adjustable ? 'Yes' : 'No', cls: bBrand.adjustable ? 'win' : '' } },
-      { label: 'Intl Shipping', valA: { text: a.intl_shipping ? 'Yes' : 'No', cls: a.intl_shipping ? 'win' : '' }, valB: { text: bBrand.intl_shipping ? 'Yes' : 'No', cls: bBrand.intl_shipping ? 'win' : '' } },
-      { label: 'Style', valA: { text: a.style || '-', cls: '' }, valB: { text: bBrand.style || '-', cls: '' } },
-      { label: 'Categories', valA: { text: (a.category||[]).join(', '), cls: '' }, valB: { text: (bBrand.category||[]).join(', '), cls: '' } },
-    ];
+ const rows = [
+ row('Min Ring Size (US)', a.min_ring_size_us || '-', bBrand.min_ring_size_us || '-', true),
+ row('Min Bracelet (cm)', a.min_bracelet_cm || '-', bBrand.min_bracelet_cm || '-', true),
+ row('Price Min ($)', a.price_min || '-', bBrand.price_min || '-', true),
+ row('Price Max ($)', a.price_max || '-', bBrand.price_max || '-', false),
+ { label: 'Materials', valA: { text: (a.materials||[]).join(', '), cls: '' }, valB: { text: (bBrand.materials||[]).join(', '), cls: '' } },
+ { label: 'Adjustable', valA: { text: a.adjustable ? 'Yes' : 'No', cls: a.adjustable ? 'win' : '' }, valB: { text: bBrand.adjustable ? 'Yes' : 'No', cls: bBrand.adjustable ? 'win' : '' } },
+ { label: 'Intl Shipping', valA: { text: a.intl_shipping ? 'Yes' : 'No', cls: a.intl_shipping ? 'win' : '' }, valB: { text: bBrand.intl_shipping ? 'Yes' : 'No', cls: bBrand.intl_shipping ? 'win' : '' } },
+ { label: 'Style', valA: { text: a.style || '-', cls: '' }, valB: { text: bBrand.style || '-', cls: '' } },
+ { label: 'Categories', valA: { text: (a.category||[]).join(', '), cls: '' }, valB: { text: (bBrand.category||[]).join(', '), cls: '' } },
+ ];
 
-    function card(brand, rows, side) {
-      const s = slug(brand.brand);
-      let html = `<div class="compare-card">
-        <h3>${brand.brand}</h3>
-        <div class="country">${brand.country}</div>`;
-      rows.forEach(r => {
-        const v = side === 'a' ? r.valA : r.valB;
-        html += `<div class="compare-row"><span class="compare-label">${r.label}</span><span class="compare-value ${v.cls}">${v.text}</span></div>`;
-      });
-      if (brand.note) {
-        const shortNote = brand.note.length > 150 ? brand.note.substring(0, 150) + '...' : brand.note;
-        html += `<div class="compare-note">${shortNote}</div>`;
-      }
-      html += `<a href="brands/${s}.html" class="compare-link">View Full Profile &rarr;</a></div>`;
-      return html;
-    }
+ function card(brand, rows, side) {
+ const s = slug(brand.brand);
+ let html = `<div class="compare-card">
+ <h3>${brand.brand}</h3>
+ <div class="country">${brand.country}</div>`;
+ rows.forEach(r => {
+ const v = side === 'a' ? r.valA : r.valB;
+ html += `<div class="compare-row"><span class="compare-label">${r.label}</span><span class="compare-value ${v.cls}">${v.text}</span></div>`;
+ });
+ if (brand.note) {
+ const shortNote = brand.note.length > 150 ? brand.note.substring(0, 150) + '...' : brand.note;
+ html += `<div class="compare-note">${shortNote}</div>`;
+ }
+ html += `<a href="brands/${s}.html" class="compare-link">View Full Profile &rarr;</a></div>`;
+ return html;
+ }
 
-    result.innerHTML = `<div class="compare-grid">${card(a, rows, 'a')}${card(bBrand, rows, 'b')}</div>`;
-  }
+ result.innerHTML = `<div class="compare-grid">${card(a, rows, 'a')}${card(bBrand, rows, 'b')}</div>`;
+ }
 
-  selA.addEventListener('change', renderCompare);
-  selB.addEventListener('change', renderCompare);
-  renderCompare();
+ selA.addEventListener('change', renderCompare);
+ selB.addEventListener('change', renderCompare);
+ renderCompare();
 
-  // Check URL params for pre-selected brands
-  const params = new URLSearchParams(window.location.search);
-  if (params.get('a')) { selA.value = params.get('a'); }
-  if (params.get('b')) { selB.value = params.get('b'); }
-  if (params.get('a') || params.get('b')) renderCompare();
+ // Check URL params for pre-selected brands
+ const params = new URLSearchParams(window.location.search);
+ if (params.get('a')) { selA.value = params.get('a'); }
+ if (params.get('b')) { selB.value = params.get('b'); }
+ if (params.get('a') || params.get('b')) renderCompare();
 });
 </script>
 
 <footer class="footer">
-  <div class="container">
-    <div class="affiliate-disclosure">
-      <strong>Affiliate Disclosure:</strong> Some links on this site are affiliate links. We may earn a small commission if you make a purchase, at no extra cost to you. This helps us keep the database updated and free.
-    </div>
-    <p>&copy; 2026 TinyFit Jewelry. Built for women who know the struggle.</p>
-    <p style="margin-top:8px;"><a href="rings.html">Ring Guide</a> &middot; <a href="bracelets.html">Bracelet Guide</a> &middot; <a href="database.html">Database</a> &middot; <a href="compare.html">Compare</a> &middot; <a href="faq.html">FAQ</a> &middot; <a href="privacy.html">Privacy</a></p>
-  </div>
+ <div class="container">
+ <div class="affiliate-disclosure">
+ <strong>Affiliate Disclosure:</strong> Some links on this site are affiliate links. We may earn a small commission if you make a purchase, at no extra cost to you. This helps us keep the database updated and free.
+ </div>
+ <p>&copy; 2026 TinyFit Jewelry. Built for women who know the struggle.</p>
+ <p style="margin-top:8px;"><a href="rings.html">Rings</a> &middot; <a href="bracelets.html">Bracelets</a> &middot; <a href="database.html">Database</a> &middot; <a href="about.html">About</a> &middot; <a href="privacy.html">Privacy</a></p>
+ </div>
 </footer>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6776399834647681" crossorigin="anonymous"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1N5PR9Y0H"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-H1N5PR9Y0H');</script>
-<script src="/tiny-fit-jewelry/js/pinterest-save.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-18FRFZ4E6G"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-18FRFZ4E6G');</script>
+<script src="js/pinterest-save.js"></script>
 <script src="js/wishlist.js"></script>
 </body>
 </html>
