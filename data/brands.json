@@ -517,43 +517,6 @@
     "is_community_pick": false
   },
   {
-    "brand": "Polene",
-    "country": "France",
-    "category": [
-      "bracelet"
-    ],
-    "min_ring_size_us": null,
-    "min_bracelet_cm": 15,
-    "price_min": 100,
-    "price_max": 300,
-    "materials": [
-      "gold plated brass"
-    ],
-    "adjustable": true,
-    "style": "architectural, minimalist",
-    "size_chart_url": "https://eng.polene-paris.com/",
-    "shop_url": "https://eng.polene-paris.com/",
-    "note": "French brand known for bags. Jewelry line has adjustable bracelets that work for thinner wrists.",
-    "editorial": "While primarily known for their bags, Polene's jewelry line offers a curated selection of architectural and minimalist bracelets that can work for some petite wrists. Their bracelets typically start at 15cm, which is slightly above our 14cm threshold, but many feature adjustable designs. This adjustability is key for achieving a better fit, though it's to confirm the specific minimum circumference. Their elegant aesthetic adds a polished touch without being overly ornate.",
-    "recommended_products": [
-      {
-        "name": "Adjustable Chain Bracelets",
-        "why": "Many of their sleek chain bracelets offer adjustability, allowing for a more customized fit on wrists that are close to, or slightly under, 15cm."
-      }
-    ],
-    "petite_tip": "Carefully check the product specifications for the minimum adjustable length of their bracelets to ensure it can be cinched down enough for your wrist.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 2,
-      "adjustability": 4,
-      "accessibility": 4,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
     "brand": "Soko",
     "country": "Kenya/USA",
     "category": [
