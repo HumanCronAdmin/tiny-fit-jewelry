@@ -1,0 +1,80 @@
+Tiny Fit Jewelry - Tier 1 Brand Contact List
+================================================
+Created On: 2026-04-10
+Usage: Photo permission + Email notification of publication
+*Confirm email addresses on the contact/press page of each company's official website.
+
+=== Order of sending
+1. Monica Vinader (strongest positive angle)
+2. Catbird (unique thread angle)
+3. Gorjana (highest score, adjustable angle)
+4. Brilliant Earth (engagement ring niche)
+5. Medjuri (largest brand but honest angle)
+6. Ana Luisa (sustainable angle)
+
+=== 1. Monica Binader
+Website: https://www.monicavinader.com/
+Contact page: https://www.monicavinader.com/contact-us
+Email required (form available on contact page)
+       For press: press@monicavinader.com (confirmation required)
+Instagram Monika Vinader
+LinkedIn Monica Vineder (search)
+Tiny Fit Page: brands/monica-vinader.html
+Fit Score: 20/25
+Email: see brands_emails_tier1.txt
+
+=== 2. Catbird
+Website: https://www.catbirdnyc.com/
+Contact page: https://www.catbirdnyc.com/contact
+Email required (hello@catbirdnyc.com is the general pattern)
+InstagramCatbirdjewelry / @catbirdnyc
+LinkedInCatbird (search)
+Tiny Fit Page: brands/catbird.html
+Fit Score: 19/25
+Email: see brands_emails_tier1.txt
+
+=== 3. Gorjana
+Website: https://www.gorjana.com/
+Contact page: https://www.gorjana.com/pages/contact-us
+Email required (customercare@gorjana.com is open to the public, separately for the press)
+Instagram gorjana (@gorjana)
+LinkedIn: gorjana (search)
+Tiny Fit page: brands/gorjana.html
+Fit Score: 21/25
+Email: see brands_emails_tier1.txt
+
+=== 4. Brilliant Earth
+Website: https://www.brilliantearth.com/
+Contact page: https://www.brilliantearth.com/contact/
+Email required (press@brilliantearth.com is the general pattern)
+Instagram Brilliant Earth
+LinkedIn Brilliant Earth (search)
+Tiny Fit Page: brands/brilliant-earth.html
+Fit Score: 18/25
+Email: see brands_emails_tier1.txt
+
+=== 5. Medjuri
+Website: https://mejuri.com/
+Contact page: https://mejuri.com/contact
+Email required (press@mejuri.com is the general pattern)
+Instagram Medjuri (search)
+LinkedIn Mejuri (search)
+Tiny Fit Page: brands/mejuri.html
+Fit Score: 19/25
+Email: see brands_emails_tier1.txt
+
+=== 6. ANA LUISA
+Website: https://www.analuisa.com/
+Contact page: https://www.analuisa.com/pages/contact
+Email required (hello@analuisa.com is the general pattern)
+Instagram Ana Luisany
+LinkedIn ana luisa (search)
+Tiny Fit Page: brands/ana-luisa.html
+Fit Score: added after article is created
+Email to be created
+
+=== Next Steps
+1. Open each brand's official website contact page and verify the exact email address.
+2. If only a contact form is available, find the PR/marketing manager on LinkedIn
+3. Email text is already completed in brand_emails_tier1.txt (for 5 companies)
+4. Create additional email text for Ana Luisa

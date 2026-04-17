@@ -1,0 +1,304 @@
+{
+  "regenerated": [
+    {
+      "slug": "astrid-and-miyu",
+      "date": "2026-04-16 12:25",
+      "verdict": "PASS"
+    },
+    {
+      "slug": "bario-neal",
+      "date": "2026-04-16 16:17",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "catbird",
+      "date": "2026-04-16 16:35",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "ring-concierge",
+      "date": "2026-04-16 17:27",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "ana-luisa",
+      "date": "2026-04-16 17:33",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "astrid-and-miyu",
+      "date": "2026-04-16 17:40",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "aurate",
+      "date": "2026-04-16 17:47",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "bario-neal",
+      "date": "2026-04-16 18:01",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "missoma",
+      "date": "2026-04-16 18:42",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "monica-vinader",
+      "date": "2026-04-16 18:48",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "satomi-kawakita",
+      "date": "2026-04-16 19:02",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "soko",
+      "date": "2026-04-16 19:09",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "vrai",
+      "date": "2026-04-16 19:30",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "ana-luisa",
+      "date": "2026-04-16 20:51",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "astrid-and-miyu",
+      "date": "2026-04-16 20:51",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "aurate",
+      "date": "2026-04-16 20:52",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "automic-gold",
+      "date": "2026-04-16 20:53",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "bario-neal",
+      "date": "2026-04-16 20:54",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "catbird",
+      "date": "2026-04-16 20:58",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "enewton",
+      "date": "2026-04-16 20:59",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "monica-vinader",
+      "date": "2026-04-16 21:06",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "ring-concierge",
+      "date": "2026-04-16 21:07",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "satomi-kawakita",
+      "date": "2026-04-16 21:08",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "soko",
+      "date": "2026-04-16 21:09",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "stone-and-strand",
+      "date": "2026-04-16 21:12",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "wwake",
+      "date": "2026-04-16 21:15",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "brilliant-earth",
+      "date": "2026-04-16 21:30",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "gorjana",
+      "date": "2026-04-16 21:33",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "kendra-scott",
+      "date": "2026-04-16 21:33",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "star-jewelry",
+      "date": "2026-04-16 21:34",
+      "verdict": "GENERATED"
+    },
+    {
+      "slug": "missoma",
+      "date": "2026-04-17 11:18",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "astrid-and-miyu",
+      "date": "2026-04-17 11:35",
+      "verdict": "PASS"
+    },
+    {
+      "slug": "bario-neal",
+      "date": "2026-04-17 11:37",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "brilliant-earth",
+      "date": "2026-04-17 11:38",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "catbird",
+      "date": "2026-04-17 11:39",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "missoma",
+      "date": "2026-04-17 11:42",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "ana-luisa",
+      "date": "2026-04-17 12:11",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "astrid-and-miyu",
+      "date": "2026-04-17 12:14",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "aurate",
+      "date": "2026-04-17 12:14",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "automic-gold",
+      "date": "2026-04-17 12:15",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "bario-neal",
+      "date": "2026-04-17 12:15",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "brilliant-earth",
+      "date": "2026-04-17 12:17",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "catbird",
+      "date": "2026-04-17 12:17",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "enewton",
+      "date": "2026-04-17 12:18",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "gorjana",
+      "date": "2026-04-17 12:19",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "kendra-scott",
+      "date": "2026-04-17 12:19",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "missoma",
+      "date": "2026-04-17 12:21",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "monica-vinader",
+      "date": "2026-04-17 12:22",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "satomi-kawakita",
+      "date": "2026-04-17 12:25",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "soko",
+      "date": "2026-04-17 12:26",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "star-jewelry",
+      "date": "2026-04-17 12:26",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "stone-and-strand",
+      "date": "2026-04-17 12:27",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "vrai",
+      "date": "2026-04-17 12:28",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "wwake",
+      "date": "2026-04-17 12:28",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "ring-concierge",
+      "date": "2026-04-17 14:36",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "astrid-and-miyu",
+      "date": "2026-04-17 14:37",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "kendra-scott",
+      "date": "2026-04-17 14:39",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "enewton",
+      "date": "2026-04-17 14:40",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "vrai",
+      "date": "2026-04-17 14:41",
+      "verdict": "NEEDS_FIX"
+    },
+    {
+      "slug": "missoma",
+      "date": "2026-04-17 14:43",
+      "verdict": "NEEDS_FIX"
+    }
+  ]
+}

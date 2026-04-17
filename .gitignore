@@ -12,3 +12,4 @@ outreach/brand_contacts_tier3.txt
 # Python cache
 __pycache__/
 *.pyc
+.backups/

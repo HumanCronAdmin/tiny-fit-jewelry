@@ -1,0 +1,100 @@
+Tiny Fit Jewelry - Tier 2 Brand Contact List
+================================================
+Created On: 2026-04-11
+Usage: Photo permission + Email notification of publication
+*All brands have been verified on the official website's contact/press page.
+The body of each brand's email is stored in outreach/sent_log/.
+
+
+=== 1. Enewton
+Status: ✅ Sent (2026-04-11 16:53, Gmail)
+Website: https://enewtondesign.com/
+Contact Page: https://enewtondesign.com/pages/contact-us
+Email: info@enewtondesign.com (confirmed on official contact page)
+Phone number 470.355.9502 (5 days a week, 9am-5pm EST)
+Tiny Fit page: brands/enewton.html
+Angle: eGirl line designed specifically for 14cm wrists
+Transmission log: Outreach/sent_log/2026-04-11_enewton.txt
+Follow-up: 2026-04-18 No reply
+
+
+=== 2. Automic Gold
+Status: ✅ Sent (2026-04-11 16:53, Gmail)
+Website: https://www.automicgold.com/
+Contact Page: https://www.automicgold.com/pages/contact
+Email: media@automicgold.com (for business inquiries only, confirmed on official contact page)
+Other contacts: care@automicgold.com (customer), custom@automicgold.com (custom)
+Phone number: 1-888-992-8866
+Tiny Fit Page: brands/automic-gold.html
+Angle: International shipping x solid 14k gold x size 2
+Transmission log: outreach/sent_log/2026-04-11_automic-gold.txt
+Follow-up: 2026-04-18 (if no reply)
+
+
+=== Barrio Neal === 3.
+Status: ✅ Sent (2026-04-11 17:19, contact form)
+Website: https://bario-neal.com/
+Contact Page: https://bario-neal.com/contact/
+Email private (via contact form only)
+Contact Form FieldsName, Email, State, City, Town, Phone Number, "How did you hear about us?
+Press page: https://bario-neal.com/the-press/
+Affiliate Page: Yes (with program for negotiating future partnerships)
+Tiny Fits page: brands/bario-neal.html
+Angle: 100% recycled + fair-mined + custom size 3 (only combination)
+Transmission log: outreach/sent_log/2026-04-11_bario-neal.txt
+Follow-up: 2026-04-18 (if no reply)
+
+
+=== 4. Satomi Kawakita
+Status: 🟡 Investigated and unsent
+Website: https://satomikawakita.com/
+Contact Page: https://satomikawakita.com/pages/contact
+Contact methodContact form (via form)
+Other FormsPress Form / Wholesale Inquiry Form / Repair & Cleaning Inquiry Form
+Japanese Language Support: ⭐ Available (Japanese staff in NYC office, reply within 2 business days)
+Business hours Mon-Fri 9:00-17:00 (EST) (Closed on Saturdays, Sundays, and holidays)
+Showroom New York
+Tiny Fit Page: brands/satomi-kawakita.html
+Angle: Japanese designer x NYC x handmade 18k x size 2 x custom size x bridge
+Data: min_ring=2, materials=['18K gold'], Date verified: 2026-04-11
+Stock verified: 57 products in the ring collection, active spring/summer 2026 collection
+Recommended form contact form (opened from press form)
+SUBMISSION LOG (not yet sent)
+
+
+=== 5. VRAI
+Status: 🟡 Investigated/not submitted
+Website: https://www.vrai.com/
+Contact Page: Official contact page not found, can be traced from the footer of the homepage
+Email: help@vrai.com (official contact information, confirmed by footer on homepage)
+Parent company Diamond Foundry
+TinyFit page: brand/ vrai.html
+Angle: Lab-grown diamond engagement ring x size 3 x Diamond Foundry supply chain
+Data: min_ring=3, engagement/wedding ring specialty store
+Inventory check: site up and running, engagement ring collection up and running
+Note: help@ is the customer care address, but in the form of a "forward to press/partnerships team" statement to request forwarding (same approach as Monica Vinader/Brilliant Earth).
+Log sent: (not sent)
+
+
+=== What to do in the next session ===
+1. Send from Satomi Kawakita general inquiry form (add a word that Japanese reply is welcome)
+2.Send Gmail to Vrai: help@vrai.com
+3. Both of them will create a body text equivalent to brand_emails_tier2.txt in sent_log/ format. 4.
+4. Update outreach_log.txt and sent_log/ after sending.
+
+
+=== Tier 3 (11 companies not yet surveyed) === The following are newly surveyed contacts.
+The following need to be newly surveyed for contact information.
+Gather information via direct email or form open with the playwright.
+
+- Missoma (UK, Layering) - missoma.com
+- Astrid & Miyu (UK, Stacking) - astridandmiyu.com
+- Aurate (New York, Fine) - auratenewyork.com
+- Wwake (New York, Opal/Gemstone) - wwake.com
+- Stone and Strand (Affordable) - stoneandstrand.com
+- Ring Concierge (New York, NY) - ringconcierge.com
+- Local Eclectic (USA, Curator) - localeclectic.com
+- Kendra Scott (USA, slider bracelet) - kendrascott.com
+- Soko (Kenyan artisan, via USA) - shopsoko.com
+- Polene (France, jewelry line) - eng.polene-paris.com
+- Star Jewelry (Japan, international shipping available) - star-jewelry.com

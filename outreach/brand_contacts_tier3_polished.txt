@@ -1,0 +1,138 @@
+Tiny Fit Jewelry - Tier 3 Brand Contact List
+================================================
+Created Date: 2026-04-11
+Research MethodsContact each company by playwright/press page liveConfirmation Usage
+Usage: photo permission + send email notification of publication
+
+
+===Priority Level ★★★ (Press address confirmed, Gmail can be sent) ===Priority Level ★★★ (Press address confirmed, Gmail can be sent)
+
+=== 1. WWAKE
+Website: https://wwake.com/
+Contact page: https://wwake.com/pages/contact
+Press email: press@wwake.com ⭐ (press only)
+Others: info@wwake.com, custom@wwake.com, wholesale@wwake.com
+Location Brooklyn, NY
+Angle: Fine jewelry in opal/gemstone, one of a kind
+Method G-mail
+Status: 🟡 Unsent
+
+=== 2. SOKO
+Website: https://shopsoko.com/
+Contact page: https://shopsoko.com/pages/contact-us
+Press email: press@shopsoko.com ⭐ (for PR & Partnership only)
+Others: support@shopsoko.com, sales@shopsoko.com, info@shopsoko.com
+Location Kenyan artisans via USA
+Angle: Ethical, artisan handmade, modern jewelry
+Method G-mail
+Status: 🟡 Unsent
+
+=== 3. Local Eclectic ===
+Website: https://www.localeclectic.com/
+Contact page: https://www.localeclectic.com/pages/press
+Press Email: hello@localeclectic.com ⭐ (specify on press page)
+LocationUSA
+Angle: Independent designer, curator of fine jewelry
+Method G-mail
+Status: 🟡 Not Sent
+
+
+====Priority Level ★★ (General Email Confirmation and Gmail Sending Available) ====
+
+=== 4. Au Rate New York ===
+Website: https://auratenewyork.com/
+Email: care@auratenewyork.com (Customer Care)
+LocationNew York
+Angle: Sustainable Fine Jewelry
+Method Gmail (Request forwarding with press team text)
+Status: 🟡 Not Sent
+
+=== 5. Ring Concierge ===
+Website: https://ringconcierge.com/
+Contact Page: https://ringconcierge.com/pages/contact-us
+Press page: https://ringconcierge.com/pages/press (press only email)
+Email: info@ringconcierge.com
+Location New York
+Angle: personalized engagement ring experience
+MethodGmail (forward request with press team text)
+Status: 🟡Unsent
+
+=== 6. Polaire
+Website: https://eng.polene-paris.com/
+Contact page: https://eng.polene-paris.com/pages/contact
+Email: contact@polene-paris.com
+LocationParis, France
+AngleFrench atelier, jewelry line
+Method G-mail
+Status: 🟡 Unsent
+
+=== Kendra Scott === 7.
+Website: https://www.kendrascott.com/
+Email: service@kendrascott.com (customer service)
+Location: USA USA (major brand)
+Angle: Slider bracelet, adjustable design
+Method Gmail (forwarding request with press team text)
+Remarks: Reply rate is not expected due to large company, it makes sense to create a sending history
+Status: 🟡Unsent
+
+
+=== Priority ★ (via form only) =====.
+
+=== Misoma === 8.
+Website: https://www.missoma.com/
+Contact page: https://www.missoma.com/pages/contact-us
+Method Contact form only (email closed).
+Form FieldsName, Email, Phone Number, Subject (drop down), Message
+Subject Order/Product/Return/Scan - Select "Product Inquiry
+LocationUK (London)
+Angle: Layered Necklace, UK Brand
+Status: 🟡Unsent
+
+=== 9. Astrid & Miu Miu
+Website: https://www.astridandmiyu.com/
+Contact page: https://help.astridandmiyu.com/en-GB/contact
+Method Contact form only (Gorgias Help Center)
+Form FieldsName, Email, Subject (drop down), Message, Attachments
+Subject Private Event / Styling / Order / Feedback / Problem Report / Refund / Other
+  → Select "Other" or "Feedback
+Location United Kingdom (London)
+Angle: Stacking Jewelry, Demifine
+Status: 🟡Unsent
+
+=== 10. Stone & Strand ===
+Website: https://www.stoneandstrand.com/
+Contact page: https://www.stoneandstrand.com/pages/contact-us
+Method Inquiry Form Only (Email Closed)
+Form FieldsRequest Type, Name, Email, Phone Number, Order Number, Message
+Request type option is "Press Inquiry" ⭐Select this
+LocationNew York
+Angle: affordable fine jewelry, independent designer
+Status: 🟡Unsent
+
+=== 11. Star Jewelry
+Website: https://www.star-jewelry.com/
+Contact Page: https://www.star-jewelry.com/contact
+Method Contact Form Only (Japanese Page)
+Form items: Subject (drop-down), Order number, Last name, Seimei, Email address, Phone, Body
+Subject Options: Merchandise/Repair/Online/Unsubscribe from Newsletter/Others
+  → Select "Other
+Location Japan (Yokohama Main Store)
+Angle: Japanese brand, US size 2 rings, international shipping available
+Must be set to receive 備考@star-jewelry.com domain, reply in 5 business days
+Email body must be rewritten in Japanese
+Status: 🟡 Unsent
+
+
+=== Survey Summary
+- Press-only addresses confirmed: 3 companies (Wake, Soko, Local Eclectic)
+- General e-mail confirmed: 4 companies (AUrate, Ring Concierge, Polene, Kendra Scott)
+- Forms only: 4 companies (Missoma, Astrid & Miyu, Stone and Strand, Star Jewelry)
+- URL and contact information for all 11 companies by playwright 2026-04-11 19:40-19:45 Actual confirmation
+
+
+=== What to do next ===
+1.Create drafts from 3 companies with priority ★★★★ (Wwake, Soko, Local Eclectic) 2.
+2. Next, create drafts from 4 priority ***** companies (AUrate, Ring Concierge, Polene, Kendra Scott) 3.
+3. Finally, four companies with form submissions (Missoma, Astrid & Miyu, Stone and Strand, Star Jewelry)
+4. Japanese text separately for Star Jewelry only
+5. Each draft is Outreach / Draft / Save → User Confirmation → Submit → sent_log/ Add

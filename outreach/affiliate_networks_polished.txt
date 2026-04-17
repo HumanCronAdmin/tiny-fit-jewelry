@@ -1,0 +1,66 @@
+Jewelry Brand Affiliate Network Survey
+Date: 2026-04-08
+Source Web Search + Webfetch Verification
+================================================================
+
+Brand｜Network｜Signup URL｜Commissions｜Cookies｜Notes
+------|---------|-----------|------------|--------|------
+Brilliant Earth｜Impact｜affiliates@brilliantearth.com (registration by email)｜5% rings/diamonds, 7% fine jewelry｜30 days｜$500 cap per order.Register directly via email.Register at affiliates@brilliantearth.com or at affiliates@brilliantearth.com
+Medjuri｜ShareASale｜https://shareasale.com/shareASale_b.cfm?merchantId=49824｜5%｜Unidentified｜ShareASale merchant ID 49824
+Gorjana｜Partnerize (Ascend/Pepperjam)｜https://www.ascendpartner.com/(search by gorjana)｜3%｜30 days｜Former Pepperjam, now Ascend by Partnerize
+Catbird｜Rakuten (unconfirmed)｜Unknown｜1-8% (Sources vary)｜30 days｜Fee rates vary depending on the source. Please confirm directly.
+Monica Vinader｜Rakuten｜https://www.monicavinader.com/affiliates｜10%｜30 days｜Registered via Rakuten LinkShare. Site blocks direct access (403).
+Kendra Scott｜Rakuten｜Unknown (sign up via Rakuten)｜8%｜30 days｜Available on FlexOffers.
+Vrai｜Impact｜Unknown (apply via Impact)｜Unidentified｜Labgrown Diamond Brand
+AUrate｜Pepperjam/Ascend (Partnerize)｜Unknown (apply via Ascend)｜5.6% (up to 12.9% via 37x)｜30 days｜Agency by Gen3 Marketing.
+Ana Luisa｜Impact｜Unknown (apply via Impact)｜5-8%｜30 days｜Commissions vary by source
+Missoma｜Awin｜https://ui.awin.com/merchant-profile/72173(USA)｜Unknown｜Awin advertiser ID 72173. UK: https://ui.awin.com/merchant-profile/72171
+Astrid & Miyu｜Partnerize｜https://signup.partnerize.com/signup/en/astridmiyu｜Up to 10%｜30 days｜Brand based in the UK. Direct Partnerize registration link confirmed.
+Local Eclectic｜CJ Affiliate｜Unknown (sign up via CJ)｜5%｜45 days｜Longest cookie period in the list
+Stone and Strand｜Awin｜Unknown (applied via Awin)|Unconfirmed｜Unconfirmed｜URL pattern indicates awc=89265 (Awin click ID) Awin advertiser ID 89265.
+Ring Concierge｜Impact｜Unknown (applied via Impact)｜5-10%｜Unconfirmed｜There is also a $500 referral program for engagement rings.
+Soko｜Refersion (probably)｜https://shopsoko.com/pages/affiliates｜Up to 12%｜Unconfirmed｜Highest commission rate. Ethical/B-Corp brand.
+
+================================================================
+NETWORK SUMMARY (for sign-up priority):
+
+Impact (app.impact.com):
+  - Brilliant Earth, Vrai, Ana Luisa, Ring Concierge
+
+SHARESALE (sharesale.com):
+  - Medjuri
+
+Awin (awin.com):
+  - Misoma (US ID: 72173, UK ID: 72171)
+  - Stone and Strand (ID: 89265)
+
+Rakuten (rakutenadvertising.com):
+  - Monica Vinader, Kendra Scott, Catbird (unconfirmed)
+
+Partnerize/Ascend (partnerize.com / ascendpartner.com):
+  - Gorjana, AUrate, Astrid & Miyu
+
+CJ Affiliates (cj.com):
+  - Local Eclectic
+
+Refersion (refersion.com):
+  - Soko (probably)
+
+================================================================
+RECOMMENDED SIGNUP ORDER (by commission rate):
+
+1. warehouse - up to 12% (refusal)
+2. Monica Binader - 10% (Rakuten)
+3.Astrid & Miyu - up to 10% (Partnerize) - with direct registration link
+4. Ring Concierge - 5-10% (Impact)
+5. Kendra Scott - 8% (Rakuten)
+6. Ana Luisa - 5-8% (Impact)
+7. Brilliant Earth - 5-7% (Impact)
+8. Aulate - 5.6% (Ascend/Partnerize)
+9.Mejuri - 5% (ShareASale) - with direct link
+10.Local Eclectic - 5% (CJ) - 45 day cookie.
+11. gorjana - 3% (Ascend/Partnerize)
+12. Catbird - 1-8% (Rakuten, unconfirmed)
+13. vrai - unconfirmed (Impact)
+14. Misoma - unconfirmed (Awin)
+15. Stone and Strand - unconfirmed (Awin)

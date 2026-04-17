@@ -312,3 +312,35 @@
 [2026-04-14 01:00 UTC] === Step: Post pins [SKIPPED - dry run] ===
 [2026-04-14 01:00 UTC] Pinterest Pipeline DONE
 [2026-04-14 01:00 UTC] 
+[2026-04-16 01:00 UTC] ==================================================
+[2026-04-16 01:00 UTC] Pinterest Pipeline START [DRY RUN]
+[2026-04-16 01:00 UTC] ==================================================
+[2026-04-16 01:00 UTC] === Step: Generate content pins ===
+[2026-04-16 01:00 UTC]   No new pins to generate. All content types are already in queue.
+[2026-04-16 01:00 UTC] === Step: Auto-generate page pins ===
+[2026-04-16 01:00 UTC]   Found 7 new pages to create pins for:
+[2026-04-16 01:00 UTC]   
+[2026-04-16 01:00 UTC]     [page-articles] Brand Deep Dives
+[2026-04-16 01:00 UTC]       Board: Jewelry for Tiny Fingers | Link: https://humancronadmin.github.io/tiny-fit-jewelry/articles.html
+[2026-04-16 01:00 UTC]     [page-compare] Compare Brands
+[2026-04-16 01:00 UTC]       Board: Jewelry for Tiny Fingers | Link: https://humancronadmin.github.io/tiny-fit-jewelry/compare.html
+[2026-04-16 01:00 UTC]   [ERROR] Exit code 1
+[2026-04-16 01:00 UTC]   STDERR: Traceback (most recent call last):
+[2026-04-16 01:00 UTC]   STDERR:   File "C:\Users\user\Claude-Workspace\projects\tiny-fit-jewelry\pinterest\auto_generate_pins.py", line 293, in <module>
+[2026-04-16 01:00 UTC]   STDERR:     main()
+[2026-04-16 01:00 UTC]   STDERR:     ~~~~^^
+[2026-04-16 01:00 UTC]   STDERR:   File "C:\Users\user\Claude-Workspace\projects\tiny-fit-jewelry\pinterest\auto_generate_pins.py", line 255, in main
+[2026-04-16 01:00 UTC] === Step: Generate missing images ===
+[2026-04-16 01:00 UTC]   All pin images exist. Nothing to generate.
+[2026-04-16 01:00 UTC] === Step: Validate pins ===
+[2026-04-16 01:00 UTC]   Validating 0 pins (pending/failed)...
+[2026-04-16 01:00 UTC]   
+[2026-04-16 01:00 UTC]   
+[2026-04-16 01:00 UTC]   === Validation Results ===
+[2026-04-16 01:00 UTC]     Valid: 0
+[2026-04-16 01:00 UTC]     Invalid: 0
+[2026-04-16 01:00 UTC]     Auto-fixed: 0
+[2026-04-16 01:00 UTC]     Total in queue: 91
+[2026-04-16 01:00 UTC] === Step: Post pins [SKIPPED - dry run] ===
+[2026-04-16 01:00 UTC] Pinterest Pipeline DONE
+[2026-04-16 01:00 UTC] 
