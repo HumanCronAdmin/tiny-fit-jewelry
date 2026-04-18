@@ -1,65 +1,12 @@
 [
   {
-    "brand": "Star Jewelry",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet",
-      "necklace"
-    ],
-    "min_ring_size_us": 2,
-    "min_bracelet_cm": 14,
-    "price_min": 100,
-    "price_max": 1000,
-    "materials": [
-      "platinum",
-      "18K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "modern, sophisticated",
-    "size_chart_url": "https://www.star-jewelry.com/",
-    "shop_url": "https://www.star-jewelry.com/common-internationalshipping.html",
-    "note": "Yokohama-based since 1946. Carries small sizes. Known for quality craftsmanship. International orders accepted via email (FedEx shipping).",
-    "intl_shipping": true,
-    "editorial": "Star Jewelry is a strong Japanese brand that thoughtfully caters to smaller sizes, offering rings from US size 2 and bracelets from 14cm. What sets them apart from many of their Japanese counterparts is their willingness to accept international orders via email with FedEx shipping, making their high-quality craftsmanship accessible worldwide. Their modern, elegant designs are always well-proportioned for petite frames, without appearing bulky. They are a reliable choice for stylish, well-fitting pieces.",
-    "recommended_products": [
-      {
-        "name": "Modern Minimalist Rings",
-        "why": "Their rings, starting at US size 2, feature contemporary designs that are perfectly scaled for petite fingers without being oversized."
-      },
-      {
-        "name": "Delicate Chain Bracelets",
-        "why": "While 14cm is the minimum, their fine chains and subtle designs ensure a sophisticated look on smaller wrists."
-      }
-    ],
-    "petite_tip": "Take advantage of their international ordering option. Contact them via email to confirm specific product availability and sizing, especially for bracelets, before placing an order from outside Japan.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 4,
-      "value": 2
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "community_sentiment": "Petite wearers often express relief for Star Jewelry's consistent offering of rings down to US size 2, a size rarely found in mainstream brands. While their 14cm minimum bracelet length is appreciated as a smaller option, some with wrists under 14cm note that these pieces can still feel slightly loose, though it's often a better fit than most alternatives.",
-    "why_not_official": "The official brand page showcases their small sizes as a thoughtful feature, but it doesn't convey the profound sense of validation and inclusion petite-size shoppers experience. They wouldn't highlight that their brand serves as a rare sanctuary for those repeatedly excluded by standard sizing, offering the dignity of choosing stylish, adult jewelry that actually fits, without the usual compromises or costly custom work.",
-    "fit_caveats": "For individuals with wrists under 14cm, the minimum bracelet length of 14cm, combined with the non-adjustable nature of their pieces, means bracelets may still fit loosely. It is to confirm exact chain lengths and clasp types via email, especially for delicate designs, to manage expectations regarding how snugly a bracelet will sit on a very small wrist.",
-    "petite_emotional_value": "Discovering Star Jewelry can be freeing for someone who has been ignored by mainstream jewelry, offering the rare joy of feeling truly seen and catered to. It means finally being able to express personal style with elegant, well-proportioned pieces that fit perfectly, eliminating the lifelong frustration of ill-fitting items and the feeling of being an afterthought.",
-    "depth_research_date": "2026-04-11",
-    "depth_research_confidence": "high",
-    "is_community_pick": false
-  },
-  {
     "brand": "Catbird",
     "country": "USA",
     "category": [
-      "ring",
-      "bracelet"
+      "ring"
     ],
     "min_ring_size_us": 3,
-    "min_bracelet_cm": 15,
+    "min_bracelet_cm": null,
     "price_min": 40,
     "price_max": 500,
     "materials": [
@@ -71,7 +18,7 @@
     "size_chart_url": "https://www.catbirdnyc.com/sizing",
     "shop_url": "https://www.catbirdnyc.com/",
     "note": "Brooklyn-based. Known for threadbare rings. Some styles available in size 3.",
-    "editorial": "Catbird is a beloved US brand known for its delicate, minimalist aesthetic and 'threadbare' rings, which are often available in US size 3. This makes them a great option for petite women seeking fine rings that don't overpower their hands. However, it's to note that their bracelets typically start at 15cm, which will unfortunately be too loose for wrists under 14cm. Focus on their beautiful ring collections for the best petite fit.",
+    "editorial": "Catbird is a beloved US brand known for its delicate, minimalist aesthetic and 'threadbare' rings, which are often available in US size 3. This makes them a great option for petite women seeking fine rings that don't overpower their hands. However, it's to note that their bracelets typically start at 15cm, which will unfortunately be too loose for smaller wrists (exact adjustable range not confirmed by Catbird). Focus on their beautiful ring collections for the best petite fit.",
     "recommended_products": [
       {
         "name": "Threadbare Rings",
@@ -82,7 +29,7 @@
         "why": "Catbird excels at creating fine, stackable rings that, when purchased in smaller sizes, are ideal for building a personalized look on petite hands."
       }
     ],
-    "petite_tip": "When shopping at Catbird, focus exclusively on their ring collections. While their bracelets are beautiful, their minimum length of 15cm means they will not fit wrists under 14cm securely. Double-check ring sizing, as some styles may run slightly larger or smaller.",
+    "petite_tip": "When shopping at Catbird, focus exclusively on their ring collections. While their bracelets are beautiful, their minimum length of 15cm means they will not fit smaller wrists (exact minimum not confirmed) securely. Double-check ring sizing, as some styles may run slightly larger or smaller.",
     "fit_score": {
       "size_range": 4,
       "materials": 5,
@@ -91,108 +38,13 @@
       "value": 3
     },
     "verified": true,
-    "verified_date": "2026-04-09",
+    "verified_date": "2026-04-17",
     "community_sentiment": "Petite wearers often express relief over Catbird's consistent offering of rings in US size 3, a size often overlooked by mainstream brands. However, a recurring observation in petite jewelry communities is the disappointment regarding bracelet sizing, as the minimum 15cm length is often too loose for very small wrists. The brand's delicate aesthetic is widely appreciated for not overwhelming petite hands.",
     "why_not_official": "The official brand page highlights 'delicate' and 'stackable' as general style attributes, but it does not explicitly market the brand as a rare haven for those with US size 2-4 fingers. The brand would not emphasize that its size 3 rings fill a critical void for a demographic largely ignored by the industry, nor would it point out that its bracelets are functionally too large for a significant segment of the petite market. For TinyFit, Catbird represents a crucial point of access to fine jewelry, rather than just another stylish option.",
-    "fit_caveats": "While many Catbird rings are available in US size 3, it is to verify the specific product page, as not every single style extends to this smallest size. For bracelets, the stated minimum length of 15cm means they will inevitably be too loose for wrists under 14cm, leading to excessive spinning or the risk of slipping off. Shoppers with very small wrists should be aware that their bracelet options from Catbird are effectively non-existent for a secure fit.",
+    "fit_caveats": "While many Catbird rings are available in US size 3, it is to verify the specific product page, as not every single style extends to this smallest size. For bracelets, the stated minimum length of 15cm means they will inevitably be too loose for smaller wrists (exact adjustable range not confirmed by Catbird). Shoppers with very small wrists should be aware that their bracelet options from Catbird are effectively non-existent for a secure fit.",
     "petite_emotional_value": "For someone who has spent their life struggling to find rings that don't spin or look disproportionately large, discovering Catbird's size 3 offerings can be profoundly validating. It means finally being able to participate in the joy of fine jewelry, to wear pieces that fit perfectly and feel like they were made for them. This inclusion, even if primarily limited to rings, fosters a sense of being seen and catered to in a market that often makes petite individuals feel invisible.",
     "depth_research_date": "2026-04-11",
     "depth_research_confidence": "high",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Ana Luisa",
-    "country": "USA",
-    "category": [
-      "ring",
-      "bracelet",
-      "necklace"
-    ],
-    "min_ring_size_us": 4,
-    "min_bracelet_cm": 15,
-    "price_min": 30,
-    "price_max": 200,
-    "materials": [
-      "14K gold",
-      "gold vermeil",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "minimalist, sustainable",
-    "size_chart_url": "https://faq.analuisa.com/how-do-i-find-my-ring-size-SypyD3_M5",
-    "shop_url": "https://www.analuisa.com/",
-    "note": "Sustainable minimalist jewelry with recycled gold. Rings from US 4, bracelets from 15cm. Open cuff styles work for smaller wrists. Best for upper target (size 4) + necklaces/earrings.",
-    "editorial": "Ana Luisa is the strongest sustainable option on our site for petite women who prioritize ethical materials and accessible pricing. Their rings start at US 4 and fixed-length bracelets start at 15cm, so they do not cover the smallest end of our target. For petite wrists under 14cm, their open cuff styles (such as the Arlo collection) can be bent to fit. Where Ana Luisa really shines for our audience is in dainty necklaces and delicate earrings where sizing is not a concern, and their recycled 14K gold keeps them firmly in an ethical-jewelry niche that very few brands match at this price.",
-    "recommended_products": [
-      {
-        "name": "Adjustable Chain Bracelets",
-        "why": "Look for styles with extender chains, as these can often be cinched tighter than their stated minimum, potentially accommodating wrists under 14cm."
-      },
-      {
-        "name": "Adjustable Rings",
-        "why": "While not all rings are adjustable, some designs feature open bands or mechanisms that allow for minor sizing down, potentially fitting a US 3 or even a snug US 2."
-      }
-    ],
-    "petite_tip": "Always check product descriptions for 'adjustable' features or 'extender' chains, as these are your best bet for achieving a proper fit.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 5,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "community_sentiment": "Petite wearers often express appreciation for Ana Luisa's commitment to sustainability and minimalist aesthetic, which aligns with their desire for ethical jewelry. While the brand's starting sizes (US 4 rings, 15cm bracelets) are often better than mainstream options, those at the very smallest end of the petite spectrum (US 2-3 rings, wrists under 14cm) often note the need for specific adjustable styles or minor modifications to achieve a proper fit.",
-    "why_not_official": "The official brand page highlights Ana Luisa's sustainable practices and minimalist designs, but it doesn't explicitly address the challenges faced by shoppers with very small hands and wrists. For petite-size shoppers, Ana Luisa represents a brand where careful selection of adjustable styles or open cuffs is often necessary to achieve a fit, rather than offering a broad range of sizes specifically tailored to the US 2-3 ring and sub-14cm wrist market. It's a brand where petite customers often adapt the jewelry to themselves, rather than the jewelry being designed for them.",
-    "fit_caveats": "For individuals with US 2-3 ring sizes, most of Ana Luisa's fixed-size rings will be too large, necessitating a search for their limited adjustable designs. Similarly, wrists under 14cm will find the standard 15cm bracelets too loose; a proper fit requires specifically choosing bracelets with extender chains that can be tightened or opting for open cuff styles that can be carefully bent to size. Fixed-length bracelets without adjusters are generally not suitable for the smallest wrists.",
-    "petite_emotional_value": "For someone who has long been overlooked by mainstream jewelry brands, finding Ana Luisa can feel like hope and partial inclusion. While not perfectly sized for the very smallest, the brand offers a pathway to ethically sourced, stylish pieces that are *almost* there, allowing petite individuals to participate in sustainable fashion without the typical sizing barriers or exorbitant custom costs. It means having options that, with a little effort, can finally fit.",
-    "depth_research_date": "2026-04-11",
-    "depth_research_confidence": "high",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Missoma",
-    "country": "UK",
-    "category": [
-      "ring",
-      "bracelet",
-      "necklace"
-    ],
-    "min_ring_size_us": 4,
-    "min_bracelet_cm": 15,
-    "price_min": 50,
-    "price_max": 400,
-    "materials": [
-      "18K gold vermeil",
-      "silver"
-    ],
-    "adjustable": true,
-    "style": "modern, layering",
-    "size_chart_url": "https://www.missoma.com/pages/ring-size-guide",
-    "shop_url": "https://www.missoma.com/",
-    "note": "UK brand popular for layering. Some adjustable bracelets and chain styles fit smaller wrists.",
-    "editorial": "Missoma is a go-to for modern, layering jewelry, and they've made some efforts to accommodate smaller sizes through adjustability. While their ring sizes typically start at US 4 and bracelets at 15cm, their design philosophy often includes features that are beneficial for petite women. Specifically, their chain-based bracelets and necklaces can often be adjusted to fit smaller wrists and necklines, making layering accessible without excessive length.",
-    "recommended_products": [
-      {
-        "name": "Adjustable Chain Bracelets",
-        "why": "Many of their bracelet designs, particularly delicate chain styles, include adjusters that can cinch down for smaller wrists."
-      },
-      {
-        "name": "Necklaces (adjustable lengths)",
-        "why": "Their extensive range of necklaces often comes with multiple sizing options or extenders, allowing petite women to customize layering lengths to suit their frame."
-      }
-    ],
-    "petite_tip": "For bracelets, always opt for styles with multiple clasp points or extender chains, as these offer the most flexibility for wrists under 14cm.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 5,
-      "adjustability": 4,
-      "accessibility": 5,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
     "is_community_pick": false
   },
   {
@@ -238,101 +90,8 @@
     "verified_date": "2026-04-09",
     "community_sentiment": "Petite wearers often express relief at finding solid gold rings available in US size 2, a size largely ignored by most mainstream brands. While their ring selection is highly praised for its fit and quality, there is a recurring observation that their bracelet minimum of 14cm still presents a challenge for those with very petite wrists under that measurement.",
     "why_not_official": "The official brand page highlights its general inclusivity and offering of rings from size 2 as a broad feature. However, it doesn't convey the profound relief and validation experienced by petite-sized shoppers who have spent years unable to find solid gold rings that fit their fingers. For this community, Automic Gold isn't just inclusive; it's one of the very few brands that specifically solves a long-standing, deeply frustrating sizing problem for rings.",
-    "fit_caveats": "While Automic Gold excels in offering rings from US size 2, petite wearers with wrists under 14cm should be aware that their bracelet collection will likely still be too large. Even for those with wrists exactly 14cm, some chunkier bracelet styles might feel less secure or slide more than desired, making simpler chain designs potentially a better fit.",
+    "fit_caveats": "While Automic Gold excels in offering rings from US size 2, petite wearers with smaller wrists (exact minimum not confirmed) should be aware that their bracelet collection will likely still be too large. Even for those with wrists exactly 14cm, some chunkier bracelet styles might feel less secure or slide more than desired, making simpler chain designs potentially a better fit.",
     "petite_emotional_value": "For someone who has been consistently ignored by mainstream jewelry brands, finding Automic Gold's solid gold rings in US size 2 is incredibly validating. It offers the emotional relief of finally being able to purchase high-quality, lasting jewelry that fits perfectly, ending years of frustration and compromise. It signifies that their specific sizing needs are not just acknowledged, but genuinely catered to.",
-    "depth_research_date": "2026-04-11",
-    "depth_research_confidence": "high",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Vrai",
-    "country": "USA",
-    "category": [
-      "ring"
-    ],
-    "min_ring_size_us": 3,
-    "min_bracelet_cm": null,
-    "price_min": 200,
-    "price_max": 3000,
-    "materials": [
-      "14K gold",
-      "18K gold",
-      "platinum",
-      "lab diamond"
-    ],
-    "adjustable": false,
-    "style": "fine jewelry, lab diamond",
-    "size_chart_url": "https://www.vrai.com/find-your-ring-size",
-    "shop_url": "https://www.vrai.com/",
-    "note": "Lab-grown diamond fine jewelry. Engagement rings available from size 3.",
-    "editorial": "Vrai is an excellent choice for petite women seeking fine jewelry, especially for pieces like engagement rings, due to their impressive sizing options. Unlike many fine jewelers, they offer rings starting at US size 3, which is a critical feature for those with smaller fingers. Their focus on lab-grown diamonds ensures ethical sourcing without compromising on the availability of smaller sizes in high-quality materials.",
-    "recommended_products": [
-      {
-        "name": "Engagement Rings (from size 3)",
-        "why": "Their entire range of engagement rings is available in US size 3, providing elegant options for petite brides."
-      },
-      {
-        "name": "Wedding Bands (from size 3)",
-        "why": "Similarly, their wedding band collections can be ordered in US size 3 to perfectly match smaller fingers."
-      }
-    ],
-    "petite_tip": "When ordering, specify US size 3 directly; Vrai's fine jewelry is custom-made to order, so ensure your exact size is communicated from the outset.",
-    "fit_score": {
-      "size_range": 4,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 5,
-      "value": 2
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Brilliant Earth",
-    "country": "USA",
-    "category": [
-      "ring"
-    ],
-    "min_ring_size_us": 3,
-    "min_bracelet_cm": null,
-    "price_min": 200,
-    "price_max": 5000,
-    "materials": [
-      "14K gold",
-      "18K gold",
-      "platinum"
-    ],
-    "adjustable": false,
-    "style": "ethical, fine jewelry",
-    "size_chart_url": "https://www.brilliantearth.com/",
-    "shop_url": "https://www.brilliantearth.com/",
-    "note": "Ethical fine jewelry. Wedding/engagement rings from size 3. Free resizing.",
-    "editorial": "Brilliant Earth is an exceptional destination for petite women seeking ethical fine jewelry, particularly for life events. They offer wedding and engagement rings starting from US size 3, which is a huge advantage for those with smaller fingers. Their commitment to ethical sourcing is paired with practical considerations for fit, including free resizing, ensuring your investment is perfectly tailored to you.",
-    "recommended_products": [
-      {
-        "name": "Engagement Rings (from size 3)",
-        "why": "Their extensive collection of engagement rings, from classic solitaires to more intricate designs, are available in US size 3."
-      },
-      {
-        "name": "Wedding Bands (from size 3)",
-        "why": "Choose from a variety of wedding bands, including plain, pavé, or contoured styles, all offered in US size 3 to complement smaller hands."
-      }
-    ],
-    "petite_tip": "Take advantage of their free resizing service if you're between sizes or unsure; it provides peace of mind that your fine jewelry will have a perfect, custom fit.",
-    "fit_score": {
-      "size_range": 4,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 5,
-      "value": 2
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "community_sentiment": "Petite wearers often express relief and appreciation for Brilliant Earth's consistent offering of rings down to US size 3, which is a rare find in the fine jewelry market. Many highlight the ability to select from a wide range of engagement and wedding ring styles without the typical struggle of finding a size that fits their smaller fingers.",
-    "why_not_official": "While Brilliant Earth's official page emphasizes ethical sourcing and design, petite shoppers primarily value the brand as a rare gateway to mainstream fine jewelry styles that genuinely fit. The brand doesn't explicitly market the profound emotional relief of finding a diverse collection of engagement and wedding rings in US size 3, allowing petite individuals to choose based on aesthetic preference rather than just size availability.",
-    "fit_caveats": "Although Brilliant Earth offers rings down to US size 3, individuals requiring smaller sizes, such as US 2 or 2.5, may still find their options limited or require custom modification. For bracelets, there is no explicit indication of sizing options for wrists under 14cm, suggesting that this category might not be as accommodating for very petite wrists.",
-    "petite_emotional_value": "For someone who has consistently faced the frustration of being overlooked by mainstream jewelry brands due to sizing, finding Brilliant Earth's extensive selection of rings in US size 3 is profoundly validating. It offers the emotional comfort of being fully included in life moments, allowing them to choose a beautiful, ethically sourced piece without the usual anxiety of whether it will even fit their finger.",
     "depth_research_date": "2026-04-11",
     "depth_research_confidence": "high",
     "is_community_pick": false
@@ -341,11 +100,10 @@
     "brand": "Gorjana",
     "country": "USA",
     "category": [
-      "ring",
-      "bracelet"
+      "ring"
     ],
-    "min_ring_size_us": 4,
-    "min_bracelet_cm": 15,
+    "min_ring_size_us": 3,
+    "min_bracelet_cm": null,
     "price_min": 30,
     "price_max": 200,
     "materials": [
@@ -357,18 +115,18 @@
     "size_chart_url": "https://www.gorjana.com/pages/size-guide",
     "shop_url": "https://www.gorjana.com/",
     "note": "Laguna Beach brand. Adjustable bracelets/rings can work for small sizes. Popular for stacking.",
-    "editorial": "Gorjana, known for its Californian-inspired layering pieces, can be a viable option for petite women, thanks to its emphasis on adjustability. While their standard ring and bracelet sizes start at US 4 and 15cm respectively, many of their designs incorporate features like extender chains or open bands. This makes it possible for some petite women to achieve a good fit, particularly for their popular stacking and layering styles.",
+    "editorial": "Gorjana offers adjustable options on some pieces. Their stated minimum bracelet size is 15cm. Some products are described as adjustable, but the exact minimum wrist size they adjust down to is not confirmed by the brand. Do not assume adjustable means it will fit any wrist smaller than 15cm.",
     "recommended_products": [
       {
         "name": "Adjustable Bracelets",
-        "why": "Look for delicate chain bracelets with slider beads or multiple clasp points, which can often be tightened to fit smaller wrists."
+        "why": "Listed as adjustable. The exact adjustable range is not confirmed by Gorjana."
       },
       {
         "name": "Adjustable Rings",
-        "why": "Some of their rings, particularly open-band designs or those with a delicate structure, can be gently adjusted to fit a US size 3 or even a snug US 2, though always check the product details."
+        "why": "Listed as adjustable. The exact adjustable range is not confirmed by Gorjana."
       }
     ],
-    "petite_tip": "Prioritize their pieces explicitly labeled as 'adjustable' or featuring a 'slider' mechanism, as these are designed to offer a more customizable fit for smaller dimensions.",
+    "petite_tip": "Some styles are listed as adjustable, but the brand does not confirm the exact minimum wrist size. Check each product page before ordering.",
     "fit_score": {
       "size_range": 3,
       "materials": 5,
@@ -377,141 +135,13 @@
       "value": 4
     },
     "verified": true,
-    "verified_date": "2026-04-09",
-    "community_sentiment": "Petite wearers often express a nuanced appreciation for Gorjana. While the brand's emphasis on adjustable features is a welcome attempt at inclusivity, many find that even these options often require careful selection or creative wearing to achieve a truly comfortable fit for the smallest wrists and fingers. There's a recurring observation that Gorjana offers more possibilities than many mainstream brands, yet it's still not a perfect solution for those needing sizes below US 3 or wrists under 13cm.",
+    "verified_date": "2026-04-17",
+    "community_sentiment": "Petite wearers often express a nuanced appreciation for Gorjana. While the brand's emphasis on adjustable features is a welcome attempt at inclusivity, many find that even these options often require careful selection or creative wearing to achieve a truly comfortable fit for the smallest wrists and fingers. There's a recurring observation that Gorjana offers more possibilities than many mainstream brands, yet it's still not a perfect solution for those needing sizes below US 3 or smaller wrists (exact minimum not confirmed).",
     "why_not_official": "The official brand page naturally promotes adjustability for general versatility and ease of layering, but it doesn't highlight how petite shoppers specifically leverage these features as a workaround for a lack of truly small sizing. The unmarketed angle is that Gorjana's delicate aesthetic and adjustable mechanisms, while not explicitly designed for US 2 rings or 12cm wrists, can sometimes be coaxed into fitting, providing options where none officially exist. The brand wouldn't explicitly state that their 'adjustable' is often a 'make-do' for the smallest frames.",
-    "fit_caveats": "For rings, while open bands can be gently manipulated, excessive adjustment for sizes below US 3 may distort the ring's intended shape or create an uncomfortable gap/overlap. Bracelets with extender chains, even when tightened, can leave a length of chain dangling for wrists under 14cm, potentially catching on items or looking disproportionate. Slider bead bracelets, while versatile, might still not cinch tightly enough for the very smallest wrists, or the excess chain may need to be wrapped multiple times.",
+    "fit_caveats": "For rings, while open bands can be gently manipulated, excessive adjustment for sizes below US 3 may distort the ring's intended shape or create an uncomfortable gap/overlap. Bracelets with extender chains, even when tightened, can leave a length of chain dangling for smaller wrists (exact adjustable range not confirmed by Gorjana). Slider bead bracelets, while versatile, might still not cinch tightly enough for the very smallest wrists, or the excess chain may need to be wrapped multiple times.",
     "petite_emotional_value": "For someone who has long been ignored by mainstream jewelry, finding a brand like Gorjana, with its adjustable options, offers a sense of validation and inclusion. It means having access to stylish, on-trend pieces that, with a bit of effort, can actually fit, rather than being relegated to children's jewelry or custom orders. This partial solution provides a rare opportunity to participate in current fashion without feeling entirely excluded.",
     "depth_research_date": "2026-04-11",
     "depth_research_confidence": "high",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Astrid & Miyu",
-    "country": "UK",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 3.5,
-    "min_bracelet_cm": 15,
-    "price_min": 30,
-    "price_max": 200,
-    "materials": [
-      "gold vermeil",
-      "silver",
-      "gold plated"
-    ],
-    "adjustable": true,
-    "style": "modern, stacking",
-    "size_chart_url": "https://www.astridandmiyu.com/pages/size-guide",
-    "shop_url": "https://www.astridandmiyu.com/",
-    "note": "UK brand known for ear cuffs and stacking. Some adjustable pieces fit tiny wrists.",
-    "editorial": "Astrid & Miyu is a strong option for petite women looking for modern, stackable pieces, especially if you're comfortable with a ring size starting at US 3.5. While their standard bracelets begin at 15cm, many of their designs are adjustable, which is key for those with wrists under 14cm. Their focus on dainty, layered styles naturally suits smaller frames without overpowering them. Just be mindful of the bracelet's exact adjustable range to ensure a perfect fit.",
-    "recommended_products": [
-      {
-        "name": "Stacking Rings",
-        "why": "Many delicate designs are available from US size 3.5, perfect for creating a curated look on smaller fingers."
-      },
-      {
-        "name": "Adjustable Bracelets",
-        "why": "Their range includes adjustable chain and cuff bracelets which can often be cinched to fit wrists under 14cm, a crucial feature for petite sizing."
-      }
-    ],
-    "petite_tip": "For bracelets, always check the product description for the minimum adjustable length, as some adjustable styles will fit more snugly than others on wrists under 14cm.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 4,
-      "adjustability": 4,
-      "accessibility": 5,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Satomi Kawakita",
-    "country": "Japan/USA",
-    "category": [
-      "ring"
-    ],
-    "min_ring_size_us": 2,
-    "min_bracelet_cm": null,
-    "price_min": 200,
-    "price_max": 2000,
-    "materials": [
-      "18K gold"
-    ],
-    "adjustable": false,
-    "style": "organic, handcrafted",
-    "size_chart_url": "https://www.satomikawakita.com/",
-    "shop_url": "https://www.satomikawakita.com/",
-    "note": "Japanese jeweler based in NYC. Handmade 18K gold. Custom sizing from size 2.",
-    "editorial": "For petite women seeking fine jewelry, Satomi Kawakita is a strong pick. This brand specializes in handcrafted 18K gold pieces and offers custom sizing all the way down to US ring size 2, which is rare and valuable. Her organic, delicate designs are perfectly scaled for smaller hands, ensuring a beautiful, proportionate look. While a higher price point, the investment guarantees a perfect, heirloom-quality fit.",
-    "recommended_products": [
-      {
-        "name": "Engagement & Wedding Rings",
-        "why": "Custom sizing from US 2 ensures a perfect fit for milestone pieces that will be worn daily."
-      },
-      {
-        "name": "Stacking Rings",
-        "why": "Her delicate, often textured rings are designed to be layered beautifully, and their petite sizing prevents them from overwhelming smaller fingers."
-      }
-    ],
-    "petite_tip": "Take advantage of their custom sizing option; don't hesitate to inquire about specific measurements for a bespoke fit down to US size 2.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 4,
-      "value": 2
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Soko",
-    "country": "Kenya/USA",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 4,
-    "min_bracelet_cm": 15,
-    "price_min": 30,
-    "price_max": 150,
-    "materials": [
-      "brass",
-      "gold plated"
-    ],
-    "adjustable": true,
-    "style": "artisanal, ethical",
-    "size_chart_url": "https://shopsoko.com/",
-    "shop_url": "https://shopsoko.com/",
-    "note": "Kenyan artisan-made. Adjustable cuffs can be bent to fit smaller wrists.",
-    "editorial": "Soko offers unique, ethically made jewelry with an artisanal touch, and can be a good option for petite women, particularly for bracelets. While their rings typically start at US size 4, limiting options for very tiny fingers, their adjustable cuff bracelets are a strong pick. These pieces are designed to be gently bent to fit, making them highly adaptable for wrists under 14cm. The bold yet refined aesthetic works well without overwhelming a petite frame.",
-    "recommended_products": [
-      {
-        "name": "Adjustable Cuff Bracelets",
-        "why": "These brass cuffs are designed to be carefully bent to fit various wrist sizes, making them an excellent choice for petite wrists under 14cm."
-      },
-      {
-        "name": "Stacking Rings (thinner bands)",
-        "why": "While starting at US 4, some thinner band designs can still offer a comfortable and proportionate fit for petite fingers at the larger end of the range."
-      }
-    ],
-    "petite_tip": "When purchasing their cuff bracelets, gently and slowly bend them to your wrist size for a custom, comfortable fit that won't slip off.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 2,
-      "adjustability": 4,
-      "accessibility": 4,
-      "value": 5
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
     "is_community_pick": false
   },
   {
@@ -558,100 +188,13 @@
     "is_community_pick": false
   },
   {
-    "brand": "Stone and Strand",
-    "country": "USA",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 3,
-    "min_bracelet_cm": 15,
-    "price_min": 50,
-    "price_max": 800,
-    "materials": [
-      "14K gold",
-      "diamond"
-    ],
-    "adjustable": true,
-    "style": "fine jewelry, affordable luxury",
-    "size_chart_url": "https://www.stoneandstrand.com/pages/faq",
-    "shop_url": "https://www.stoneandstrand.com/",
-    "note": "Affordable fine jewelry. Dainty rings from size 3. Adjustable chain bracelets.",
-    "editorial": "Stone and Strand is an excellent choice for petite women seeking dainty, affordable fine jewelry. Their rings consistently start at US size 3, a offering for slender fingers often overlooked by other brands. While their bracelets list a 15cm minimum, many feature adjustable chain designs that can often be cinched down for a better fit on wrists under 14cm. This brand understands the need for delicate proportions that complement a petite frame without overwhelming it.",
-    "recommended_products": [
-      {
-        "name": "Dainty Diamond Rings",
-        "why": "Many of their minimalist diamond and gold rings are available from size 3, perfect for slender fingers."
-      },
-      {
-        "name": "Adjustable Chain Bracelets",
-        "why": "Look for styles with adjustable sliders or multiple jump rings that can be tightened to fit smaller wrists."
-      }
-    ],
-    "petite_tip": "When selecting their chain bracelets, always prioritize styles explicitly labeled as 'adjustable' or featuring multiple sizing loops to maximize your chances of a snug fit on very small wrists.",
-    "fit_score": {
-      "size_range": 4,
-      "materials": 5,
-      "adjustability": 4,
-      "accessibility": 5,
-      "value": 3
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Bario Neal",
+    "brand": "AUrate",
     "country": "USA",
     "category": [
       "ring"
     ],
-    "min_ring_size_us": 3,
+    "min_ring_size_us": 1,
     "min_bracelet_cm": null,
-    "price_min": 200,
-    "price_max": 5000,
-    "materials": [
-      "14K gold",
-      "18K gold",
-      "recycled metals"
-    ],
-    "adjustable": false,
-    "style": "ethical, custom",
-    "size_chart_url": "https://bario-neal.com/",
-    "shop_url": "https://bario-neal.com/",
-    "note": "Ethical fine jeweler. Custom engagement rings from size 3. Recycled and Fairmined metals.",
-    "editorial": "For petite women prioritizing ethical sourcing and bespoke design, Bario Neal offers exceptional fine jewelry. They specialize in custom and engagement rings, consistently providing sizes from US 3, which is vital for achieving a perfect fit on very slender fingers. While their focus is predominantly on rings and they don't cater to bracelets for small wrists, their commitment to recycled and Fairmined metals makes them a strong pick choice for a significant, custom-made piece that will fit flawlessly.",
-    "recommended_products": [
-      {
-        "name": "Custom Engagement Rings",
-        "why": "Their expertise in custom rings ensures a perfect fit from size 3 for petite hands, with unique designs."
-      },
-      {
-        "name": "Bands & Stacking Rings",
-        "why": "Many of their unique wedding bands and stacking rings are available in smaller sizes, ideal for building a personalized stack."
-      }
-    ],
-    "petite_tip": "Given their custom capabilities, don't hesitate to inquire about specific sizing for any ring style; they are well-equipped to accommodate smaller finger measurements beyond standard offerings.",
-    "fit_score": {
-      "size_range": 4,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 5,
-      "value": 2
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "AUrate",
-    "country": "USA",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 3,
-    "min_bracelet_cm": 15,
     "price_min": 50,
     "price_max": 600,
     "materials": [
@@ -664,18 +207,18 @@
     "size_chart_url": "https://auratenewyork.com/products/ring-sizer",
     "shop_url": "https://auratenewyork.com/",
     "note": "NYC-based fine jewelry. Rings available from size 3. Adjustable bracelets.",
-    "editorial": "AUrate is a strong brand for petite women looking for modern, everyday fine jewelry that fits. Their rings are reliably available from US size 3, making them accessible for even the smallest fingers without needing special orders. While their bracelets often state a 15cm minimum, many designs incorporate adjustable features, allowing for a surprisingly good fit on wrists slightly under 14cm. They offer beautiful, minimalist pieces that look proportionate and feel comfortable on a petite frame.",
+    "editorial": "AUrate offers adjustable options on some pieces. Their stated minimum bracelet size is 15cm. Some products are described as adjustable, but the exact minimum wrist size they adjust down to is not confirmed by the brand. Do not assume adjustable means it will fit any wrist smaller than 15cm.",
     "recommended_products": [
       {
         "name": "Stackable Rings",
-        "why": "Their delicate stacking rings are often available from size 3, allowing petite women to build a personalized look."
+        "why": "Listed as adjustable. The exact adjustable range is not confirmed by AUrate."
       },
       {
         "name": "Adjustable Chain Bracelets",
-        "why": "Look for styles with adjustable clasps or multiple jump rings to achieve a better fit on smaller wrists."
+        "why": "Listed as adjustable. The exact adjustable range is not confirmed by AUrate."
       }
     ],
-    "petite_tip": "For bracelets, always check the product description for 'adjustable' features or multiple sizing options, as these often allow for a better fit than the stated minimum on a wrist under 14cm.",
+    "petite_tip": "Some styles are listed as adjustable, but the brand does not confirm the exact minimum wrist size. Check each product page before ordering.",
     "fit_score": {
       "size_range": 4,
       "materials": 5,
@@ -684,7 +227,7 @@
       "value": 3
     },
     "verified": true,
-    "verified_date": "2026-04-09",
+    "verified_date": "2026-04-17",
     "is_community_pick": false
   },
   {
@@ -693,7 +236,7 @@
     "category": [
       "ring"
     ],
-    "min_ring_size_us": 3,
+    "min_ring_size_us": 2,
     "min_bracelet_cm": null,
     "price_min": 200,
     "price_max": 10000,
@@ -727,101 +270,7 @@
       "value": 2
     },
     "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Kendra Scott",
-    "country": "USA",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 4,
-    "min_bracelet_cm": 15,
-    "price_min": 30,
-    "price_max": 200,
-    "materials": [
-      "14K gold plated",
-      "silver",
-      "gemstones"
-    ],
-    "adjustable": true,
-    "style": "colorful, statement",
-    "size_chart_url": "https://www.kendrascott.com/ring-size-chart-v2.html",
-    "shop_url": "https://www.kendrascott.com/",
-    "note": "Texas-based. Adjustable slider bracelets can work for small wrists. Rings mostly size 4+.",
-    "editorial": "Kendra Scott offers a vibrant selection of jewelry, and while their rings generally start at US size 4 and might be too large for some petite women, their adjustable slider bracelets are a true highlight. These bracelets, despite a listed 15cm minimum, can often be cinched down significantly, providing a surprisingly good fit for wrists under 14cm. It's to be selective and focus on these adjustable styles, as fixed-size items will likely be too big for a petite frame. They offer fun, colorful options where sizing is often a challenge.",
-    "recommended_products": [
-      {
-        "name": "Elisa Slider Bracelet",
-        "why": "This iconic style and similar slider bracelets can be adjusted to fit very small wrists, making them a great option for petites."
-      },
-      {
-        "name": "Adjustable Ring Collection",
-        "why": "While many rings start at size 4, some feature adjustable bands that might offer a more flexible fit for petite fingers."
-      }
-    ],
-    "petite_tip": "Prioritize their 'slider' style bracelets, as these are specifically designed to adjust to a wide range of wrist sizes and will be your best bet for a snug fit on a petite wrist.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 5,
-      "adjustability": 4,
-      "accessibility": 5,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Monica Vinader",
-    "country": "UK",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 3.5,
-    "min_bracelet_cm": 14,
-    "price_min": 50,
-    "price_max": 500,
-    "materials": [
-      "18K gold vermeil",
-      "silver",
-      "diamond"
-    ],
-    "adjustable": true,
-    "style": "modern classic, stacking",
-    "size_chart_url": "https://www.monicavinader.com/",
-    "shop_url": "https://www.monicavinader.com/",
-    "note": "UK luxury brand. Fiji friendship bracelets are adjustable to very small wrists. Popular for engraving.",
-    "editorial": "Monica Vinader is a superb UK-based brand for petite women, particularly excelling in adjustable bracelets. Their iconic Fiji friendship bracelets feature adjustable toggles that can cinch down to fit very small wrists, often well under 14cm, making them a top recommendation. Rings are also available from US 3.5, which is quite petite-friendly. Their modern classic style and stacking options make it easy to find beautiful, well-fitting pieces that look perfectly proportionate on a petite frame.",
-    "recommended_products": [
-      {
-        "name": "Fiji Friendship Bracelets",
-        "why": "These highly adjustable bracelets are perfect for wrists under 14cm, offering a secure and comfortable fit."
-      },
-      {
-        "name": "Stacking Rings",
-        "why": "Their collection of delicate stacking rings often includes smaller sizes, ideal for slender fingers."
-      }
-    ],
-    "petite_tip": "When shopping for bracelets, always look for their 'Fiji' collection or any style explicitly described as 'adjustable' with a slider or toggle mechanism, as these are your best bet for a snug fit.",
-    "fit_score": {
-      "size_range": 3,
-      "materials": 5,
-      "adjustability": 4,
-      "accessibility": 5,
-      "value": 3
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "community_sentiment": "Petite wearers often express relief and satisfaction at finding a mainstream brand that offers genuinely small ring sizes and, more notably, bracelets that can be cinched down to fit very slender wrists. The adjustable Fiji friendship bracelets are often highlighted as a rare and reliable solution for those who struggle with standard sizing. There is a general appreciation for the brand's modern aesthetic being available in truly proportionate sizes.",
-    "why_not_official": "The official brand page emphasizes general adjustability and versatile styling, but it doesn't explicitly market the brand as a haven for very small hands and wrists. For TinyFit, the true value lies in the rare availability of rings as small as US 3.5 and the unique ability of certain bracelet styles to achieve a snug, non-slipping fit on wrists significantly under 14cm, which is a critical distinction for petite wearers. The brand doesn't highlight the emotional impact of finally finding a perfect fit.",
-    "fit_caveats": "While the Fiji bracelets are excellent for very small wrists, other bracelet styles from Monica Vinader may still be too large for those under 14cm, often requiring careful review of specific product dimensions. For rings, while US 3.5 is offered, individuals needing sizes smaller than this for certain fingers may still find options limited. Some adjustable designs, while fitting, might result in a longer excess chain for the smallest wrists, which some wearers may find aesthetically undesirable.",
-    "petite_emotional_value": "For someone who has long felt excluded by standard jewelry sizing, finding Monica Vinader can be a profound experience of inclusion and validation. It means finally being able to wear stylish, modern pieces that fit perfectly and look proportionate, rather than overwhelming their frame or constantly slipping off. This brand offers the rare joy of choosing jewelry based on desire and style, not just on the slim chance of finding a fit.",
-    "depth_research_date": "2026-04-11",
-    "depth_research_confidence": "high",
+    "verified_date": "2026-04-17",
     "is_community_pick": false
   },
   {
@@ -864,295 +313,12 @@
     },
     "verified": true,
     "verified_date": "2026-04-09",
-    "community_sentiment": "Petite wearers often express appreciation for enewton's effort to create a dedicated smaller size with their eGirl line, acknowledging it's a improvement over standard sizing. However, for those with wrists notably under 14cm, there's a recurring observation that even these smaller bracelets can still feel a bit loose and prone to sliding.",
-    "why_not_official": "The official brand page highlights the eGirl line as a perfect fit for 14cm wrists, but it doesn't address the experience of those whose wrists are significantly smaller. From a very petite perspective, the brand wouldn't explicitly state that their 'petite' offering might still be too large, leading to the familiar disappointment of an almost-fit for wrists under 14cm.",
+    "community_sentiment": "Petite wearers often express appreciation for enewton's effort to create a dedicated smaller size with their eGirl line, acknowledging it's a improvement over standard sizing. However, for those with wrists notably with very small wrists (exact fit not confirmed), there's a recurring observation that even these smaller bracelets can still feel a bit loose and prone to sliding.",
+    "why_not_official": "The official brand page highlights the eGirl line as a perfect fit for 14cm wrists, but it doesn't address the experience of those whose wrists are significantly smaller. From a very petite perspective, the brand wouldn't explicitly state that their 'petite' offering might still be too large, leading to the familiar disappointment of an almost-fit for smaller wrists (exact adjustable range not confirmed by enewton).",
     "fit_caveats": "While the eGirl line is designed for 14cm wrists, individuals with very small wrists (e.g., 12-13cm) should anticipate these stretch bracelets will still be loose. As they are not adjustable beyond their inherent stretch, they may slide down the hand rather than sitting snugly, potentially not meeting the ideal secure fit for the tiniest wrists.",
     "petite_emotional_value": "For someone who has spent a lifetime with bracelets slipping off or looking disproportionately large, finding a brand that even offers a 14cm option like enewton's eGirl line can be profoundly validating. It signifies a rare acknowledgment of smaller wrist sizes, offering a glimmer of hope and a sense of being seen in a market that largely ignores them.",
     "depth_research_date": "2026-04-11",
     "depth_research_confidence": "high",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Agete",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 1.5,
-    "min_bracelet_cm": 14,
-    "price_min": 80,
-    "price_max": 500,
-    "materials": [
-      "10K gold",
-      "18K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "delicate, classic",
-    "size_chart_url": "https://agete.com/",
-    "shop_url": "https://agete.com/",
-    "note": "Japanese brand. Carries rings from JP size 1 (US 1.5). Known for delicate, vintage-inspired designs. Japan domestic shipping only — visit in-store if traveling to Japan.",
-    "intl_shipping": false,
-    "editorial": "Agete is a dream for petite fingers, offering rings from a tiny US size 1.5 (JP size 1). Their signature delicate, vintage-inspired designs are perfectly scaled, ensuring they don't overwhelm smaller hands. While their bracelets start at 14cm, which might be a snug fit for some under 14cm wrists, their ring selection is exceptional. The main limitation is their Japan-only domestic shipping, meaning a trip to Japan or a proxy service is required for purchase.",
-    "recommended_products": [
-      {
-        "name": "Delicate Stacking Rings",
-        "why": "Their wide range of petite ring sizes and intricate, vintage-inspired designs are ideal for small fingers."
-      },
-      {
-        "name": "Vintage-Inspired Charm Bracelets",
-        "why": "Though bracelets start at 14cm, their delicate aesthetic ensures they won't look bulky on smaller wrists, if the length works."
-      }
-    ],
-    "petite_tip": "As Agete ships only within Japan, consider visiting their beautiful boutiques in person if you're traveling to Japan, where you can try on their precise JP size 1 rings.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 3
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "community_sentiment": "Petite wearers often express immense relief at discovering Agete, particularly for their genuine availability of US size 1.5 rings, which is a rarity in the market. The brand's delicate aesthetic is often praised for complementing smaller hands without overwhelming them. However, a recurring sentiment of frustration revolves around the brand's Japan-only shipping, making purchases challenging for international customers.",
-    "why_not_official": "The official brand page highlights Agete's exquisite craftsmanship and timeless, delicate designs. What it doesn't explicitly market is its unique position as a sanctuary for individuals with exceptionally small fingers, where a US size 1.5 ring is a standard offering rather than a custom request. The brand doesn't emphasize the profound emotional impact of finding perfectly fitting jewelry off-the-shelf after a lifetime of ill-fitting or unavailable options.",
-    "fit_caveats": "While Agete's ring sizes are exceptional for petite fingers, shoppers with wrists under 14cm should be aware that their bracelets typically start at this length. This means bracelets might still be too loose for some very small wrists, potentially sliding off or requiring professional adjustment. It's to measure wrist circumference precisely, as the delicate chains may not be easily shortened without affecting the design or integrity.",
-    "petite_emotional_value": "For someone who has consistently been overlooked by mainstream jewelry brands, finding Agete offers a profound sense of validation and belonging. It's the joy of finally wearing rings that fit perfectly without spinning or falling off, allowing for genuine self-expression. This brand provides the rare and freeing experience of feeling truly seen and catered to in the world of fine jewelry.",
-    "depth_research_date": "2026-04-11",
-    "depth_research_confidence": "high",
-    "is_community_pick": false
-  },
-  {
-    "brand": "4℃ (Yon-doshi)",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet",
-      "necklace"
-    ],
-    "min_ring_size_us": 1.5,
-    "min_bracelet_cm": 13.5,
-    "price_min": 50,
-    "price_max": 800,
-    "materials": [
-      "platinum",
-      "18K gold",
-      "10K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "elegant, feminine",
-    "size_chart_url": "https://www.fdcp.co.jp/4c-jewelry/",
-    "shop_url": "https://www.fdcp.co.jp/4c-jewelry/",
-    "note": "Major Japanese jewelry brand. Rings from JP size 1. Bracelets available in petite lengths. Japan domestic shipping only — visit in-store if traveling to Japan.",
-    "intl_shipping": false,
-    "editorial": "4℃ stands out as a top contender for petite jewelry, especially for those with very slender wrists. They offer rings from US size 1.5 (JP size 1) and, uniquely among many brands, provide bracelets starting at an petite 13.5cm. Their elegant and feminine designs are always scaled with a delicate touch, making them an excellent choice for women who struggle with standard sizing. Be aware that purchases require Japan domestic shipping or an in-store visit.",
-    "recommended_products": [
-      {
-        "name": "Petite Length Bracelets",
-        "why": "Their availability of bracelets as short as 13.5cm is a rare find for wrists under 14cm, ensuring a perfect fit."
-      },
-      {
-        "name": "Delicate Solitaire Rings",
-        "why": "Starting at US size 1.5, their rings are perfectly sized for petite fingers and feature elegant, timeless designs."
-      }
-    ],
-    "petite_tip": "Prioritize their bracelet collection first, as their 13.5cm options are a rare gem for tiny wrists. Always double-check the specific length listed for each bracelet style.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 3
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Nojess",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 1.5,
-    "min_bracelet_cm": 14,
-    "price_min": 60,
-    "price_max": 400,
-    "materials": [
-      "10K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "antique, romantic",
-    "size_chart_url": "https://www.nojess.net/",
-    "shop_url": "https://www.nojess.net/",
-    "note": "Japanese brand, sister brand of Agete. Vintage antique style. Rings from JP size 1. Japan domestic shipping only — visit in-store if traveling to Japan.",
-    "intl_shipping": false,
-    "editorial": "Nojess, a sister brand to Agete, is another excellent Japanese option for petite jewelry lovers, particularly for rings. They consistently offer rings from US size 1.5 (JP size 1), ideal for the smallest fingers, and their antique, romantic style lends itself well to delicate scaling. While their bracelets start at 14cm, which might be slightly loose for the very smallest wrists, their ring selection is a definite highlight. Remember, like many Japanese brands, shipping is domestic-only.",
-    "recommended_products": [
-      {
-        "name": "Antique-Inspired Stackable Rings",
-        "why": "Their US 1.5 ring sizes and intricate, vintage aesthetic are perfect for creating a personalized, delicate look on petite hands."
-      },
-      {
-        "name": "Delicate Chain Bracelets",
-        "why": "Their bracelets, while starting at 14cm, maintain a fine and elegant style that won't overwhelm slender wrists."
-      }
-    ],
-    "petite_tip": "When considering their rings, explore their layering options. Many petite women find that stacking several of Nojess's delicate, small-sized rings creates a beautiful and proportionate look.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 4,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "community_sentiment": "Petite wearers often express relief and appreciation for Nojess's consistent availability of rings in very small sizes, often highlighting them as a reliable source for US 1.5-3. There's a general sentiment that their delicate, antique style scales beautifully for petite hands, avoiding the bulky look often found elsewhere. While bracelets are available, some with extremely tiny wrists note they might still be slightly loose.",
-    "why_not_official": "The official brand page focuses on the aesthetic and general sizing, but it doesn't highlight the profound relief petite-sized shoppers feel when finding a brand that consistently offers rings in US sizes 1.5-3. They wouldn't explicitly market themselves as a solution to the lifelong frustration of ill-fitting jewelry, nor would they emphasize how their delicate designs finally look proportionate on hands that mainstream jewelry overwhelms.",
-    "fit_caveats": "For rings, while Nojess offers excellent small sizes down to US 1.5, it's for buyers to confirm their exact Japanese ring size as conversion charts can vary slightly. For bracelets, the 14cm starting length means they will fit wrists *at* 14cm, but those with wrists under 14cm should anticipate a looser fit, as there's no adjustability to shorten them further.",
-    "petite_emotional_value": "For someone who has spent a lifetime struggling to find rings that fit their smallest fingers, discovering Nojess offers a profound sense of validation and inclusion. It means finally being able to participate in jewelry trends and express personal style without compromise, experiencing the joy of wearing pieces that are perfectly proportionate and comfortable, rather than constantly settling for ill-fitting alternatives.",
-    "depth_research_date": "2026-04-11",
-    "depth_research_confidence": "high",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Vendome Aoyama",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet",
-      "necklace"
-    ],
-    "min_ring_size_us": 2,
-    "min_bracelet_cm": 14.5,
-    "price_min": 80,
-    "price_max": 600,
-    "materials": [
-      "platinum",
-      "18K gold",
-      "10K gold"
-    ],
-    "adjustable": false,
-    "style": "refined, professional",
-    "size_chart_url": "https://vendome.jp/aoyama/",
-    "shop_url": "https://vendome.jp/aoyama/",
-    "note": "Popular Japanese brand for working women. Elegant, office-appropriate designs in small sizes. Japan domestic shipping only — visit in-store if traveling to Japan.",
-    "intl_shipping": false,
-    "editorial": "Vendome Aoyama is a revered Japanese brand known for its refined, professional designs that are surprisingly petite-friendly. They consistently offer rings from US size 2, making elegant and office-appropriate styles accessible for smaller fingers. While their bracelets start at 14.5cm, which may be slightly loose for wrists under 14cm, their fine rings and necklaces are perfectly scaled. This brand is ideal for petite women seeking elegant pieces that transition from work to evening wear, though it requires Japan domestic shipping.",
-    "recommended_products": [
-      {
-        "name": "Classic Solitaire Rings",
-        "why": "Their elegant ring designs, available from US size 2, are perfectly proportioned for petite hands, ideal for a refined look."
-      },
-      {
-        "name": "Delicate Pendant Necklaces",
-        "why": "Their necklaces feature subtle pendants and fine chains that sit beautifully without overwhelming a petite frame."
-      }
-    ],
-    "petite_tip": "For the best fit, especially if your wrist is under 14cm, focus on their extensive collection of rings and necklaces, as the 14.5cm minimum bracelet length might be too large for a snug fit.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 5,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 3
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Bloom",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 2,
-    "min_bracelet_cm": 14,
-    "price_min": 30,
-    "price_max": 200,
-    "materials": [
-      "10K gold",
-      "silver",
-      "stainless steel"
-    ],
-    "adjustable": false,
-    "style": "casual, everyday",
-    "size_chart_url": "https://bloomonline.jp/",
-    "shop_url": "https://bloomonline.jp/",
-    "note": "Affordable Japanese brand. Great entry point for petite jewelry. Small sizes available. Japan domestic shipping only.",
-    "intl_shipping": false,
-    "editorial": "Bloom offers an excellent entry point into petite jewelry, especially for those on a budget. As an affordable Japanese brand, they provide rings from US size 2 and bracelets from 14cm, making stylish everyday pieces accessible for smaller dimensions. Their casual, everyday style is perfect for those seeking versatile jewelry that won't break the bank. While their shipping is limited to Japan, their price point makes them a great option for exploring petite sizing without a investment.",
-    "recommended_products": [
-      {
-        "name": "Everyday Stacking Rings",
-        "why": "Their affordable rings, available from US size 2, are perfect for building a delicate, everyday stack on petite fingers."
-      },
-      {
-        "name": "Simple Chain Bracelets",
-        "why": "Starting at 14cm, these basic and versatile bracelets are a good option for a casual fit on smaller wrists."
-      }
-    ],
-    "petite_tip": "Given their affordable price point, Bloom is ideal for experimenting with different petite styles. Consider trying a ring in US size 2 to confirm your fit before investing in more expensive pieces from other brands.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 4,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 4
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
-    "is_community_pick": false
-  },
-  {
-    "brand": "Take-Up",
-    "country": "Japan",
-    "category": [
-      "ring",
-      "bracelet"
-    ],
-    "min_ring_size_us": 2,
-    "min_bracelet_cm": 14,
-    "price_min": 30,
-    "price_max": 150,
-    "materials": [
-      "10K gold",
-      "silver"
-    ],
-    "adjustable": false,
-    "style": "trendy, youthful",
-    "size_chart_url": "https://www.take-up.co.jp/",
-    "shop_url": "https://www.take-up.co.jp/",
-    "note": "Budget-friendly Japanese brand with wide size range including very small sizes. Japan domestic shipping only.",
-    "intl_shipping": false,
-    "editorial": "Take-Up is a strong budget-friendly Japanese brand that understands the need for small sizes. They offer a wide range of rings starting from US size 2 and bracelets from 14cm, making them highly accessible for petite women. Their trendy, youthful designs ensure you can stay current without sacrificing fit. For those seeking fashionable and well-sized pieces without a hefty price tag, Take-Up is an excellent choice, though it does require Japan domestic shipping.",
-    "recommended_products": [
-      {
-        "name": "Trendy Stackable Rings",
-        "why": "Their extensive range of rings from US size 2 allows for fashionable stacking that's perfectly scaled for petite hands."
-      },
-      {
-        "name": "Delicate Charm Bracelets",
-        "why": "These bracelets, starting at 14cm, offer youthful designs that add a touch of personality without overwhelming small wrists."
-      }
-    ],
-    "petite_tip": "Take advantage of their wide size range. When shopping for rings, don't hesitate to try the smallest available sizes (US 2) to ensure the most comfortable and secure fit for your petite fingers.",
-    "fit_score": {
-      "size_range": 5,
-      "materials": 4,
-      "adjustability": 2,
-      "accessibility": 2,
-      "value": 5
-    },
-    "verified": true,
-    "verified_date": "2026-04-09",
     "is_community_pick": false
   }
 ]

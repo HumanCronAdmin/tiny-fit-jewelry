@@ -1,149 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Tiny Fit Jewelry</title>
+  <title>TinyFit Jewelry</title>
   <link href="https://humancronadmin.github.io/tiny-fit-jewelry/" rel="alternate"/>
   <link href="https://humancronadmin.github.io/tiny-fit-jewelry/feed.xml" rel="self"/>
   <id>https://humancronadmin.github.io/tiny-fit-jewelry/</id>
-  <updated>2026-04-13T08:26:30Z</updated>
+  <updated>2026-04-18T00:00:00Z</updated>
   <author><name>TinyFit Jewelry</name></author>
   <entry>
-    <title>Bracelets for Wrists 15cm or Under</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-15cm.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-15cm.html</id>
-    <updated>2026-04-13T08:26:30Z</updated>
-    <summary>All bracelet brands that work for wrists 15cm and under.</summary>
-  </entry>
-  <entry>
-    <title>Adjustable Jewelry for Petite Women</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/size/adjustable.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/size/adjustable.html</id>
-    <updated>2026-04-13T08:26:30Z</updated>
-    <summary>All adjustable rings and bracelets that can fit petite sizes. No guessing needed.</summary>
-  </entry>
-  <entry>
-    <title>Bracelets for Thin Wrists Under 14cm: Complete Guide</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/bracelets.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/bracelets.html</id>
-    <updated>2026-04-13T08:26:12Z</updated>
-    <summary>Find bracelets that actually fit wrists under 14cm (5.5 inches). Adjustable options, the anklet-as-bracelet hack, and verified brands for extra small wrists.</summary>
-  </entry>
-  <entry>
-    <title>Best Bracelets for Thin Wrists: A Complete Guide</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-bracelets-thin-wrists.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/guides/best-bracelets-thin-wrists.html</id>
-    <updated>2026-04-13T08:25:10Z</updated>
-    <summary>Standard bracelets are designed for 16-18cm wrists. If yours is 14cm or under, here</summary>
-  </entry>
-  <entry>
-    <title>Vrai for petite ring sizes: lab diamond rings from US 3 -- TinyFit Jewelry</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/vrai-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/vrai-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:15:18Z</updated>
-    <summary>Vrai offers engagement rings and wedding bands from US size 3. Lab-grown diamonds in 14K gold, 18K gold, and platinum. Rings only, priced $200 to $3000.</summary>
-  </entry>
-  <entry>
-    <title>Astrid &amp; Miyu: stacking rings from US 3.5 in gold vermeil -- TinyFit Jewelry</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/astrid-and-miyu-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/astrid-and-miyu-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:15:13Z</updated>
-    <summary>Astrid &amp; Miyu offers stacking rings from US 3.5 in gold vermeil, silver, and gold plated. UK brand, priced £30 to £200. Modern designs for small fingers.</summary>
-  </entry>
-  <entry>
-    <title>Automic Gold: Solid Gold Rings for US Size 2</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/automic-gold-petite-jewelry-review.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/automic-gold-petite-jewelry-review.html</id>
-    <updated>2026-04-13T08:15:09Z</updated>
-    <summary>Discover Automic Gold, a US brand offering solid 14K gold rings from US size 2. Finally find lasting jewelry that fits petite fingers.</summary>
-  </entry>
-  <entry>
-    <title>Star Jewelry: A Petite Fit from Japan</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/star-jewelry-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/star-jewelry-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:14:07Z</updated>
-    <summary>For small hands, Star Jewelry offers rings from US 2. Discover why this Japanese brand is a rare find for petite jewelry.</summary>
-  </entry>
-  <entry>
-    <title>Gorjana: California Sunshine for Petite Stackers</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/gorjana-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/gorjana-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:13:31Z</updated>
-    <summary>Gorjana brings layering-friendly rings to petite wearers from US 4. A warm, personal look at the everyday joy of the brand.</summary>
-  </entry>
-  <entry>
-    <title>Monica Vinader: A Fit for Petite Jewelry Wearers</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/monica-vinader-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/monica-vinader-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:13:05Z</updated>
-    <summary>Discover Monica Vinader, a UK brand offering rings from US 3.5. Finally find jewelry that fits petite hands.</summary>
-  </entry>
-  <entry>
-    <title>Ana Luisa: A Quiet Joy for Petite Hands</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/ana-luisa-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/ana-luisa-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:11:10Z</updated>
-    <summary>Ana Luisa brings sustainable minimalist jewelry to petite wearers with rings from US 4. A warm, personal look at what it feels like to wear.</summary>
-  </entry>
-  <entry>
-    <title>Nojess: Petite Rings from US 1.5, a Quiet Validation</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/nojess-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/nojess-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:10:22Z</updated>
-    <summary>For petite hands, Nojess offers rings from US 1.5. Discover a brand that fits, with antique, romantic styles in 10K gold and silver.</summary>
-  </entry>
-  <entry>
-    <title>Catbird: Delicate Rings for Petite Fingers</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/catbird-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/catbird-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:09:49Z</updated>
-    <summary>Discover Catbird, a US brand offering delicate 14K gold and silver rings in US size 3. Perfect for petite hands.</summary>
-  </entry>
-  <entry>
-    <title>Agete: Rings for the Smallest Fingers</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/agete-petite-jewelry-spotlight.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/agete-petite-jewelry-spotlight.html</id>
-    <updated>2026-04-13T08:09:26Z</updated>
-    <summary>Discover Agete, a Japanese brand offering US size 1.5 rings and delicate designs. Finally, jewelry that fits petite hands.</summary>
-  </entry>
-  <entry>
-    <title>Brilliant Earth: Fine Rings for US Size 3 Fingers</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/brilliant-earth-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/brilliant-earth-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:07:00Z</updated>
-    <summary>For petite hands, Brilliant Earth offers ethical fine jewelry, including engagement and wedding rings, starting at US size 3. Discover the emotional relief of finding a perfect fit.</summary>
-  </entry>
-  <entry>
-    <title>Missoma for petite fingers: 18K gold vermeil rings from US 4 -- TinyFit Jewelry</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/missoma-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/missoma-review-petite-jewelry.html</id>
-    <updated>2026-04-13T08:01:20Z</updated>
-    <summary>Missoma rings start at US 4 in 18K gold vermeil and silver. UK brand priced $50 to $400. Modern stackable rings for small fingers.</summary>
-  </entry>
-  <entry>
-    <title>Kendra Scott for petite fingers: colorful rings from US 4 -- TinyFit Jewelry</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/kendra-scott-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/kendra-scott-review-petite-jewelry.html</id>
-    <updated>2026-04-13T07:59:20Z</updated>
-    <summary>Kendra Scott rings start at US 4 in 14K gold plated, silver, and gemstones. Colorful statement rings from $30 to $200. Texas-based brand.</summary>
-  </entry>
-  <entry>
-    <title>AUrate for petite fingers: rings from US 3 in 14K and 18K gold -- TinyFit Jewelry</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/articles/au-rate-review-petite-jewelry.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/articles/au-rate-review-petite-jewelry.html</id>
-    <updated>2026-04-13T07:58:33Z</updated>
-    <summary>AUrate offers rings from US size 3 in 14K and 18K gold, including diamonds. NYC-based fine jewelry from $50 to $600.</summary>
-  </entry>
-  <entry>
-    <title>Brand Database: Jewelry for Tiny Fingers &amp;amp; Thin Wrists</title>
+    <title>Brand Database</title>
     <link href="https://humancronadmin.github.io/tiny-fit-jewelry/database.html" rel="alternate"/>
     <id>https://humancronadmin.github.io/tiny-fit-jewelry/database.html</id>
-    <updated>2026-04-13T07:52:30Z</updated>
-    <summary>Search verified jewelry brands that carry ring sizes 2-4 and bracelets for wrists under 14cm. Filter by size, price, material, and style.</summary>
+    <updated>2026-04-18T00:00:00Z</updated>
+    <summary>Search verified jewelry brands that carry ring sizes US 3 or smaller and bracelets 14cm or smaller.</summary>
   </entry>
   <entry>
-    <title>Media Kit</title>
-    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/media-kit.html" rel="alternate"/>
-    <id>https://humancronadmin.github.io/tiny-fit-jewelry/media-kit.html</id>
-    <updated>2026-04-13T07:52:07Z</updated>
-    <summary>TinyFit Jewelry media kit for brand partnerships. Site statistics, audience profile, and partnership options.</summary>
+    <title>Rings in US Size 2 or Smaller</title>
+    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-2.html" rel="alternate"/>
+    <id>https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-2.html</id>
+    <updated>2026-04-18T00:00:00Z</updated>
+    <summary>Verified brands that carry rings in US size 2 or smaller.</summary>
+  </entry>
+  <entry>
+    <title>Rings in US Size 3 or Smaller</title>
+    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-3.html" rel="alternate"/>
+    <id>https://humancronadmin.github.io/tiny-fit-jewelry/size/ring-size-3.html</id>
+    <updated>2026-04-18T00:00:00Z</updated>
+    <summary>Verified brands that carry rings in US size 3 or smaller.</summary>
+  </entry>
+  <entry>
+    <title>Bracelets for Wrists 14cm or Under</title>
+    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-14cm.html" rel="alternate"/>
+    <id>https://humancronadmin.github.io/tiny-fit-jewelry/size/wrist-14cm.html</id>
+    <updated>2026-04-18T00:00:00Z</updated>
+    <summary>Verified bracelet brands that fit wrists 14cm and under.</summary>
+  </entry>
+  <entry>
+    <title>Petite Jewelry Under $100</title>
+    <link href="https://humancronadmin.github.io/tiny-fit-jewelry/size/under-100.html" rel="alternate"/>
+    <id>https://humancronadmin.github.io/tiny-fit-jewelry/size/under-100.html</id>
+    <updated>2026-04-18T00:00:00Z</updated>
+    <summary>Verified brands with petite-size pieces starting under $100.</summary>
   </entry>
 </feed>
