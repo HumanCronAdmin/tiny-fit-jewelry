@@ -55,18 +55,19 @@
       "bracelet"
     ],
     "min_ring_size_us": 2,
+    "max_ring_size_us": 16,
     "min_bracelet_cm": 14,
     "price_min": 50,
     "price_max": 400,
     "materials": [
-      "14K gold",
-      "solid gold"
+      "14K solid gold",
+      "recycled gold"
     ],
     "adjustable": false,
-    "style": "inclusive, minimalist",
+    "style": "queer, trans-owned, genderless, minimalist",
     "size_chart_url": "https://www.automicgold.com/",
     "shop_url": "https://www.automicgold.com/",
-    "note": "Gender-inclusive brand. Carries rings from size 2. Solid gold, no plating.",
+    "note": "Queer, trans-owned NYC brand. Rings US size 2-16, bracelets from 14cm. 14K solid gold only, no plating. Handmade in New York using recycled gold and ethically sourced stones. Official claim: 'we are still the only fine jewelry brand to carry inclusive sizes from 2-16'. Care guide says: 'These metals aren't afraid of water or chemicals, so you can wear them every day!'",
     "editorial": "Automic Gold stands out as a inclusive brand, and it's a strong resource for petite women, particularly for rings. They explicitly offer rings starting from US size 2, which is a rare find in solid gold jewelry. While their bracelets begin at 14cm, which is still challenging for wrists under that, their commitment to smaller ring sizes makes them a top recommendation for those struggling to find rings that fit.",
     "recommended_products": [
       {
@@ -100,10 +101,11 @@
     "brand": "Gorjana",
     "country": "USA",
     "category": [
-      "ring"
+      "ring",
+      "bracelet"
     ],
     "min_ring_size_us": 3,
-    "min_bracelet_cm": null,
+    "min_bracelet_cm": 13,
     "price_min": 30,
     "price_max": 200,
     "materials": [
@@ -111,11 +113,11 @@
       "silver"
     ],
     "adjustable": true,
-    "style": "Californian, layering",
+    "style": "family-run, Laguna Beach, laid-back",
     "size_chart_url": "https://www.gorjana.com/pages/size-guide",
     "shop_url": "https://www.gorjana.com/",
-    "note": "Laguna Beach brand. Adjustable bracelets/rings can work for small sizes. Popular for stacking.",
-    "editorial": "Gorjana offers adjustable options on some pieces. Their stated minimum bracelet size is 15cm. Some products are described as adjustable, but the exact minimum wrist size they adjust down to is not confirmed by the brand. Do not assume adjustable means it will fit any wrist smaller than 15cm.",
+    "note": "Laguna Beach family jewelry brand co-founded by Jason and Gorjana Reidel, husband and wife. Running for over 20 years. Main line is 18K gold plated on brass (per official FAQ). Also sterling silver and a small 18K solid gold line. Rings from US size 3. Most bracelets start at 6in/15cm and are too large for wrists under 14cm. Exception: Crew Charm Bracelet starts at 5in/13cm. Care guide quotes: 'Remove jewelry prior to exercise, washing your hands, or swimming.' and 'Preserve your jewelry's plating by avoiding contact with water, cleaning agents, beauty products, and anything containing derivatives of alcohol.'",
+    "editorial": "Gorjana's main line is 18K gold plated over brass (per official FAQ). They also carry sterling silver and a small 18K solid gold line. Rings from US size 3. Most bracelets start at 6in/15cm and are too long for wrists under 14cm. The Crew Charm Bracelet is an exception at 5in/13cm (per retailer listings). Venice Mini adjusts 6 1/4 to 7 1/4 inches and Amour adjusts 6 1/2 to 7 inches (per retailer listings).",
     "recommended_products": [
       {
         "name": "Adjustable Bracelets",
@@ -138,7 +140,7 @@
     "verified_date": "2026-04-17",
     "community_sentiment": "Petite wearers often express a nuanced appreciation for Gorjana. While the brand's emphasis on adjustable features is a welcome attempt at inclusivity, many find that even these options often require careful selection or creative wearing to achieve a truly comfortable fit for the smallest wrists and fingers. There's a recurring observation that Gorjana offers more possibilities than many mainstream brands, yet it's still not a perfect solution for those needing sizes below US 3 or smaller wrists (exact minimum not confirmed).",
     "why_not_official": "The official brand page naturally promotes adjustability for general versatility and ease of layering, but it doesn't highlight how petite shoppers specifically leverage these features as a workaround for a lack of truly small sizing. The unmarketed angle is that Gorjana's delicate aesthetic and adjustable mechanisms, while not explicitly designed for US 2 rings or 12cm wrists, can sometimes be coaxed into fitting, providing options where none officially exist. The brand wouldn't explicitly state that their 'adjustable' is often a 'make-do' for the smallest frames.",
-    "fit_caveats": "For rings, while open bands can be gently manipulated, excessive adjustment for sizes below US 3 may distort the ring's intended shape or create an uncomfortable gap/overlap. Bracelets with extender chains, even when tightened, can leave a length of chain dangling for smaller wrists (exact adjustable range not confirmed by Gorjana). Slider bead bracelets, while versatile, might still not cinch tightly enough for the very smallest wrists, or the excess chain may need to be wrapped multiple times.",
+    "fit_caveats": "Most bracelets are too long for wrists under 14cm. Venice Mini adjusts from 6 1/4 to 7 1/4 inches (15.9 to 18.4cm), Amour from 6 1/2 to 7 inches (16.5 to 17.8cm). The Crew Charm Bracelet at 5in/13cm is the main option for 13cm wrists. Ring resizing is not offered as an official service.",
     "petite_emotional_value": "For someone who has long been ignored by mainstream jewelry, finding a brand like Gorjana, with its adjustable options, offers a sense of validation and inclusion. It means having access to stylish, on-trend pieces that, with a bit of effort, can actually fit, rather than being relegated to children's jewelry or custom orders. This partial solution provides a rare opportunity to participate in current fashion without feeling entirely excluded.",
     "depth_research_date": "2026-04-11",
     "depth_research_confidence": "high",
@@ -148,22 +150,24 @@
     "brand": "Wwake",
     "country": "USA",
     "category": [
-      "ring"
+      "ring",
+      "bracelet"
     ],
     "min_ring_size_us": 3,
-    "min_bracelet_cm": null,
+    "min_bracelet_cm": 15,
     "price_min": 150,
     "price_max": 2000,
     "materials": [
       "14K gold",
+      "recycled gold",
       "opal",
       "sapphire"
     ],
     "adjustable": false,
-    "style": "celestial, one-of-a-kind",
+    "style": "art-driven, NYC, one-of-a-kind",
     "size_chart_url": "https://wwake.com/pages/faqs",
     "shop_url": "https://wwake.com/",
-    "note": "NYC-based fine jewelry. Opal and gemstone rings available from size 3.",
+    "note": "NYC fine jewelry by Wing Yau (sculpture background at Rhode Island School of Design, founded 2012). Uses recycled gold certified by SCS standards. Opals are natural, untreated, mined in Australia. Rings from US size 3. Bracelets min 6in/15cm (Small-Medium 6-7in, Medium-Large 7-8in). Custom sizing available via email for wrists under 6 inches.",
     "editorial": "Wwake is an exceptional fine jewelry brand for petite women, particularly for rings, offering fine designs starting at US size 3. Their celestial and one-of-a-kind pieces, often featuring opals and unique gemstones, are crafted with a delicate touch that perfectly suits smaller hands. This NYC-based brand ensures that even their more intricate designs maintain a proportionate and elegant appearance on petite fingers, making them ideal for investment pieces.",
     "recommended_products": [
       {
@@ -191,22 +195,24 @@
     "brand": "AUrate",
     "country": "USA",
     "category": [
-      "ring"
+      "ring",
+      "bracelet"
     ],
     "min_ring_size_us": 1,
-    "min_bracelet_cm": null,
+    "min_bracelet_cm": 15,
     "price_min": 50,
     "price_max": 600,
     "materials": [
-      "14K gold",
-      "18K gold",
+      "14K solid gold",
+      "18K solid gold",
+      "recycled gold",
       "diamond"
     ],
     "adjustable": true,
-    "style": "modern fine, everyday",
+    "style": "NYC, women-founded, accessible luxury",
     "size_chart_url": "https://auratenewyork.com/products/ring-sizer",
     "shop_url": "https://auratenewyork.com/",
-    "note": "NYC-based fine jewelry. Rings available from size 3. Adjustable bracelets.",
+    "note": "Fine jewelry co-founded by Sophie Kahn (Netherlands) and Bouchra Ezzahraoui (Morocco), longtime friends from grad school. 'Fine jewelry, born and raised in N.Y.C'. All operations local, no import taxes. Recycled gold, Kimberly Process conflict-free diamonds. Lifetime warranty. Rings from US size 1. Bracelets adjustable 6-7.5 inches.",
     "editorial": "AUrate offers adjustable options on some pieces. Their stated minimum bracelet size is 15cm. Some products are described as adjustable, but the exact minimum wrist size they adjust down to is not confirmed by the brand. Do not assume adjustable means it will fit any wrist smaller than 15cm.",
     "recommended_products": [
       {
@@ -234,22 +240,23 @@
     "brand": "Ring Concierge",
     "country": "USA",
     "category": [
-      "ring"
+      "ring",
+      "bracelet"
     ],
     "min_ring_size_us": 2,
-    "min_bracelet_cm": null,
+    "min_bracelet_cm": 14,
     "price_min": 200,
     "price_max": 10000,
     "materials": [
-      "14K gold",
-      "18K gold",
+      "14K solid gold",
+      "18K solid gold",
       "diamond"
     ],
     "adjustable": false,
-    "style": "engagement, fine jewelry",
+    "style": "NYC, women-founded, bespoke bridal",
     "size_chart_url": "https://ringconcierge.com/pages/jewelry-size-guides",
     "shop_url": "https://ringconcierge.com/",
-    "note": "Engagement ring specialist. Carries from size 3. Popular on Instagram.",
+    "note": "NYC fine jewelry founded by Nicole Wegman (2013, solo female founder). Self-described as 'the leading luxury jeweler committed to designing for women, by women'. 4 retail stores: NYC Soho, NYC Madison Avenue, LA, Houston, Boca Raton. Rings from US size 2. Mini Diamond Tennis Bracelet adjustable 5.5-7 inches (14-18cm) - rare petite option. Most other bracelets 6 inches+.",
     "editorial": "Ring Concierge is a top destination for petite women seeking high-quality engagement and fine rings. They consistently offer rings from US size 3, which is critical for achieving a comfortable and secure fit on slender fingers, especially for investment pieces. While their primary focus is rings and they do not cater to bracelets for small wrists, their expertise in crafting beautiful, proportionate rings for smaller hands is a great. This brand is ideal for those looking for a luxurious and perfectly sized ring.",
     "recommended_products": [
       {
@@ -285,13 +292,14 @@
     "price_max": 150,
     "materials": [
       "gold-filled beads",
-      "gemstone beads"
+      "gemstone beads",
+      "hematine"
     ],
     "adjustable": false,
-    "style": "beaded, colorful",
+    "style": "Atlanta, family-run, faith-based origin",
     "size_chart_url": "https://enewtondesign.com/collections/egirl-bracelets",
     "shop_url": "https://enewtondesign.com/",
-    "note": "eGirl line designed for 5.5 inch (14cm) wrists. Stretch beaded bracelets in gold-filled and gemstone beads. Great for petite women and teens.",
+    "note": "Atlanta-based bracelet brand founded by Elizabeth Newton and husband Ben (2011). Faith-based origin (first piece: turquoise signature cross necklace). Gold-filled beads, not solid gold - durable for daily use ('shower, sweat, swim and sleep'). Three sizes: EGirl 5.5in/14cm (designed for petite wrists and teens), Standard 6.25in, Extends 7.25in. No rings.",
     "editorial": "enewton is a true strong pick for petite women, offering comfortable, everyday bracelets that fit. Their 'eGirl' line is specifically designed for 5.5 inch (14cm) wrists, directly addressing the common issue of oversized bracelets. These gold-filled and gemstone beaded stretch bracelets are not only stylish and stackable but also practical for smaller frames. This brand is a must-try for anyone tired of bracelets slipping off or looking disproportionately bulky on their wrist.",
     "recommended_products": [
       {
