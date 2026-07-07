@@ -108,7 +108,7 @@ for (const b of brands) {
   if (hasBracelet) sizeInfo += `Bracelets from ${b.min_bracelet_cm}cm. `;
 
   const title = `${b.brand} Petite Jewelry Size Guide`;
-  const desc = `${b.brand} size guide for petite women. ${sizeInfo}Price $${b.price_min}-$${b.price_max}. ${b.adjustable ? 'Adjustable options available.' : ''} From ${b.country}.`;
+  const desc = [`${b.brand} size guide for petite women.`, sizeInfo.trim(), `Price $${b.price_min}-$${b.price_max}.`, b.adjustable ? 'Adjustable options available.' : '', `From ${b.country}.`].filter(Boolean).join(' ');
 
   const brandSchema = {
     "@context": "https://schema.org",

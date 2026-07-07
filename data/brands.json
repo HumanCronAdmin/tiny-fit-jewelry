@@ -281,6 +281,135 @@
     "is_community_pick": false
   },
   {
+    "brand": "ete",
+    "country": "Japan",
+    "category": [
+      "ring"
+    ],
+    "min_ring_size_us": 1,
+    "max_ring_size_us": 25,
+    "min_bracelet_cm": null,
+    "price_min": 35,
+    "price_max": 350,
+    "materials": [
+      "K10 gold",
+      "K18 gold",
+      "silver",
+      "stainless steel"
+    ],
+    "adjustable": false,
+    "style": "delicate, minimalist, Japanese",
+    "size_chart_url": "https://www.eteweb.com/support/size_ete",
+    "shop_url": "https://www.eteweb.com/",
+    "note": "Japanese jewelry brand. Ring sizes from JP 0 (≈US 1) to JP 25, confirmed on official size chart. In JP sizing: 0号=12.7mm diameter/39.9mm circumference. Japan domestic shipping only. Prices approx $35–$350 (¥5,000–¥50,000).",
+    "editorial": "ete is one of Japan's most petite-friendly fine jewelry brands, offering rings starting at JP size 0 — roughly equivalent to US size 1, which is smaller than almost any US brand carries as standard stock. Their minimalist, delicate aesthetic is well-suited to small hands. Note: ete ships within Japan only, making this brand most accessible for shoppers based in Japan.",
+    "recommended_products": [
+      {
+        "name": "Pinky Rings (from JP 0号)",
+        "why": "ete's pinky ring collection starts at JP 0号, making them one of the few options for extremely small fingers."
+      }
+    ],
+    "petite_tip": "ete's size chart goes down to JP 0号 (≈US 1), making them one of the best options for very small fingers. Confirm your JP size using their official size guide before ordering.",
+    "fit_score": {
+      "size_range": 5,
+      "materials": 4,
+      "adjustability": 2,
+      "accessibility": 2,
+      "value": 4
+    },
+    "verified": false,
+    "verified_date": "2026-07-07",
+    "depth_research_date": "2026-07-07",
+    "depth_research_confidence": "medium",
+    "is_community_pick": false
+  },
+  {
+    "brand": "agete",
+    "country": "Japan",
+    "category": [
+      "ring"
+    ],
+    "min_ring_size_us": 0,
+    "max_ring_size_us": 20,
+    "min_bracelet_cm": null,
+    "price_min": 70,
+    "price_max": 700,
+    "materials": [
+      "K10 gold",
+      "K18 gold",
+      "silver",
+      "gemstone"
+    ],
+    "adjustable": false,
+    "style": "natural, feminine, botanical, vintage-inspired, Japanese",
+    "size_chart_url": "https://www.ageteonlineshop.com/",
+    "shop_url": "https://www.ageteonlineshop.com/",
+    "note": "Japanese jewelry brand known for natural, botanical motifs. Minimum size JP -1号 available as made-to-order (one size below standard JP 0号). Japan domestic shipping only. Prices approx $70–$700 (¥10,000–¥100,000).",
+    "editorial": "agete is a Japanese brand celebrated for its delicate, nature-inspired jewelry. Their minimum standard ring size goes to JP 0号, and JP -1号 is available as made-to-order — making them a strong option for women with extremely small fingers. Their botanical motifs suit petite hands particularly well. Like most Japanese jewelry brands, they ship within Japan only.",
+    "recommended_products": [
+      {
+        "name": "Botanical Motif Rings (from JP 0号)",
+        "why": "agete's signature delicate floral rings are available in very small JP sizes, complementing petite fingers without looking oversized."
+      }
+    ],
+    "petite_tip": "If your ring size is JP -1号 (below standard JP 0), contact agete directly for made-to-order sizing. For JP 0号 and above, standard ordering works.",
+    "fit_score": {
+      "size_range": 5,
+      "materials": 4,
+      "adjustability": 2,
+      "accessibility": 2,
+      "value": 3
+    },
+    "verified": false,
+    "verified_date": "2026-07-07",
+    "depth_research_date": "2026-07-07",
+    "depth_research_confidence": "medium",
+    "is_community_pick": false
+  },
+  {
+    "brand": "TASAKI",
+    "country": "Japan",
+    "category": [
+      "ring"
+    ],
+    "min_ring_size_us": 2,
+    "max_ring_size_us": 20,
+    "min_bracelet_cm": null,
+    "price_min": 350,
+    "price_max": 5000,
+    "materials": [
+      "K18 gold",
+      "platinum",
+      "Akoya pearl",
+      "diamond"
+    ],
+    "adjustable": false,
+    "style": "luxury, pearl, Japanese craftsmanship",
+    "size_chart_url": "https://www.tasaki.co.jp/",
+    "shop_url": "https://www.tasaki.co.jp/",
+    "note": "Japanese luxury jewelry brand founded 1954. Minimum ring size JP 3号 (≈US 2.5) confirmed from market research; specific products vary. Pearl jewelry is their signature. International shipping available via tasaki.co.jp and international boutiques (NYC, London, Paris, Hong Kong). Prices approx $350–$5,000+ (¥50,000–¥700,000+).",
+    "editorial": "TASAKI is Japan's preeminent luxury jewelry house, known worldwide for exceptional pearl craftsmanship. For petite women, their minimum ring size of approximately JP 3号 (≈US 2.5) is competitive for a luxury brand — international fine jewelers like Tiffany and Cartier often start no smaller than JP 4–5号. TASAKI ships internationally and maintains boutiques in major global cities, making them the most accessible Japanese jewelry brand for non-Japan residents.",
+    "recommended_products": [
+      {
+        "name": "Pearl Rings (from JP 3号)",
+        "why": "TASAKI's pearl rings in smaller sizes offer a refined, proportionate look on petite hands that few luxury brands can match."
+      }
+    ],
+    "petite_tip": "TASAKI's minimum size varies by collection. Contact their customer service or visit a boutique to confirm availability in JP 3号 (≈US 2.5) for your chosen style.",
+    "fit_score": {
+      "size_range": 4,
+      "materials": 5,
+      "adjustability": 1,
+      "accessibility": 3,
+      "value": 1
+    },
+    "verified": false,
+    "verified_date": "2026-07-07",
+    "depth_research_date": "2026-07-07",
+    "depth_research_confidence": "medium",
+    "is_community_pick": false
+  },
+  {
     "brand": "enewton",
     "country": "USA",
     "category": [
